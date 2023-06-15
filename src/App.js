@@ -17,6 +17,7 @@ import ColdCoffee from './Components/ColdCoffee';
 import Gallery from './Components/Gallery';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Feature from './Components/Feature';
 
 function App() {
 
@@ -44,6 +45,7 @@ function App() {
         <Route path='/hotcoffee' element={<HotCoffee/>} />
         <Route path='/coldcoffee' element={<ColdCoffee/>}/>
         <Route path='/gallary' element={<Gallery/>} />
+        <Route path='/feature' element={<Feature/>} />
       </Routes> 
 {/* </Router> */}
 
