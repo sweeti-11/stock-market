@@ -1,4 +1,4 @@
-/** Navbar **/
+
 .sticky-top {
     top: -150px;
     transition: .5s;
@@ -11,15 +11,15 @@
 }
 
 nav.navbar.navbar-expand-lg.bg-light.sticked.fixed-top {
-    background-color: #0C1C6D  !important;
+    background-color: #375ae4 !important;
 }
 
 .navbar-expand-lg .navbar-collapse {
     justify-content: right;
 }
 .navbar  .img-fluid {
-    width: 130px !important;
-    height: 40px;
+    width: 105px !important;
+    height: 72px;
 }
 nav.navbar.navbar-expand-lg.bg-light.sticked.fixed-top {
     padding: 10px 70px;
