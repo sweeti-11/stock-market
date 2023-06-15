@@ -14,15 +14,12 @@ import { AiOutlineRight } from 'react-icons/ai'
 function Footer() {
   return (
     <>
-      <div className="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+      <div className="container-fluid  footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s" style={{backgroundColor: "#375ae4"}}>
         <div className="container py-5">
           <div className="row g-5">
             <div className="col-lg-3 col-md-6 ">
-              <h4 className="text-success mb-4">About us</h4>
-              <p className="mb-3 ">
-                {/* <i className="fa fa-map-marker-alt fa-2x text-white"></i>
-                               &nbsp;&nbsp;&nbsp; */}
-                <a className="btn btn-link" href="/"> The Chay Wala</a> is the fastest-growing brand in India. This is not only the brand of the product, it is the brand of service, quality, and our thought.                     </p>
+              <h4 className="text-light mb-4">About us</h4>
+              <p className="mb-3 ">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dianonumy eirmod tempor invidunt ut labore.</p>
               {/* <p className="mb-3"><i><BsFillTelephoneForwardFill/></i>&nbsp;&nbsp;&nbsp;+917880020088</p>
                     <p className="mb-3"><i><AiOutlineMail/></i>&nbsp;&nbsp;&nbsp;info@thechaywala.com</p>
                     <div className="d-flex pt-3">
@@ -33,24 +30,24 @@ function Footer() {
                     </div> */}
             </div>
             <div className="col-lg-3 col-md-5">
-              <h4 className="text-success mb-4">Quick Links</h4>
-              <a className="btn btn-link" href="/aboutus"> About Us</a>
-              <a className="btn btn-link" href="/contactus"> Contact Us</a>
-              <a className="btn btn-link" href="/gallary">Gallery</a>
+              <h4 className="text-light mb-4">Quick Links</h4>
+              <a className="btn btn-link" href="/aboutus"> About</a>
+              <a className="btn btn-link" href="/contactus"> Contact</a>
+              <a className="btn btn-link" href="/gallary">Services</a>
               {/* <a className="btn btn-link" href="">Terms & Condition</a>
               <a className="btn btn-link" href="">Support</a> */}
             </div>
             <div className="col-lg-3 col-md-6">
-              <h4 className="text-success mb-4">Business Hours</h4>
+              <h4 className="text-light mb-4">Business Hours</h4>
               <p className="mb-1">Monday - Sunday</p>
-              <h6 className="text-light">07:00 am - 11:00 pm</h6>
+              <h6 className="text-light">09:00 am - 4:00 pm</h6>
               {/* <p className="mb-1">Saturday</p>
                     <h6 className="text-light">09:00 am - 12:00 pm</h6>
                     <p className="mb-1">Sunday</p>
                     <h6 className="text-light">Closed</h6> */}
             </div>
             <div className="col-lg-3 col-md-6 ">
-              <h4 className="text-success mb-4">Head Office</h4>
+              <h4 className="text-light mb-4">Head Office</h4>
               <p className="mb-3 ">
                 <i className="fa fa-map-marker-alt  text-white test"></i>
                 &nbsp;&nbsp;&nbsp;Sch No. -54, Shekher <br />
@@ -72,8 +69,9 @@ function Footer() {
       </div>
       {/* <!-- Copyright --> */}
       <div className="text-center p-4 copyright" >
+      <hr/>
         ©2023 All Rights Reserved
-        <a className="text-reset fw-bold" href="/"> The Chay Wala</a>
+        <a className="text-reset fw-bold" href="/"> XYZ</a>
       </div>
       {/* <!-- Copyright --> */}
       <a href="#" className=" arrow btn btn-lg btn-success btn-lg-square rounded-circle back-to-top l-5"><i><AiOutlineArrowUp /></i></a>
