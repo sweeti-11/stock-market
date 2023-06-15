@@ -1,5 +1,10 @@
 import React from 'react'
 import './Client.css'
+import client1 from '../assest/client1.png'
+import client2 from '../assest/client2.png'
+import client3 from '../assest/client3.png'
+import client4 from '../assest/client4.png'
+
 const Client = () => {
   return (
     <div>
@@ -16,7 +21,7 @@ const Client = () => {
                     <div className="owl-wrapper-outer"><div className="owl-wrapper"  style={{width:"2224px", left:"0px" , display:"flex" , transition:"all 1000ms ease 0s", transform:"translate3d(0px,0px,0px)"}}>
                         <div className="owl-item"  style={{width:"278px"}}><div className="testimonial">
                         <div className="pic">
-                            {/* <img src="https://www.idealstock.in/webasset/images/firsttesyi.png" alt=""/> */}
+                            <img src={client1} alt="client"/>
                         </div>
                         <p className="description">
                           Ideal stock only work for customer satisfaction. This is very good platform get good returns, I'm very thankful to Ideal Stock. My overall experience was good.
@@ -31,7 +36,7 @@ const Client = () => {
                         </h3>
                     </div></div><div className="owl-item" style={{width:"278px"}} ><div className="testimonial">
                         <div className="pic">
-                            {/* <img src="https://www.idealstock.in/webasset/images/student.png" alt=""/> */}
+                            <img src={client2} alt=""/>
                         </div>
                         <p className="description">
                           You people are doing work its amazing. I'm doing trading with the support of ideal stock company in index &amp; stock option your expiry calls are so good.
@@ -45,7 +50,7 @@ const Client = () => {
                         </ul> */}
                     </div></div><div className="owl-item"  style={{width:"278px"}}><div className="testimonial">
                         <div className="pic">
-                            {/* <img src="https://www.idealstock.in/webasset/images/testi1.png" alt=""/> */}
+                            <img src={client3}  alt=""/>
                         </div>
                         <p className="description">
                           ideal, provides daily market market upswing stocks which are effective. Good collaboration, i still need to explore more about the services as it has only 6 days so far.
@@ -61,7 +66,7 @@ const Client = () => {
                         </ul> */}
                     </div></div><div className="owl-item"  style={{width:"278px"}}><div className="testimonial">
                         <div className="pic">
-                            {/* <img src="https://www.idealstock.in/webasset/images/boss.png" alt=""/> */}
+                            <img src={client4}  alt=""/>
                         </div>
                         <p className="description">
                             I take a service in this company its good. They give most of the time good profitable call and employee of this company good discipline always speak ploite way.

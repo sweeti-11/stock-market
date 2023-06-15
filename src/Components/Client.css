@@ -27,6 +27,9 @@
   .testimonial .pic img{
     width: 100%;
     height: auto;
+    left: inherit;
+    position: absolute;
+
   }
   .testimonial .description{
     font-size: 15px;

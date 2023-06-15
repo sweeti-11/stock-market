@@ -18,6 +18,7 @@ import Gallery from './Components/Gallery';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Feature from './Components/Feature';
+import Client from './Components/Client';
 
 function App() {
 
@@ -46,6 +47,7 @@ function App() {
         <Route path='/coldcoffee' element={<ColdCoffee/>}/>
         <Route path='/gallary' element={<Gallery/>} />
         <Route path='/feature' element={<Feature/>} />
+        <Route path='/client' element={<Client/>}/>
       </Routes> 
 {/* </Router> */}
 
