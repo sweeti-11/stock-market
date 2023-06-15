@@ -1,18 +1,196 @@
+
+.carousel-inner {
+    overflow: hidden;
+    width: 100%;
+  }
+  .video {
+    width: 100%;
+    max-width: 100%;
+    height: 630px;
+    object-fit: cover;
+    position: relative;
+  } 
+  .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* color: white; */
+  }
+  .h2_text{
+    font-size: 50px;
+    font-family: "poppins", "times-roman";
+    color: #88D39F;
+    font-weight: 800;
+    margin-top: 120px;
+  
+  }
+  .second_h2_text{
+    font-size: 50px;
+    font-family: "poppins", "times-roman";
+    color: #f67280;
+    font-weight: 800;
+    margin-top: 15px;
+  }
+  .p_text{
+    font-size: 20px;
+    font-family: "poppins", "times-roman";
+    color: white;
+    font-weight: 200;
+    /* width: 680px; */
+    margin-top: 15px;
+  }
+  .buttonStyle{
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 12px 24px;
+    margin-right: 10px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #5E35B1;
+    font-size: 18px;
+  }
+  .buttonStyle:hover{
+    border-color:1px solid black;
+    background-image: linear-gradient(
+    45deg,
+    hsl(240deg 57% 19%) 0%,
+    hsl(241deg 56% 20%) 5%,
+    hsl(242deg 56% 21%) 10%,
+    hsl(243deg 55% 23%) 14%,
+    hsl(244deg 55% 24%) 19%,
+    hsl(245deg 55% 25%) 24%,
+    hsl(246deg 54% 26%) 29%,
+    hsl(247deg 54% 28%) 33%,
+    hsl(248deg 54% 29%) 38%,
+    hsl(249deg 54% 30%) 43%,
+    hsl(250deg 54% 31%) 48%,                                                                 
+    hsl(251deg 54% 33%) 52%,
+    hsl(252deg 54% 34%) 57%,
+    hsl(253deg 54% 35%) 62%,
+    hsl(254deg 54% 36%) 67%,
+    hsl(255deg 54% 38%) 71%,
+    hsl(256deg 54% 39%) 76%,
+    hsl(256deg 54% 40%) 81%,
+    hsl(257deg 54% 41%) 86%,
+    hsl(258deg 54% 43%) 90%,
+    hsl(259deg 54% 44%) 95%,
+    hsl(260deg 54% 45%) 100%
+  );
+  
+  }
+  .buttonStyle2{
+    background-color: #5E35B1;
+    border: 1px solid black;
+    border-radius: 16px;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+  .buttonStyle2:hover{
+    border-color:1px solid black;
+    background-image: linear-gradient(
+    45deg,
+    hsl(240deg 57% 19%) 0%,
+    hsl(241deg 56% 20%) 5%,
+    hsl(242deg 56% 21%) 10%,
+    hsl(243deg 55% 23%) 14%,
+    hsl(244deg 55% 24%) 19%,
+    hsl(245deg 55% 25%) 24%,
+    hsl(246deg 54% 26%) 29%,
+    hsl(247deg 54% 28%) 33%,
+    hsl(248deg 54% 29%) 38%,
+    hsl(249deg 54% 30%) 43%,
+    hsl(250deg 54% 31%) 48%,
+    hsl(251deg 54% 33%) 52%,
+    hsl(252deg 54% 34%) 57%,
+    hsl(253deg 54% 35%) 62%,
+    hsl(254deg 54% 36%) 67%,
+    hsl(255deg 54% 38%) 71%,
+    hsl(256deg 54% 39%) 76%,
+    hsl(256deg 54% 40%) 81%,
+    hsl(257deg 54% 41%) 86%,
+    hsl(258deg 54% 43%) 90%,
+    hsl(259deg 54% 44%) 95%,
+    hsl(260deg 54% 45%) 100%
+  );
+  
+  }
+  .swiper-pagination{
+    display: none;
+  }
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 767px) {
+    
+    .video {
+      width: 100%;
+      max-width: 100%;
+        height: 550px;
+        object-fit: cover;
+    } 
+    
+    .buttonStyle2 {
+      padding: 10px;
+      margin-top: 4px;
+      margin-right: 0px;
+      margin-left: 0px;
+      font-size: 12px;
+    }
+    .buttonStyle {
+      padding:10px;
+      margin-right: 0px;
+      margin-left: 0px;
+      font-size: 12px;
+    }
+    .h2_text{
+      font-size: 32px;
+      margin-top: 0px;
+    
+    }
+    .second_h2_text{
+      font-size: 30px;
+      margin-top: 15px;
+    }
+    .p_text{
+      font-size: 20px;
+      width: 340px;
+      margin-top: 15px;
+    }
+    .container button[type="button"]{
+      display: none;
+    }
+    .content {
+      width: 97%;
+    }
+    
+    
+  }
+  
+  
+   
 body{
     overflow-x: hidden;
     margin: 0;
     padding: 0;
 }
 
-.mainCarousel img.d-block.float-end.rounded-circle {
+/* .mainCarousel img.d-block.float-end.rounded-circle {
     padding-top: 50px;
 }
 
 .carousel-img img{
     width: 400px;
     height: 350px;
-    /* margin-top: 10px;
-    justify-content: center; */
+    
 }
 
 .carousel-img h1{
@@ -32,7 +210,6 @@ body{
     bottom: 0;
     display: flex;
     align-items: center;
-    /* background: rgba(254, 254, 254, 0.7); */
     z-index: 1;
     height: 600px; 
     
@@ -48,7 +225,6 @@ body{
 .carousel-control-next-icon {
     width: 2.5rem;
     height: 2.5rem;
-    /* border-radius: 6.5rem; */
     border-radius: 50%;
     background-color: var(--dark);
     border: 15px solid var(--dark);
@@ -73,18 +249,9 @@ body{
 }
 
 
-/* .page-header {
-    background: linear-gradient(rgba(136, 180, 78, .7), rgba(136, 180, 78, .7)), url(../assest/car.jpg) center center no-repeat;
-    background-size: cover;
-} */
 
-/* #carouselExampleCaptions {
-    background: linear-gradient(rgba(136, 180, 78, .7), rgba(136, 180, 78, .7)), url(../assest/car.jpg) center center no-repeat;
-    background-size: cover;
-} */
 .mainCarousel{
     background: url(../assest/stock1.jpg);
-    /* background-color:  #7ED957; */
     background-size: cover;
     font-family: serif;
     background-position: bottom;
@@ -106,20 +273,14 @@ body{
 
 /* new media query below */
 
-@media only screen and (max-width: 1023px) and (min-width: 768px)  {
+/* @media only screen and (max-width: 1023px) and (min-width: 768px)  {
 
    .carousel-inner .carousel-item {
         position: relative;
-        /* min-height: 450px; */
     }
     
     .mainCarousel .carousel-inner .carousel-item img {
-        /* position: absolute;
-        width: 108px;
-        height: 88px;
-        object-fit: cover;
-        margin: 32px 0px 0px 250px;  
-     */
+       
      height: 44%;
      margin: 0px 0px 0px 230px;
      object-fit: cover;
@@ -138,43 +299,12 @@ body{
 
 
 
-/* @media (max-width: 300px)
-{
-.carousel-inner .carousel-item img {
-    position: absolute;
-    width: 150px;
-    height: 88px;
-    object-fit: cover;
-    padding: 0 96px 0 0;
-    margin: 0 11px;
-}
-.carousel-img h1{
-    font-size: 18px;
-}
-} */
 
-/* @media (max-width: 532px)
-{
-.carousel-inner .carousel-item img {
-    position: absolute;
-    width: 150px;
-    height: 88px;
-    object-fit: cover;
-    padding: 0px 10px 0 0;
-    margin: 0 67px;
-}
-.carousel-img h1{
-    font-size: 42px;
-}
-} */
 
 @media (max-width: 767px)
 {
     .mainCarousel .carousel-inner .carousel-item img {
-    /* width: 100%;
-    height: 100%;
-    object-fit: cover;
-    margin: 0px; */
+   
     height: 92%;
     margin: 0;
     object-fit: cover;
@@ -201,8 +331,7 @@ body{
 @media (max-width: 374px)
 {
     .mainCarousel .carousel-inner .carousel-item img {
-        /* padding: 0 46px; */
-        /* padding: 9px 62px */
+      
         margin: 24px 30px;
         width: 72%;
     }
@@ -272,11 +401,6 @@ body{
     padding: 1px 43px;
 }
 
-/* .mainCarousel .carousel-inner .carousel-item img {
-    padding: 20px 40px;
-    width: 78%;
-    margin: 0px 0px 0px 26px;
-} */
 
 
 a.btn.btn-success.rounded-pill.py-2.px-5.animated.zoomIn.mt-5
@@ -294,24 +418,4 @@ a.btn.btn-success.rounded-pill.py-2.px-5.animated.zoomIn.mt-5
 
 
 }
-
-/* old media query below */
-
-/* @media (max-width: 768px) {
-    #header-carousel .carousel-item {
-        position: relative;
-        min-height: 450px;
-    }
-    
-    #header-carousel .carousel-item img {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-}
- */
-
-
-
-
+ */ 

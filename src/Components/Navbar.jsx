@@ -31,9 +31,12 @@ const Navbar = () => {
             <NavLink className="nav-link" to="/aboutus">About</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/gallary">Gallery</NavLink>
+            <NavLink className="nav-link" to="/gallary">Services</NavLink>
           </li>
           <li className="nav-item">
+            <NavLink className="nav-link" to="/gallary">Platform</NavLink>
+          </li>
+          {/* <li className="nav-item">
             <Link className="nav-link desk"  >Types of Tea</Link>
             <Link className="nav-link mob" to="" data-bs-toggle="dropdown">Types of Tea</Link>
             <div className="dropdown-menu bg-light rounded-0 m-0 text-dark">
@@ -46,7 +49,7 @@ const Navbar = () => {
                         <Link to="/hotcoffee" className="dropdown-item">Hot Coffee</Link>
                         <Link to="/coldcoffee" className="dropdown-item">Cold Coffee</Link> 
                         </div>
-          </li>
+          </li> */}
          <li className="nav-item">
             <NavLink className="nav-link" to="/contactus">Contact</NavLink>
           </li>

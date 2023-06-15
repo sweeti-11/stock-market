@@ -9,6 +9,7 @@ import Testmonial from './Testmonial'
 import Footer from './Footer'
 import Contact from './Contact'
 import Client from './Client'
+import Home_sec1 from './Home_sec1'
 
 function Sections() {
   return (
@@ -22,6 +23,7 @@ function Sections() {
     <Store />
     <Testmonial />
     <Contact/>
+    <Home_sec1/>
     <Footer />
    </>
   )
