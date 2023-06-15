@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from './Footer'
 import './Contactus.css';
-import contactimg from '../assest/contactimge.png';
+import contactimg from '../assest/trade2.jpg';
 
 function Contactus() {
     return (
