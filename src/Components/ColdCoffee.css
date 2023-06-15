@@ -1,0 +1,81 @@
+
+
+.mainColdCoffee{
+    background: url(../assest/ColdCoffeeBanner.png);
+    background-size: cover;
+    font-family: serif;
+    background-repeat: no-repeat;
+    padding: 140px 0 100px 0;
+    height: 500px;
+}
+
+.ColdCoffeeContainer{
+    padding-top: 30px;
+}
+
+.coldColor{
+    color: rgb(3, 211, 3) !important;
+    font-weight: 600;
+}
+
+.card{
+    min-height: 428px;
+}
+
+
+/* Media Query.. */
+
+@media only screen and (max-width: 1023px) and (min-width: 768px)  {
+
+    .mainColdCoffee{
+        width: 100%;
+        height: 100%;
+        padding: 0px 0px;
+    }
+   .mainColdCoffee .coldColor{
+    font-size: 60px;
+   }
+    .card-title{
+        font-size: 16px;
+        }
+        .ColdCoffeeContainer .testcls{
+            margin-right: 15px;
+        }
+  
+ }
+
+
+ @media (max-width: 768px)
+ {
+    .mainColdCoffee{
+         width: 100%;
+         height: 100%;
+         padding: 0px 0px;
+     }
+     .mainColdCoffee .coldColor{
+         font-size: 50px;
+     }
+     .ColdCoffeeContainer .testcls{
+        margin-right: 15px;
+    }
+    .card{
+        min-height: 330px;
+    }
+ 
+ }
+
+
+ @media (max-width: 375px)
+ {
+    .mainColdCoffee{
+         width: 100%;
+         height: 100%;
+         padding: 0px 0px;
+     }
+     .mainColdCoffee .coldColor{
+         font-size: 40px;
+     }
+     .ColdCoffeeContainer .testcls{
+         margin-right: 15px;
+     }
+ }

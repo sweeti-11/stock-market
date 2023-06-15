@@ -1,0 +1,159 @@
+/** Navbar **/
+.sticky-top {
+    top: -150px;
+    transition: .5s;
+    position: fixed;
+    top: 0;
+    }
+.Chaylogo{
+    height: 40px;
+    width: 153px;
+}
+
+nav.navbar.navbar-expand-lg.bg-light.sticked.fixed-top {
+    background-color: #fff !important;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: right;
+}
+.navbar  .img-fluid {
+    width: 130px !important;
+    height: 40px;
+}
+nav.navbar.navbar-expand-lg.bg-light.sticked.fixed-top {
+    padding: 10px 70px;
+}
+
+.navbar .navbar-brand {
+    position: absolute;
+    width: 170px;
+    height: 135px;
+    top: 0;
+    left: 0;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.navbar .navbar-nav .nav-link {
+    margin-right: 35px;
+    padding: 25px 0;
+    color: var(--dark);
+    font-weight: 600;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color: var(--primary);
+}
+
+
+@media (max-width: 991.98px) {
+    .navbar .navbar-brand {
+        width: 126px;
+        height: 100px;
+    }
+
+    .navbar .navbar-nav .nav-link  {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+    .navbar .navbar-nav {
+        margin-top: 75px;
+        border-top: 1px solid #EEEEEE;
+    }
+    .sticky-top{
+     padding-bottom: 10px;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        border: none;
+        margin-top: 0;
+        top: 150%;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        top: 100%;
+        visibility: visible;
+        transition: .5s;
+        opacity: 1;
+    }
+    .sticky-top{
+        padding-bottom: 10px;
+       }
+   
+}
+
+.navbar-nav{
+    padding-right: 100px;
+}
+
+
+
+
+@media (max-width: 767px)
+{
+    a.nav-link.desk {
+        display: none;
+    }
+    .sticky-top{
+        padding-bottom: 10px;
+       }
+       .Chaylogo{
+        height: 35px;
+         width: 140px;
+    }
+    nav.navbar.navbar-expand-lg.bg-light.sticked.fixed-top {
+        padding: 10px 20px;
+    }
+    .desktop{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* .mobile {
+        display: none;
+    } */
+}
+
+@media (max-width: 375px)
+{
+    .sticky-top{
+        padding-bottom: 10px;
+       }
+       .Chaylogo{
+        height: 35px;
+         width: 140px;
+    }
+}
+
+@media only screen and (max-width: 3000px) and (min-width: 1024px) {
+
+a.nav-link.mob {
+    display: none;
+}
+.mobile {
+    display: none;
+}
+}
+
+@media (max-width: 1023px)
+{
+    .desktop{
+        display: none;
+    }
+    a.nav-link.desk {
+        display: none;
+    }
+}

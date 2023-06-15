@@ -1,0 +1,46 @@
+.store-item .store-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(138, 180, 78, .3);
+    opacity: 0;
+    transition: .5s;
+}
+
+.store-item:hover .store-overlay{
+    opacity: 1;
+   
+}
+
+
+
+/** .store-item:hover{
+    width: 500px;
+    height: 500px;
+    opacity: 1;
+
+} **/
+
+
+/*** Contact ***/
+.contact .btn-square {
+    width: 35px;
+    height: 35px;
+    /* border: 10px solid var(--light); */
+    background: var(--primary);
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/** .img-fluid:hover{
+    translate: 0.5s;
+    background-color: red;
+    
+} **/

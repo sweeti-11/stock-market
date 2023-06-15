@@ -1,0 +1,90 @@
+.mainHerbalTeawithMilk{
+    background: url(../assest/Herblewithbanner.jpg);
+    background-size: cover;
+    font-family: serif;
+    background-repeat: no-repeat;
+    padding: 140px 0 100px 0;
+    height: 500px;
+}
+
+.HerbalTeaWithContainer{
+    padding-top: 30px;
+}
+
+.HerbalWithColor{
+    color: rgb(5, 204, 5) !important;
+    font-weight: 600;
+}
+
+
+
+/** Media Query.. **/
+
+@media only screen and (max-width: 1023px) and (min-width: 767px)  {
+
+    .mainHerbalTeawithMilk{
+        width: 100%;
+        height: 100%;
+        padding: 0px 0px;
+        
+    }
+   .mainHerbalTeawithMilk .HerbalWithColor{
+    font-size: 60px;
+   }
+    .card-title{
+        font-size: 16px;
+        }
+        .HerbalTeaWithContainer .testcls{
+            margin-right: 15px;
+        }
+  
+ }
+
+
+ @media (max-width: 767px)
+ {
+     .mainHerbalTeawithMilk{
+         width: 100%;
+         height: 100%;
+         padding: 0px 0px;
+         background: url(../assest/Herblewithbanner.jpg) 80%;
+         background-repeat: no-repeat;
+         background-size: cover;
+         font-family: serif;
+     }
+     .HerbalWithColor{
+         font-size: 38px;
+     }
+     .HerbalTeaWithContainer .testcls{
+        margin-right: 15px;
+    }
+    .card{
+        min-height: 330px;
+    }
+ 
+ }
+
+
+ @media (max-width: 375px)
+{
+    .mainHerbalTeawithMilk{
+        width: 100%;
+        height: 100%;
+        padding: 0px 0px;
+    }
+    .mainHerbalTeawithMilk .HerbalWithColor{
+        font-size: 33px;
+    }
+   .HerbalTeaWithContainer .testcls{
+        margin-right: 15px;
+    }
+}
+
+
+@media (max-width: 415px)
+{
+    .mainHerbalTeawithMilk .HerbalWithColor{
+        font-size: 30px;
+    }
+
+}

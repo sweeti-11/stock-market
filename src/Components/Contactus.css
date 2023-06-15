@@ -1,0 +1,83 @@
+.mainContact{
+    background-size: cover !important;
+    font-family: serif;
+    background: url(../assest/Bannerrrimge01.jpg) center center no-repeat;
+    height: 500px;
+    padding-top: 123px;
+    background-position: bottom;
+}
+
+.slideInDown{
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.text-dark{
+    color: #fff !important;
+}
+
+.row.contact_icon {
+    padding: 50px 0 80px 0;
+}
+
+/* .contact_icon p.mb-0 {
+    padding: 0 50px 0 50px;
+} */
+
+.contact_icon .display-6{
+  font-weight: bold;
+  font-family: serif;
+}
+
+@media (max-width: 767px) {
+    .contact_icon img.img-fuild {
+    height: 100%;
+    width: 100%;
+}
+.contact_icon img.img-fuild {
+    padding-bottom: 30px;
+}
+.row.contact_icon {
+    padding: 0;
+}
+.contact_icon .d-flex {
+    padding-left: 0px !important;
+}
+}
+
+@media (max-width: 768px)
+{
+    .contact_icon .mb-3{
+        margin-top: 10px;
+    }
+    .row.contact_icon {
+        padding: 30px 0 50px 0;
+    }
+    
+    
+}
+
+@media (max-width: 280px)
+{
+    
+    p.text-mob {
+        width: 80%;
+    }
+    
+}
+
+.contact_icon p {
+    padding: 14px 10px 5px 23px;}
+.contact_icon .d-flex {
+    padding-left: 30px;
+}
+
+
+p.text-my {
+    width: 90%;
+}
+
+.contact_icon img.img-fuild {
+    width: 100%;
+    margin-bottom: 40px;
+}
