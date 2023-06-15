@@ -83,12 +83,12 @@ body{
     background-size: cover;
 } */
 .mainCarousel{
-    background: url(../assest/Bannerrrimge01.jpg);
+    background: url(../assest/stock1.jpg);
     /* background-color:  #7ED957; */
     background-size: cover;
     font-family: serif;
     background-position: bottom;
-    height: 400px;
+    height: 600px;
     
 }
 
