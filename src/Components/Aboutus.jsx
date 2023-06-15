@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import about1 from '../assest/1.png'
+import slide from '../assest/slider1.jpg';
 import Footer from './Footer'
 import { motion } from "framer-motion"
 import AOS from 'aos';
@@ -90,7 +90,7 @@ const Aboutus = () => {
                         <motion.img 
                                  whileHover={{ scale: 1.1 }}
                                 // transition={{duration:1.2}}
-                                className="img-fluid bg-white w-100 mb-3 " data-aos="zoom-in-up" src={about1} alt=""  />
+                                className="img-fluid bg-white w-100 mb-3 " data-aos="zoom-in-up" src={slide} alt=""  />
                                 {/* <motion.img 
                                  whileHover={{ scale: 1.1}}
                                //  transition={{ duration: 3 }}
@@ -114,7 +114,7 @@ const Aboutus = () => {
                     <div className="section-title">
                         {/* <p className="fs-5 fw-medium fst-italic text-primary">About Us</p> */}
                         <h1 className="display-6" style={{fontFamily:'serif'}}> 
-                        You Read About The Chay Wala
+                        You Read About Stock Market
                         </h1>
                     </div>
                     <div className="row g-3 mb-4">
@@ -123,9 +123,9 @@ const Aboutus = () => {
                         </div> */}
                         <div className="col-sm-8" style={{width:"max-content",marginTop:'30px'}}>
                             {/* <h5>Our tea is one of the most popular drinks in the world</h5> */}
-                            <p className="mb-0" style={{fontFamily:'sans-serif'}}><b style={{color:'green'}}>The Chay Wala</b> is a fastest growing brand in India. This is not only brand of product, it is the brand of service, quality and our thought. Hence we sell SERVICE, QUALITY and THOUGHT to customer. Our SERVICE belongs to actual nature of Indian culture while our QUALITY is based on our Indian product. And about THOUGHT, this is our sense of humanity which is going down due to our selflessness. </p>
+                            <p className="mb-0" style={{fontFamily:'sans-serif'}}><b style={{color:'green'}}>Stock Market</b> is a fastest growing brand in India. This is not only brand of product, it is the brand of service, quality and our thought. Hence we sell SERVICE, QUALITY and THOUGHT to customer. Our SERVICE belongs to actual nature of Indian culture while our QUALITY is based on our Indian product. And about THOUGHT, this is our sense of humanity which is going down due to our selflessness. </p>
                             <br/>
-                            <p className="mb-0" style={{fontFamily:'sans-serif'}}><b style={{color:'green'}}>The Chay Wala</b> is a cafés leading channel which provide independent self-employment to our youngster to achieve their career. It promotes our relevant Indian product to maintain our forming. Maximum youth likes our brand because we work as a family members. Yes, our foods list may belong to western style but our service and staff behaviour shows that we are Indian. 
+                            <p className="mb-0" style={{fontFamily:'sans-serif'}}><b style={{color:'green'}}>Stock Market</b> is a cafés leading channel which provide independent self-employment to our youngster to achieve their career. It promotes our relevant Indian product to maintain our forming. Maximum youth likes our brand because we work as a family members. Yes, our foods list may belong to western style but our service and staff behaviour shows that we are Indian. 
                             So let’s come with us, start your own food business at a very low cost and in your city. Give your 100% presence in your work, we promise that you will achieve your career target and will provide employment to maximum person.</p>
                         </div>
                     </div>

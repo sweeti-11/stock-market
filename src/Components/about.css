@@ -132,3 +132,14 @@
     height: 200px;
    }
 } */
+
+/* stock css */
+
+.mainAboutus{
+    background-size: cover !important;
+    font-family: serif;
+    background: url(../assest/slide2.jpg) center center no-repeat;
+    height: 500px;
+    padding-top: 123px;
+    background-position: bottom;
+}
