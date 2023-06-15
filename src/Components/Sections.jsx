@@ -8,11 +8,13 @@ import Store from './Store'
 import Testmonial from './Testmonial'
 import Footer from './Footer'
 import Contact from './Contact'
+import Client from './Client'
 
 function Sections() {
   return (
    <> 
     <Carousel/>
+    <Client/>
     <About />
     <Product />
     <Artical />
