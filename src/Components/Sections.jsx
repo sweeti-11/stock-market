@@ -9,11 +9,13 @@ import Testmonial from './Testmonial'
 import Footer from './Footer'
 import Contact from './Contact'
 import Client from './Client'
+import Feature from './Feature'
 
 function Sections() {
   return (
    <> 
     <Carousel/>
+    <Feature/>
     <About />
     <Product />
     <Artical />
