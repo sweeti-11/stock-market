@@ -176,7 +176,7 @@ const feature = () => {
                 </div>
             </div>
         </section>
-        <section class="section gray-bg bottom-animate">
+        <section class="section  bottom-animate">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 m-15px-tb">

@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react'
 import { motion } from 'framer-motion';
-import AyurvedicArtical from '../assest/AyurvedicArtical01.png'
+import AyurvedicArtical from '../assest/Sky.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useMediaQuery } from "@chakra-ui/media-query";
