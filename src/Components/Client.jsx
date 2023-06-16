@@ -26,12 +26,12 @@ const Client = () => {
                         <p className="description">
                           Ideal stock only work for customer satisfaction. This is very good platform get good returns, I'm very thankful to Ideal Stock. My overall experience was good.
                         </p>
-                        {/* <ul className="test-star">
+                        <ul className="test-star">
                           <li><i className="fa fa-star" aria-hidden="true"></i></li>
                           <li><i className="fa fa-star" aria-hidden="true"></i></li>
                           <li><i className="fa fa-star" aria-hidden="true"></i></li>
                           <li><i className="fa fa-star" aria-hidden="true"></i></li>
-                        </ul> */}
+                        </ul>
                         <h3 className="title">Ravi Patel
                         </h3>
                     </div></div><div className="owl-item" style={{width:"278px"}} ><div className="testimonial">
@@ -43,11 +43,11 @@ const Client = () => {
                         </p>
                         <h3 className="title">Aryan Patel
                         </h3>
-                        {/* <ul className="test-star">
+                        <ul className="test-star">
                           <li><i className="fa fa-star" aria-hidden="true"></i></li>
                           <li><i className="fa fa-star" aria-hidden="true"></i></li>
                           <li><i className="fa fa-star" aria-hidden="true"></i></li>
-                        </ul> */}
+                        </ul>
                     </div></div><div className="owl-item"  style={{width:"278px"}}><div className="testimonial">
                         <div className="pic">
                             <img src={client3}  alt=""/>
@@ -57,13 +57,13 @@ const Client = () => {
                         </p>
                         <h3 className="title">Amit Tyagi
                         </h3>
-                        {/* <ul className="test-star">
+                        <ul className="test-star">
                           <li><i className="fa fa-star" aria-hidden="true"></i></li>
                           <li><i className="fa fa-star" aria-hidden="true"></i></li>
                           <li><i className="fa fa-star" aria-hidden="true"></i></li>
                           <li><i className="fa fa-star" aria-hidden="true"></i></li>
                           <li><i className="fa fa-star" aria-hidden="true"></i></li>
-                        </ul> */}
+                        </ul>
                     </div></div><div className="owl-item"  style={{width:"278px"}}><div className="testimonial">
                         <div className="pic">
                             <img src={client4}  alt=""/>
@@ -73,12 +73,12 @@ const Client = () => {
                         </p>
                         <h3 className="title">Shanku Choudhary
                         </h3>
-                        {/* <ul className="test-star">
+                        <ul className="test-star">
                           <li><i className="fa fa-star" aria-hidden="true"></i></li>
                           <li><i className="fa fa-star" aria-hidden="true"></i></li>
                           <li><i className="fa fa-star" aria-hidden="true"></i></li>
                           <li><i className="fa fa-star" aria-hidden="true"></i></li>
-                        </ul> */}
+                        </ul>
                     </div></div></div></div>
 
                     

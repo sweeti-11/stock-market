@@ -44,7 +44,7 @@
   .testimonial .title{
     display: inline-table;
     padding: 10px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     background: #fff;
     border: 1px solid #2285FE;
     font-size: 14px;
@@ -103,8 +103,8 @@
 
   .test-star {
     list-style: none;
-    padding: 0px;
+    padding: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     color:#f09b00;
   }

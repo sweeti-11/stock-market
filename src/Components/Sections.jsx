@@ -15,13 +15,13 @@ function Sections() {
   return (
    <> 
     <Carousel/>
-    <Client/>
     <About />
     <Product />
     <Artical />
     <Video />
     <Store />
     <Testmonial />
+    <Client/>
     <Contact/>
     <Home_sec1/>
     <Footer />
