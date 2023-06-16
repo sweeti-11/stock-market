@@ -6,9 +6,9 @@ const feature = () => {
     <div>
          <section className="section bottom-animate">
             <div className="container">
-              <div className="row md-m-25px-b m-40px-b justify-content-center text-center">
+              <div className="row md-m-25 px-b m-40 px-b justify-content-center text-center">
                   <div className="col-lg-6">
-                      <h3 className="h1 m-15px-b">Our Ideal Features</h3>
+                      <h3 className="" style={{fontSize:"3rem", marginTop:"40px", marginBottom:"50px"}}>Our Ideal Features</h3>
                   </div>
               </div>
                 <div className="row">
