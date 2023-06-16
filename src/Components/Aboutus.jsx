@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import slide from '../assest/slider1.jpg';
 import Footer from './Footer'
 import { motion } from "framer-motion"
+import './about.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 const Aboutus = () => {
