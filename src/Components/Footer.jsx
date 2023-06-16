@@ -59,9 +59,9 @@ function Footer() {
               <p className="mb-3"><i><AiOutlineMail /></i>&nbsp;&nbsp;agefemservices@gmail.com</p>
               <div className="d-flex pt-3">
                 {/* <a className="btn btn-square btn-light rounded-circle me-1" href=""><i class="fa-brands fa-twitter"></i></a> */}
-                <a className="btn btn-square btn-light rounded-circle me-1" href="https://www.facebook.com/people/The-CHAY-WALA/100091463030614"><i class="fa-brands fa-facebook"></i></a>
-                <a className="btn btn-square btn-light rounded-circle me-1" href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                <a className="btn btn-square btn-light rounded-circle me-1" href=""><i class="fa-brands fa-instagram"></i></a>
+                <a className="btn btn-square btn-light rounded-circle me-1" href="/"><i class="fa-brands fa-facebook"></i></a>
+                <a className="btn btn-square btn-light rounded-circle me-1" href="/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a className="btn btn-square btn-light rounded-circle me-1" href="/"><i class="fa-brands fa-instagram"></i></a>
               </div>
             </div>
           </div>
