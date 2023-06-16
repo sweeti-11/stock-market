@@ -16,7 +16,7 @@ const Client = () => {
             </div>
         </div>
         <div className="row">
-            <div className="col-md-12">
+            <div className="col-md-12 col-lg-12">
                 <div id="testimonial-slider" className="owl-carousel owl-theme" style={{opacity:"1",display:"block"}} >
                     <div className="owl-wrapper-outer"><div className="owl-wrapper"  style={{width:"2224px", left:"0px" , display:"flex" , transition:"all 1000ms ease 0s", transform:"translate3d(0px,0px,0px)"}}>
                         <div className="owl-item"  style={{width:"278px"}}><div className="testimonial">

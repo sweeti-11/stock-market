@@ -12,7 +12,7 @@ const feature = () => {
                   </div>
               </div>
                 <div className="row">
-                  <div className="col-sm-4">
+                  <div className="col-sm-3">
                     <div className="serviceBox">
                         <div className="service-icon">
                             <i className="fa fa-history"></i>
@@ -27,7 +27,7 @@ const feature = () => {
                         </div>
                     </div>
                   </div>
-                  <div className="col-sm-4">
+                  <div className="col-sm-3">
                     <div className="serviceBox">
                         <div className="service-icon">
                             <i className="fa fa-envelope"></i>
@@ -42,7 +42,22 @@ const feature = () => {
                         </div>
                     </div>
                   </div>
-                  <div className="col-sm-4">
+                  <div className="col-sm-3">
+                    <div className="serviceBox">
+                        <div className="service-icon">
+                            <i className="fa fa-envelope"></i>
+                        </div>
+                        <div className="service-Content">
+                            <h3 className="title">
+                            1 to 1
+                            </h3>
+                            <p className="description showMore">
+                                Support given through SMS and on our own instant, All GSM and CDMA networks.
+                            </p>
+                        </div>
+                    </div>
+                  </div>
+                  <div className="col-sm-3">
                     <div className="serviceBox">
                         <div className="service-icon">
                             <i className="fa fa-folder"></i>
@@ -52,29 +67,29 @@ const feature = () => {
                               Record
                             </h3>
                             <p className="description showMore">
-                                Update track sheets, stock reports and commodity reports guides the newbie.
+                                Update track sheets, stock reports and commodity reports guides the newbie commodity reports.
                             </p>
                         </div>
                     </div>
                   </div>
                 </div>
-                <div className="row">
-                  <div className="col-sm-4">
-                    <div className="serviceBox">
-                        <div className="service-icon">
+                {/* <div className="row"> */}
+                  {/* <div className="col-sm-4"> */}
+                    {/* <div className="serviceBox"> */}
+                        {/* <div className="service-icon">
                             <i className="fa fa-users"></i>
-                        </div>
-                        <div className="service-Content">
+                        </div> */}
+                        {/* <div className="service-Content">
                             <h3 className="title">
                               1 to 1
                             </h3>
                             <p className="description showMore">
                                 We are providing Personalized Services. We are making interactions faster.
                             </p>
-                        </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-4">
+                        </div> */}
+                    {/* </div> */}
+                  {/* </div> */}
+                  {/* <div className="col-sm-4">
                     <div className="serviceBox">
                         <div className="service-icon">
                             <i className="fa fa-comment-dots"></i>
@@ -88,23 +103,23 @@ const feature = () => {
                             </p>
                         </div>
                     </div>
-                  </div>
-                  <div className="col-sm-4">
-                    <div className="serviceBox">
-                        <div className="service-icon">
+                  </div> */}
+                  {/* <div className="col-sm-4"> */}
+                    {/* <div className="serviceBox"> */}
+                        {/* <div className="service-icon">
                             <i className="fa fa-sync-alt"></i>
-                        </div>
-                        <div className="service-Content">
-                            <h3 className="title">
+                        </div> */}
+                        {/* <div className="service-Content"> */}
+                            {/* <h3 className="title">
                               Research
-                            </h3>
-                            <p className="description showMore">
+                            </h3> */}
+                            {/* <p className="description showMore">
                                 We are providing 24*7 customized support on any query for about stock market.
-                            </p>
-                        </div>
-                    </div>
-                  </div>
-                </div>
+                            </p> */}
+                        {/* </div> */}
+                    {/* </div> */}
+                  {/* </div> */}
+                {/* </div> */}
             </div>
             <img src="https://www.idealstock.in/webasset/images/header-bg03.png" alt=""/>
         </section>
