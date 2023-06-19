@@ -570,7 +570,6 @@ text-transform: uppercase;
 .team_social a:hover{
     background-color: transparent;
 }
-.owl-nav{}
 .owl-nav div{
     background-color: #f9b707;
     color: #fff;
@@ -594,14 +593,12 @@ text-transform: uppercase;
     right: -40px;
 }
 
-/* Transition Effect */
 a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
-    /* -webkit-transition: all 0.5s; */
     -o-transition: all 0.5s;
     transition: all 0.5s;
 }
 
-img {
+.team_member img {
     height: 100%;
     width: 100%;
 }

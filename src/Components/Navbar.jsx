@@ -70,21 +70,10 @@ const Navbar = () => {
             <a className="nav-link" href="/aboutus">About</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/gallary">Gallary</a>
+            <a className="nav-link" href="/service">Services</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link desk"  >Types of Tea</a>
-            <a className="nav-link mob" href="" data-bs-toggle="dropdown">Types of Tea</a>
-            <div className="dropdown-menu bg-light rounded-0 m-0 text-dark">
-                          
-          
-                        <a href="/milktea" className="dropdown-item">Milk Tea Speical</a>
-                        <a href="/delightmilktea" className="dropdown-item">Delight Of Milk Special</a>
-                        <a href="/HerbalTeawithmilk" className="dropdown-item">Herbal Tea With Milk</a>
-                        <a href="/HerbalTeawithoutmilk" className="dropdown-item">Herbal Tea Without Milk</a>
-                        <a href="/hotcoffee" className="dropdown-item">Hot Coffee</a>
-                        <a href="/coldcoffee" className="dropdown-item">Cold Coffee</a> 
-                        </div>
+            <a className="nav-link" href="/platform">Platform</a>
           </li>
          <li className="nav-item">
             <a className="nav-link" href="/contactus">Contact</a>
