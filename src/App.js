@@ -12,6 +12,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Feature from './Components/Feature';
 import Client from './Components/Client';
+import Platform from './Components/Platform';
+import Service from './Components/Service';
 
 function App() {
 
@@ -25,17 +27,17 @@ function App() {
 
   return (
     <>
-{/* <Router> */}
+
 <Navbar />
      <Routes>
         <Route path='/' element={<Sections/>}/>
-        {/* <Route path='/gallary' element={<Section/>}/> */}
         <Route path='/aboutus' element={<Aboutus/>}/>
         <Route path='/contactus' element={<Contactus/>}/>
         <Route path='/feature' element={<Feature/>} />
         <Route path='/client' element={<Client/>}/>
+        <Route path='/platform' element={<Platform/>}/>
+        <Route path='/service' element={<Service/>}/>
       </Routes> 
-{/* </Router> */}
 
     </>
   );
