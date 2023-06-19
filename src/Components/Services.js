@@ -9,6 +9,9 @@ import team6 from '../assest/payment.jpg'
 import team7 from '../assest/trad.jpg'
 
 import {BsFacebook} from 'react-icons/bs'
+import {AiOutlineTwitter} from 'react-icons/ai'
+import {BsInstagram} from 'react-icons/bs'
+import {BsLinkedin} from 'react-icons/bs'
 const Services = () => {
   return (
     <div>
@@ -35,10 +38,9 @@ const Services = () => {
                   <p>24*7 Back Office Support</p>
                   <ul className="team_social">
                     <li><a href="#"><i >{<BsFacebook/>}</i></a></li>
-                    <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                    <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-                    <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i >{<AiOutlineTwitter/>}</i></a></li>
+                    <li><a href="#"><i>{<BsInstagram/>}</i></a></li>
+                    <li><a href="#"><i>{<BsLinkedin/>}</i></a></li>
                   </ul>
                 </div>
               </div>
@@ -55,11 +57,10 @@ const Services = () => {
                   <h3><span>Hover me</span></h3>
                   <p>SMS Services</p>
                   <ul className="team_social">
-                    <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                    <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-                    <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i>{<BsFacebook/>}</i></a></li>
+                    <li><a href="#"><i>{<AiOutlineTwitter/>}</i></a></li>
+                    <li><a href="#"><i>{<BsInstagram/>}</i></a></li>
+                    <li><a href="#"><i>{<BsLinkedin/>}</i></a></li>
                   </ul>
                 </div>
               </div>
@@ -79,11 +80,10 @@ const Services = () => {
                   <h3><span>Hover me</span></h3>
                   <p>Sure Advisory Calls.</p>
                   <ul className="team_social">
-                    <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                    <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-                    <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i>{<BsFacebook/>}</i></a></li>
+                    <li><a href="#"><i>{<AiOutlineTwitter/>}</i></a></li>
+                    <li><a href="#"><i>{<BsInstagram/>}</i></a></li>
+                    <li><a href="#"><i>{<BsLinkedin/>}</i></a></li>
                   </ul>
                 </div>
               </div>
@@ -102,11 +102,10 @@ const Services = () => {
                   <h3><span>Hover me</span></h3>
                   <p>Best Exceutive Support.</p>
                   <ul className="team_social">
-                    <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                    <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-                    <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i>{<BsFacebook/>}</i></a></li>
+                    <li><a href="#"><i>{<AiOutlineTwitter/>}</i></a></li>
+                    <li><a href="#"><i>{<BsInstagram/>}</i></a></li>
+                    <li><a href="#"><i>{<BsLinkedin/>}</i></a></li>
                   </ul>
                 </div>
               </div>
@@ -124,11 +123,10 @@ const Services = () => {
                   <h3><span>Hover me</span></h3>
                   <p>Call On Trade</p>
                   <ul className="team_social">
-                    <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                    <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-                    <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i>{<BsFacebook/>}</i></a></li>
+                    <li><a href="#"><i>{<AiOutlineTwitter/>}</i></a></li>
+                    <li><a href="#"><i>{<BsInstagram/>}</i></a></li>
+                    <li><a href="#"><i>{<BsLinkedin/>}</i></a></li>
                   </ul>
                 </div>
               </div>
@@ -146,11 +144,10 @@ const Services = () => {
                   <h3><span>Hover me</span></h3>
                   <p>Easy Payment and Payout.</p>
                   <ul className="team_social">
-                    <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                    <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-                    <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i>{<BsFacebook/>}</i></a></li>
+                    <li><a href="#"><i >{<AiOutlineTwitter/>}</i></a></li>
+                    <li><a href="#"><i>{<BsInstagram/>}</i></a></li>
+                    <li><a href="#"><i>{<BsInstagram/>}</i></a></li>
                   </ul>
                 </div>
               </div>
@@ -168,11 +165,11 @@ const Services = () => {
                   <h3><span>Hover me</span></h3>
                   <p>Flat 10rs Brokrage in per Trade.</p>
                   <ul className="team_social">
-                    <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                    <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-                    <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i >{<BsFacebook/>}</i></a></li>
+                    <li><a href="#"><i>{<AiOutlineTwitter/>}</i></a></li>
+                    <li><a href="#"><i>{<BsInstagram/>}</i></a></li>
+                    {/* <li><a href="#"><i className="fa fa-pinterest"></i></a></li> */}
+                    <li><a href="#"><i >{<BsInstagram/>}</i></a></li>
                   </ul>
                 </div>
               </div>

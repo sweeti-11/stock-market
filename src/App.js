@@ -37,6 +37,8 @@ function App() {
         <Route path='/client' element={<Client/>}/>
         <Route path='/platform' element={<Platform/>}/>
         <Route path='/service' element={<Service/>}/>
+        <Route path='/service' element={<Service/>}/>
+
       </Routes> 
 
     </>
