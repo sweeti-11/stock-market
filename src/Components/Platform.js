@@ -1,5 +1,7 @@
 import React from 'react'
 import Footer from './Footer'
+import mobile from '../assest/mobile.png'
+import './platform.css'
 
 const Platform = () => {
   return (
@@ -19,7 +21,32 @@ const Platform = () => {
                     </div>
                 </div>
             </div>
-
+            <section id="platform" className='platform'>
+            <div className='container'>
+            <div className='row'>
+            <div className='col-lg-6'>
+            <img src={mobile} style={{paddingTop:"76px", paddingLeft:"176px",paddingRight:"176px", paddingBottom:"76px"}}></img>
+            </div>
+            <div className='col-lg-6'>
+            <h2>MULTIPLE WATCH LIST</h2>
+            <p>Now you can create multiple watch list and add scripts as per your preferences</p>
+            </div>
+            </div>
+            </div>
+            </section>
+            <section id="platform" className='platform'>
+            <div className='container'>
+            <div className='row'>
+            <div className='col-lg-6'>
+            <h2>MULTIPLE WATCH LIST</h2>
+            <p>Now you can create multiple watch list and add scripts as per your preferences</p>
+            </div>
+            <div className='col-lg-6'>
+            <img src={mobile} style={{paddingTop:"76px", paddingLeft:"176px",paddingRight:"176px", paddingBottom:"76px"}}></img>
+            </div>
+            </div>
+            </div>
+            </section>
     <Footer/>
     </div>
   )
