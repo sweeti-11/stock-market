@@ -8,11 +8,13 @@ import Value from './Value'
 import Services from './Services'
 import Benefit from './Benefit'
 import Market from './Market'
+import Slider from './Slider'
 
 function Sections() {
   return (
    <> 
     <Carousel/>
+    <Slider/>
     <Services/>
     <Value/>
     <Feature/> 
