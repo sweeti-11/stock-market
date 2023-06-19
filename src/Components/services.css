@@ -199,7 +199,7 @@ font-size: 3rem;
   
   
   
-  
+
   
   
   .services .icon-box {
@@ -501,4 +501,107 @@ text-transform: uppercase;
 .owl-carousel .owl-video-frame {
     position: relative;
     z-index: 1
+}
+
+
+/* ...new css... */
+
+
+.team_member{
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+}
+ .services .team_member .overlay{
+    background-color: rgba(31, 41, 61, 0.9);
+    position: absolute;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    left: 0;
+    bottom: -135px;
+    padding: 40px 15px 30px;
+}
+.team_member:hover .overlay{
+    bottom: 0;
+}
+.team_member:hover img{
+    opacity: 0.8;
+    transform: scale(1.2);
+}
+.team_member .overlay h3{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: auto;
+    top: -23px;
+    display: block;
+    margin: 0;
+    text-align: center;
+    
+}
+.team_member .overlay h3 span{
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #f9b707;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 15px 15px;
+}
+.team_member .overlay p{
+    color: #ddd;
+}
+.team_social li{
+    display: inline-block;
+}
+.team_social a{
+    background-color: #f9b707;
+    border: 1px solid #f9b707;
+    color: #fff;
+    font-size: 12px;
+    height: 30px;
+    width: 30px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 2px;
+    display: inline-block;
+}
+.team_social a:hover{
+    background-color: transparent;
+}
+.owl-nav{}
+.owl-nav div{
+    background-color: #f9b707;
+    color: #fff;
+    border-radius: 2px;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    left: -40px;
+    top: calc(50% - 25px);
+    transition: all 0.5s ease-in-out;
+}
+.owl-nav div:hover{
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+.owl-nav div.owl-next{
+    left: auto;
+    right: -40px;
+}
+
+/* Transition Effect */
+a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
+    /* -webkit-transition: all 0.5s; */
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+img {
+    height: 100%;
+    width: 100%;
 }
