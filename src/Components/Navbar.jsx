@@ -34,22 +34,8 @@ const Navbar = () => {
             <NavLink className="nav-link" to="/service">Services</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/gallary">Platform</NavLink>
+            <NavLink className="nav-link" to="/platform">Platform</NavLink>
           </li>
-          {/* <li className="nav-item">
-            <Link className="nav-link desk"  >Types of Tea</Link>
-            <Link className="nav-link mob" to="" data-bs-toggle="dropdown">Types of Tea</Link>
-            <div className="dropdown-menu bg-light rounded-0 m-0 text-dark">
-                          
-          
-                        <Link to="/milktea" className="dropdown-item">Milk Tea Speical</Link>
-                        <Link to="/delightmilktea" className="dropdown-item">Delight Of Milk Special</Link>
-                        <Link to="/HerbalTeawithmilk" className="dropdown-item">Herbal Tea With Milk</Link>
-                        <Link to="/HerbalTeawithoutmilk" className="dropdown-item">Herbal Tea Without Milk</Link>
-                        <Link to="/hotcoffee" className="dropdown-item">Hot Coffee</Link>
-                        <Link to="/coldcoffee" className="dropdown-item">Cold Coffee</Link> 
-                        </div>
-          </li> */}
          <li className="nav-item">
             <NavLink className="nav-link" to="/contactus">Contact</NavLink>
           </li>

@@ -8,16 +8,12 @@ import Sections from './Components/Sections';
 // import Section from './Components/Section';
 import Aboutus from './Components/Aboutus';
 import Contactus from './Components/Contactus';
-import MilkTea from './Components/MilkTea';
-import DeligthMilkTea from './Components/DeligthMilkTea';
-import HerbalTeaWithMilk from './Components/HerbalTeaWithMilk';
-import HerbalTeaWithoutMilk from './Components/HerbalTeaWithoutMilk';
-import HotCoffee from './Components/HotCoffee';
-import ColdCoffee from './Components/ColdCoffee';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Feature from './Components/Feature';
 import Client from './Components/Client';
+import Platform from './Components/Platform';
+import Service from './Components/Service';
 
 function App() {
 
@@ -31,23 +27,17 @@ function App() {
 
   return (
     <>
-{/* <Router> */}
+
 <Navbar />
      <Routes>
         <Route path='/' element={<Sections/>}/>
-        {/* <Route path='/gallary' element={<Section/>}/> */}
         <Route path='/aboutus' element={<Aboutus/>}/>
         <Route path='/contactus' element={<Contactus/>}/>
-        <Route path='/delightmilktea' element={<DeligthMilkTea/>} />
-        <Route path='/milktea' element={<MilkTea/>} />
-        <Route path='/HerbalTeawithmilk' element={< HerbalTeaWithMilk/>} />
-        <Route path='/HerbalTeawithoutmilk' element={<HerbalTeaWithoutMilk/>}/>
-        <Route path='/hotcoffee' element={<HotCoffee/>} />
-        <Route path='/coldcoffee' element={<ColdCoffee/>}/>
         <Route path='/feature' element={<Feature/>} />
         <Route path='/client' element={<Client/>}/>
+        <Route path='/platform' element={<Platform/>}/>
+        <Route path='/service' element={<Service/>}/>
       </Routes> 
-{/* </Router> */}
 
     </>
   );
