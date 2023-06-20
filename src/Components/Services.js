@@ -12,6 +12,7 @@ import {BsFacebook} from 'react-icons/bs'
 import {AiOutlineTwitter} from 'react-icons/ai'
 import {BsInstagram} from 'react-icons/bs'
 import {BsLinkedin} from 'react-icons/bs'
+import {BsCurrencyRupee} from 'react-icons/bs'
 const Services = () => {
   return (
     <div>
@@ -35,7 +36,7 @@ const Services = () => {
                 <img src={team1} alt="team" />
                 <div className="overlay">
                   <h3><span>Hover me</span></h3>
-                  <p>24*7 Back Office Support</p>
+                  <p>24/7 Online back office support</p>
                   <ul className="team_social">
                     <li><a href="#"><i >{<BsFacebook/>}</i></a></li>
                     <li><a href="#"><i >{<AiOutlineTwitter/>}</i></a></li>
@@ -78,7 +79,7 @@ const Services = () => {
                 <img src={team3} alt="team" />
                 <div className="overlay">
                   <h3><span>Hover me</span></h3>
-                  <p>Sure Advisory Calls.</p>
+                  <p>Free Sure calls provide in intraday and holding.</p>
                   <ul className="team_social">
                     <li><a href="#"><i>{<BsFacebook/>}</i></a></li>
                     <li><a href="#"><i>{<AiOutlineTwitter/>}</i></a></li>
@@ -121,7 +122,7 @@ const Services = () => {
                 <img src={team5} alt="team" />
                 <div className="overlay">
                   <h3><span>Hover me</span></h3>
-                  <p>Call On Trade</p>
+                  <p>Call in trade option</p>
                   <ul className="team_social">
                     <li><a href="#"><i>{<BsFacebook/>}</i></a></li>
                     <li><a href="#"><i>{<AiOutlineTwitter/>}</i></a></li>
@@ -142,7 +143,7 @@ const Services = () => {
                 <img src={team6} alt="team" />
                 <div className="overlay">
                   <h3><span>Hover me</span></h3>
-                  <p>Easy Payment and Payout.</p>
+                  <p>Easy Payin and payout.</p>
                   <ul className="team_social">
                     <li><a href="#"><i>{<BsFacebook/>}</i></a></li>
                     <li><a href="#"><i >{<AiOutlineTwitter/>}</i></a></li>
@@ -163,7 +164,7 @@ const Services = () => {
                 <img src={team7} alt="team" />
                 <div className="overlay">
                   <h3><span>Hover me</span></h3>
-                  <p>Flat 10rs Brokrage in per Trade.</p>
+                  <p>Low Brokerage - Flat ₹10/order</p>
                   <ul className="team_social">
                     <li><a href="#"><i >{<BsFacebook/>}</i></a></li>
                     <li><a href="#"><i>{<AiOutlineTwitter/>}</i></a></li>
