@@ -209,6 +209,7 @@
     background: url("../assest/trade1.jpg") center center no-repeat;
     background-size: cover;
     min-height: 500px;
+    margin-top: 60px;
   }
   
   .about .play-btn {
