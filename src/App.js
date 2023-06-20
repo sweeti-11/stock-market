@@ -14,6 +14,9 @@ import Feature from './Components/Feature';
 import Client from './Components/Client';
 import Platform from './Components/Platform';
 import Service from './Components/Service';
+import Intraday from './Components/Intraday';
+import Holding from './Components/Holding';
+import BestMargin from './Components/BestMargin';
 
 function App() {
 
@@ -37,7 +40,9 @@ function App() {
         <Route path='/client' element={<Client/>}/>
         <Route path='/platform' element={<Platform/>}/>
         <Route path='/service' element={<Service/>}/>
-        <Route path='/service' element={<Service/>}/>
+        <Route path='/intraday' element={<Intraday/>}/>
+        <Route path='/holding' element={<Holding/>}/>
+        <Route path='/margin' element={<BestMargin/>}/>
 
       </Routes> 
 
