@@ -37,14 +37,14 @@ const Navbar = () => {
             <NavLink className="nav-link" to="/platform">Platform</NavLink>
           </li>
           <li className="nav-item">
-            <Link className="nav-link desk"  > Types of Fetures</Link>
-            <Link className="nav-link mob" to="" data-bs-toggle="dropdown">Types of Tea</Link>
+            <NavLink className="nav-link desk"  > Fetures</NavLink>
+            <Link className="nav-link mob" to="" data-bs-toggle="dropdown">Fetures</Link>
             <div className="dropdown-menu bg-light rounded-0 m-0 text-dark">
                           
           
-                        <Link to="/milktea" className="dropdown-item">Intraday</Link>
-                        <Link to="/delightmilktea" className="dropdown-item">Holding</Link>
-                        <Link to="/HerbalTeawithmilk" className="dropdown-item">Best Margin Available</Link>
+                        <Link to="/intraday" className="dropdown-item">Intraday</Link>
+                        <Link to="/holding" className="dropdown-item">Holding</Link>
+                        <Link to="/margin" className="dropdown-item">Best Margin Available</Link>
                        
                         </div>
           </li>
