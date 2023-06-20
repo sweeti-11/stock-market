@@ -8,7 +8,7 @@ const feature = () => {
             <div className="container">
               <div className="row md-m-25 px-b m-40 px-b justify-content-center text-center">
                   <div className="col-lg-6">
-                      <h3 className="" style={{fontSize:"3rem", marginTop:"40px", marginBottom:"50px"}}>Our Ideal Features</h3>
+                      <h3 className="" style={{fontSize:"3rem", marginTop:"40px", marginBottom:"50px"}}>Commodity Features</h3>
                   </div>
               </div>
                 <div className="row">
@@ -19,7 +19,7 @@ const feature = () => {
                         </div>
                         <div className="service-Content">
                             <h3 className="title">
-                              24*7
+                              Intraday
                             </h3>
                             <p className="description showMore">
                                 We are providing 24*7 customized support on any query for about stock market.
@@ -49,7 +49,7 @@ const feature = () => {
                         </div>
                         <div className="service-Content">
                             <h3 className="title">
-                            1 to 1
+                            Holdings
                             </h3>
                             <p className="description showMore">
                                 Support given through SMS and on our own instant, All GSM and CDMA networks.
@@ -64,7 +64,7 @@ const feature = () => {
                         </div>
                         <div className="service-Content">
                             <h3 className="title">
-                              Record
+                              Best Margin Available
                             </h3>
                             <p className="description showMore">
                                 Update track sheets, stock reports and commodity reports guides.

@@ -34,7 +34,8 @@ const Client = () => {
                         </ul>
                         <h3 className="title">Ravi Patel
                         </h3>
-                    </div></div><div className="owl-item" style={{width:"278px"}} ><div className="testimonial">
+                    </div></div>
+                    <div className="owl-item" style={{width:"278px"}} ><div className="testimonial">
                         <div className="pic">
                             <img src={client2} alt=""/>
                         </div>
