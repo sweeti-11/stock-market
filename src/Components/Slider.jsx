@@ -1,4 +1,5 @@
 import React from 'react'
+import team1 from '../assest/backofc.jpg'
 
 const Slider = () => {
   return (
@@ -21,9 +22,9 @@ const Slider = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-4">
-            <img className="rounded-circle shadow-1-strong mb-4"
+            {/* <img className="rounded-circle shadow-1-strong mb-4"
               src="https://bscdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar"
-              style={{width:'150px'}} />
+              style={{width:'150px'}} /> */}
             <h5 className="mb-3">Anna Deynah</h5>
             <p>UX Designer</p>
             <p className="text-muted">
@@ -41,9 +42,9 @@ const Slider = () => {
           </div>
 
           <div className="col-lg-4 d-none d-lg-block">
-            <img className="rounded-circle shadow-1-strong mb-4"
+            {/* <img className="rounded-circle shadow-1-strong mb-4"
               src="https://bscdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"
-              style={{width:'150px'}} />
+              style={{width:'150px'}} /> */}
             <h5 className="mb-3">John Doe</h5>
             <p>Web Developer</p>
             <p className="text-muted">
@@ -63,9 +64,9 @@ const Slider = () => {
           </div>
 
           <div className="col-lg-4 d-none d-lg-block">
-            <img className="rounded-circle shadow-1-strong mb-4"
-              src="https://bscdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar"
-              style={{width:'150px'}} />
+            {/* <img className="rounded-circle shadow-1-strong mb-4"
+              src="https://bscdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" 
+              style={{width:'150px'}} />*/}
             <h5 className="mb-3">Maria Kate</h5>
             <p>Photographer</p>
             <p className="text-muted">
@@ -89,9 +90,9 @@ const Slider = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-4">
-            <img className="rounded-circle shadow-1-strong mb-4"
+            {/* <img className="rounded-circle shadow-1-strong mb-4"
               src="https://bscdn.b-cdn.net/img/Photos/Avatars/img%20(3).webp" alt="avatar"
-              style={{width:'150px'}} />
+              style={{width:'150px'}} /> */}
             <h5 className="mb-3">John Doe</h5>
             <p>UX Designer</p>
             <p className="text-muted">
@@ -109,9 +110,9 @@ const Slider = () => {
           </div>
 
           <div className="col-lg-4 d-none d-lg-block">
-            <img className="rounded-circle shadow-1-strong mb-4"
+            {/* <img className="rounded-circle shadow-1-strong mb-4"
               src="https://bscdn.b-cdn.net/img/Photos/Avatars/img%20(4).webp" alt="avatar"
-              style={{width:'150px'}}/>
+              style={{width:'150px'}}/> */}
             <h5 className="mb-3">Alex Rey</h5>
             <p>Web Developer</p>
             <p className="text-muted">
@@ -131,9 +132,9 @@ const Slider = () => {
           </div>
 
           <div className="col-lg-4 d-none d-lg-block">
-            <img className="rounded-circle shadow-1-strong mb-4"
+            {/* <img className="rounded-circle shadow-1-strong mb-4"
               src="https://bscdn.b-cdn.net/img/Photos/Avatars/img%20(5).webp" alt="avatar"
-              style={{width:'150px'}}/>
+              style={{width:'150px'}}/> */}
             <h5 className="mb-3">Maria Kate</h5>
             <p>Photographer</p>
             <p className="text-muted">
@@ -157,9 +158,9 @@ const Slider = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-4">
-            <img className="rounded-circle shadow-1-strong mb-4"
+            {/* <img className="rounded-circle shadow-1-strong mb-4"
               src="https://bscdn.b-cdn.net/img/Photos/Avatars/img%20(6).webp" alt="avatar"
-              style={{width:'150px'}} />
+              style={{width:'150px'}} /> */}
             <h5 className="mb-3">Anna Deynah</h5>
             <p>UX Designer</p>
             <p className="text-muted">
@@ -177,9 +178,9 @@ const Slider = () => {
           </div>
 
           <div className="col-lg-4 d-none d-lg-block">
-            <img className="rounded-circle shadow-1-strong mb-4"
+            {/* <img className="rounded-circle shadow-1-strong mb-4"
               src="https://bscdn.b-cdn.net/img/Photos/Avatars/img%20(8).webp" alt="avatar"
-              style={{width:'150px'}}/>
+              style={{width:'150px'}}/> */}
             <h5 className="mb-3">John Doe</h5>
             <p>Web Developer</p>
             <p className="text-muted">
@@ -199,9 +200,9 @@ const Slider = () => {
           </div>
 
           <div className="col-lg-4 d-none d-lg-block">
-            <img className="rounded-circle shadow-1-strong mb-4"
+            {/* <img className="rounded-circle shadow-1-strong mb-4"
               src="https://bscdn.b-cdn.net/img/Photos/Avatars/img%20(7).webp" alt="avatar"
-               style={{width:'150px'}}/>
+               style={{width:'150px'}}/> */}
             <h5 className="mb-3">Maria Kate</h5>
             <p>Photographer</p>
             <p className="text-muted">

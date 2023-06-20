@@ -8,7 +8,7 @@ import client4 from '../assest/client4.png'
 const Client = () => {
   return (
     <div>
-        <div className="section ">
+        <div className="clint-section ">
       <div className="container">
         <div className="row md-m-25px-b m-40px-b justify-content-center text-center">
             <div className="col-lg-6">
