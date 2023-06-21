@@ -4,7 +4,7 @@ import hold from "../assest/defIntra.jpg";
 import "./Intraday.css";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
-import {GiProfit} from 'react-icons/gi'
+import {BsArrowUpRight} from 'react-icons/bs'
 const Intraday = () => {
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -55,7 +55,7 @@ const Intraday = () => {
       <section id="services-intraday" className="services-intraday section-bg">
         <div className="container aos-init aos-animate" data-aos="fade-up">
           <div className="section-title">
-            <h2>The most common strategies used in Intraday</h2>
+            <h2>The Most Common Strategies Used In Intraday</h2>
             {/* <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> */}
           </div>
 
@@ -67,7 +67,7 @@ const Intraday = () => {
             >
               <div className="icon-box">
                 <div className="icon">
-                  <i className="bx bxl-dribbble"></i>
+                <i class="fa-solid fa-person-chalkboard"></i>
                 </div>
                 <h4>
                   <a href="">Range Trading.</a>
@@ -85,7 +85,7 @@ const Intraday = () => {
             >
               <div className="icon-box">
                 <div className="icon">
-                  <i className="bx bx-file"></i>
+                <i class="fa-solid fa-person-chalkboard"></i>
                 </div>
                 <h4>
                   <a href="">News Trading</a>
@@ -103,10 +103,10 @@ const Intraday = () => {
             >
               <div className="icon-box">
                 <div className="icon">
-                  <i className="bx bx-tachometer"></i>
+                <i class="fa-solid fa-person-chalkboard"></i>
                 </div>
                 <h4>
-                  <a href="">High-frequency trading</a>
+                  <a href="">High-Frequency Trading</a>
                 </h4>
                 <p>
                 High-frequency trading is algorithmic trading defined by high-speed trade execution, a highly large number of transactions, and very short-term investment.
@@ -121,10 +121,10 @@ const Intraday = () => {
             >
               <div className="icon-box">
                 <div className="icon">
-                  <i className="bx bx-layer"></i>
+                <i class="fa-solid fa-person-chalkboard"></i>
                 </div>
                 <h4>
-                  <a href="">Scalp Trading or Scalping</a>
+                  <a href="">Scalp Trading Or Scalping</a>
                 </h4>
                 <p>
                 Scalping is the shortest-term trading approach where investors use big trading volumes to make a profit rather than trying to raise profits for each trade.
@@ -143,10 +143,12 @@ const Intraday = () => {
             </div>
 
             <div className="col-xl-5 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
-              <h2>Benefits of Intraday Trading</h2>
+              <h2 data-aos="fade-left"  data-aos-offset="500"
+                        data-aos-duration="500">Benefits Of Intraday Trading</h2>
               {/* <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.</p> */}
 
-              <div className="icon-box">
+              <div className="icon-box" data-aos="zoom-in-up" data-aos-offset="500"
+                        data-aos-duration="500">
                 <div className="icon">
                 <i class="fa-solid fa-hourglass-end"></i>
                 </div>
@@ -158,7 +160,8 @@ const Intraday = () => {
                 </p>
               </div>
 
-              <div className="icon-box">
+              <div className="icon-box" data-aos="zoom-in-up" data-aos-offset="500"
+                        data-aos-duration="500">
                 <div className="icon">
                 <i class="fa-solid fa-sack-dollar"></i>
                 </div>
@@ -170,7 +173,8 @@ const Intraday = () => {
                 </p>
               </div>
 
-              <div className="icon-box">
+              <div className="icon-box" data-aos="zoom-in-up" data-aos-offset="500"
+                        data-aos-duration="500">
                 <div className="icon">
                 <i class="fa-solid fa-hand-holding-heart"></i>
                 </div>
@@ -181,18 +185,20 @@ const Intraday = () => {
                 Leverage means that they amplify the returns of a benchmark index by two or three times, properly.
                 </p>
               </div>
-              <div className="icon-box">
+              <div className="icon-box" data-aos="zoom-in-up" data-aos-offset="500"
+                        data-aos-duration="500">
                 <div className="icon">
                 <i class="fa-solid fa-chalkboard-user"></i>
                 </div>
                 <h4 className="title">
-                  <a href="">Great Opportunity to Learn</a>
+                  <a href="">Great Opportunity To Learn</a>
                 </h4>
                 <p className="description">
                 Stock Market Course&Technical Analysis Course for Traders to learn about trading.
                 </p>
               </div>
-              <div className="icon-box">
+              <div className="icon-box" data-aos="zoom-in-up" data-aos-offset="500"
+                        data-aos-duration="500">
                 <div className="icon">
                 <i class="fa-solid fa-layer-group"></i>
                                 </div>
@@ -218,7 +224,7 @@ const Intraday = () => {
           className="container section-title aos-init aos-animate"
           data-aos="fade-up"
         >
-          <h2>How to Make Profits in Intraday Trading</h2>
+          <h2>How To Make Profits In Intraday Trading</h2>
           {/* <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> */}
         </div>
         <div className="container">
@@ -230,7 +236,8 @@ const Intraday = () => {
             >
               <div className="service-item d-flex">
                 <div className="icon flex-shrink-0">
-                  <i className="bi bi-briefcase"></i>
+                  <BsArrowUpRight/>
+                  {/* <i className="bi bi-briefcase"></i> */}
                 </div>
                 <div>
                   <h4 className="title">
@@ -253,12 +260,14 @@ const Intraday = () => {
             >
               <div className="service-item d-flex">
                 <div className="icon flex-shrink-0">
-                  <i className="bi bi-card-checklist"></i>
+                  {/* <i className="bi bi-card-checklist"></i> */}
+                  <BsArrowUpRight/>
+
                 </div>
                 <div>
                   <h4 className="title">
                     <a href="#" className="stretched-link">
-                    Mapping Resistance and Support
+                    Mapping Resistance And Support
                     </a>
                   </h4>
                   <p className="description">
@@ -276,7 +285,8 @@ const Intraday = () => {
             >
               <div className="service-item d-flex">
                 <div className="icon flex-shrink-0">
-                  <i className="bi bi-bar-chart"></i>
+                  {/* <i className="bi bi-bar-chart"></i> */}
+                  <BsArrowUpRight/>
                 </div>
                 <div>
                   <h4 className="title">
@@ -299,7 +309,8 @@ const Intraday = () => {
             >
               <div className="service-item d-flex">
                 <div className="icon flex-shrink-0">
-                  <i className="bi bi-binoculars"></i>
+                  {/* <i className="bi bi-binoculars"></i> */}
+                  <BsArrowUpRight/>
                 </div>
                 <div>
                   <h4 className="title">
@@ -321,7 +332,8 @@ const Intraday = () => {
             >
               <div className="service-item d-flex">
                 <div className="icon flex-shrink-0">
-                  <i className="bi bi-brightness-high"></i>
+                  {/* <i className="bi bi-brightness-high"></i> */}
+                  <BsArrowUpRight/>
                 </div>
                 <div>
                   <h4 className="title">
@@ -343,7 +355,8 @@ const Intraday = () => {
             >
               <div className="service-item d-flex">
                 <div className="icon flex-shrink-0">
-                  <i className="bi bi-calendar4-week"></i>
+                  {/* <i className="bi bi-calendar4-week"></i> */}
+                  <BsArrowUpRight/>
                 </div>
                 <div>
                   <h4 className="title">
@@ -364,7 +377,7 @@ const Intraday = () => {
       <section id="services-intraday" className="services-intraday section-bg">
         <div className="container aos-init aos-animate" data-aos="fade-up">
           <div className="section-title">
-            <h2>Special Feature of Intraday Trading</h2>
+            <h2>Special Feature Of Intraday Trading</h2>
             {/* <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> */}
           </div>
 

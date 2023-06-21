@@ -91,3 +91,8 @@
     margin-top: 40px;
     font-size: 3rem;
 }
+
+.value-image img.img-responsive {
+    width: 100%;
+    height: auto;
+}

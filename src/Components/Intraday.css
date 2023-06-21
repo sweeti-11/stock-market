@@ -173,3 +173,19 @@ box-shadow: -9px -12px 35px -3px rgba(55,90,228,0.43);
     font-size: 30px;
     color: green;
   }
+
+  .intraday-stock .service-item .title:hover{
+    color: #375ae4 ;
+  }
+
+  .intraday-stock .service-item .icon {
+    
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+}
+.intraday-stock .service-item .icon svg{
+  width: 2em;
+  height: 3em;
+  margin-left: 6px;
+}
