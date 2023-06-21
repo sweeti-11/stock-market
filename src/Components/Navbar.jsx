@@ -37,7 +37,7 @@ const Navbar = () => {
             <NavLink className="nav-link" to="/platform">Platform</NavLink>
           </li>
           <li className="nav-item">
-            <Link className="nav-link desk"  >Fetures</Link>
+            <Link className="nav-link desk"  >Commodity Features</Link>
             <div className="dropdown-menu bg-light rounded-0 m-0 text-dark">
                         <Link to="/intraday" className="dropdown-item">Intraday</Link>
                         <Link to="/holding" className="dropdown-item">Holding</Link>
@@ -87,7 +87,7 @@ const Navbar = () => {
                 <a className="nav-link" href="/platform">Platform</a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link desk"  >Fetures</Link>
+                <Link className="nav-link desk"  >Commodity Features</Link>
                 <Link className="nav-link mob" to="" data-bs-toggle="dropdown">Fetures</Link>
                 <div className="dropdown-menu bg-light rounded-0 m-0 text-dark">
 
