@@ -173,6 +173,10 @@
     color: #428bca;
     font-size: 32px;
   }
+  .about .icon-box .icon svg{
+    width: 3em;
+    height: 3em;
+  }
   
   .about .icon-box:hover .icon {
     background: #428bca;

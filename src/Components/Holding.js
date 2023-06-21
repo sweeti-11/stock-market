@@ -1,9 +1,17 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Footer from "./Footer";
 import hold from "../assest/stocks.webp";
 import "./holding.css";
+import AOS from 'aos'
+import {AiOutlineStock} from "react-icons/ai";
+import {RiStockLine} from "react-icons/ri"
+import {GiStockpiles, GiGunStock} from "react-icons/gi"
 
 const Holding = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.init({ disable: 'mobile'});
+}, [])
   return (
     <div>
       <div className="mainContact">
@@ -33,9 +41,10 @@ const Holding = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
-              <img src={hold} alt="" className="img-fluid"></img>
+              <img src={hold} alt="" className="img-fluid" data-aos="flip-left"></img>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-up"
+     data-aos-duration="3000">
               <h3>What Is Holdings Stock?</h3>
               <p>
                 Stocks are certificates that represent part ownership of a
@@ -69,7 +78,8 @@ const Holding = () => {
             >
               <div class="icon-box">
                 <div class="icon">
-                  <i class="bx bxl-dribbble"></i>
+                  {/* <i class="bx bxl-dribbble"></i> */}
+                  <GiStockpiles/>
                 </div>
                 <h4>
                   <a href="">Pure Holdings</a>
@@ -88,7 +98,8 @@ const Holding = () => {
             >
               <div class="icon-box">
                 <div class="icon">
-                  <i class="bx bx-file"></i>
+                  {/* <i class="bx bx-file"></i> */}
+                 <GiStockpiles/>
                 </div>
                 <h4>
                   <a href="">Mixed Holdings</a>
@@ -107,7 +118,8 @@ const Holding = () => {
             >
               <div class="icon-box">
                 <div class="icon">
-                  <i class="bx bx-tachometer"></i>
+                  {/* <i class="bx bx-tachometer"></i> */}
+                  <GiStockpiles/>
                 </div>
                 <h4>
                   <a href="">Immediate Holdings</a>
@@ -126,7 +138,8 @@ const Holding = () => {
             >
               <div class="icon-box">
                 <div class="icon">
-                  <i class="bx bx-layer"></i>
+                  {/* <i class="bx bx-layer"></i> */}
+                  <GiStockpiles/>
                 </div>
                 <h4>
                   <a href="">Intermediate Holdings</a>
@@ -142,8 +155,8 @@ const Holding = () => {
       </section>
       <section id="about" class="about">
         <div class="container-fluid">
-          <div class="row justify-content-center">
-            <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+          <div class="row justify-content-center" data-aos="zoom-out-down">
+            <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative" >
               {/* <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a> */}
             </div>
 
@@ -153,7 +166,8 @@ const Holding = () => {
 
               <div class="icon-box">
                 <div class="icon">
-                  <i class="bx bx-fingerprint"></i>
+                  {/* <i class="bx bx-fingerprint"></i> */}
+                  <AiOutlineStock/>
                 </div>
                 <h4 class="title">
                   <a href="">Common stock</a>
@@ -166,7 +180,8 @@ const Holding = () => {
 
               <div class="icon-box">
                 <div class="icon">
-                  <i class="bx bx-gift"></i>
+                  {/* <i class="bx bx-gift"></i> */}
+                  <RiStockLine/>
                 </div>
                 <h4 class="title">
                   <a href="">Preferred stock</a>
@@ -203,7 +218,8 @@ const Holding = () => {
             >
               <div class="service-item d-flex">
                 <div class="icon flex-shrink-0">
-                  <i class="bi bi-briefcase"></i>
+                  {/* <i class="bi bi-briefcase"></i> */}
+                  <GiGunStock/>
                 </div>
                 <div>
                   <h4 class="title">
@@ -226,7 +242,8 @@ const Holding = () => {
             >
               <div class="service-item d-flex">
                 <div class="icon flex-shrink-0">
-                  <i class="bi bi-card-checklist"></i>
+                  {/* <i class="bi bi-card-checklist"></i> */}
+                  <GiGunStock/>
                 </div>
                 <div>
                   <h4 class="title">
@@ -249,7 +266,8 @@ const Holding = () => {
             >
               <div class="service-item d-flex">
                 <div class="icon flex-shrink-0">
-                  <i class="bi bi-bar-chart"></i>
+                  {/* <i class="bi bi-bar-chart"></i> */}
+                  <GiGunStock/>
                 </div>
                 <div>
                   <h4 class="title">
@@ -272,7 +290,8 @@ const Holding = () => {
             >
               <div class="service-item d-flex">
                 <div class="icon flex-shrink-0">
-                  <i class="bi bi-binoculars"></i>
+                  {/* <i class="bi bi-binoculars"></i> */}
+                  <GiGunStock/>
                 </div>
                 <div>
                   <h4 class="title">
@@ -294,7 +313,8 @@ const Holding = () => {
             >
               <div class="service-item d-flex">
                 <div class="icon flex-shrink-0">
-                  <i class="bi bi-brightness-high"></i>
+                  {/* <i class="bi bi-brightness-high"></i> */}
+                  <GiGunStock/>
                 </div>
                 <div>
                   <h4 class="title">
@@ -316,7 +336,8 @@ const Holding = () => {
             >
               <div class="service-item d-flex">
                 <div class="icon flex-shrink-0">
-                  <i class="bi bi-calendar4-week"></i>
+                  {/* <i class="bi bi-calendar4-week"></i> */}
+                  <GiGunStock/>
                 </div>
                 <div>
                   <h4 class="title">

@@ -1,6 +1,8 @@
 import React from 'react'
 import team1 from '../assest/backofc.jpg'
 import './Slider.css'
+import { motion, AnimatePresence} from "framer-motion"
+
 
 const Slider = () => {
   return (
@@ -22,6 +24,16 @@ const Slider = () => {
           <div className="carousel-item active">
             <div className="container">
               <div className="row">
+              <AnimatePresence>
+              <motion.div
+                style={{
+                    width: 220,
+                    height: 220,
+                    borderRadius: 30,
+                    backgroundColor: "#fff",
+                }}
+                whileHover={{ scale: 0.9 }}
+            >
                 <div className="col-lg-2">
                   <div className="card text-center" style={{ width: '11rem' }}>
                     <div className="card-body ">
@@ -32,7 +44,18 @@ const Slider = () => {
                     </div>
                   </div>
                 </div>
-
+</motion.div>
+            </AnimatePresence>
+            <AnimatePresence>
+              <motion.div
+                style={{
+                    width: 220,
+                    height: 220,
+                    borderRadius: 30,
+                    backgroundColor: "#fff",
+                }}
+                whileHover={{ scale: 0.9 }}
+            >
                 <div className="col-lg-2 d-none d-lg-block">
                   <div className="card text-center" style={{ width: '11rem'}}>
                     <div className="card-body">
@@ -44,7 +67,18 @@ const Slider = () => {
                     </div>
                   </div>
                 </div>
-
+</motion.div>
+</AnimatePresence>
+ <AnimatePresence>
+              <motion.div
+                style={{
+                    width: 220,
+                    height: 220,
+                    borderRadius: 30,
+                    backgroundColor: "#fff",
+                }}
+                whileHover={{ scale: 0.9 }}
+            >
                 <div className="col-lg-2 d-none d-lg-block">
                   <div className="card text-center" style={{ width: '11rem'}}>
                     <div className="card-body">
@@ -56,6 +90,18 @@ const Slider = () => {
                     </div>
                   </div>
                 </div>
+                </motion.div>
+                </AnimatePresence>
+                <AnimatePresence>
+              <motion.div
+                style={{
+                    width: 220,
+                    height: 220,
+                    borderRadius: 30,
+                    backgroundColor: "#fff",
+                }}
+                whileHover={{ scale: 0.9 }}
+            >
                 <div className="col-lg-2 d-none d-lg-block">
                   <div className="card text-center" style={{ width: '11rem' }}>
                     <div className="card-body">
@@ -67,6 +113,18 @@ const Slider = () => {
                     </div>
                   </div>
                 </div>
+                </motion.div>
+                </AnimatePresence>
+                <AnimatePresence>
+              <motion.div
+                style={{
+                    width: 220,
+                    height: 220,
+                    borderRadius: 30,
+                    backgroundColor: "#fff",
+                }}
+                whileHover={{ scale: 0.9 }}
+            >
                 <div className="col-lg-2 d-none d-lg-block">
                   <div className="card text-center" style={{ width: '11rem' }}>
                     <div className="card-body">
@@ -78,6 +136,18 @@ const Slider = () => {
                     </div>
                   </div>
                 </div>
+                </motion.div>
+                </AnimatePresence>
+                <AnimatePresence>
+              <motion.div
+                style={{
+                    width: 220,
+                    height: 220,
+                    borderRadius: 30,
+                    backgroundColor: "#fff",
+                }}
+                whileHover={{ scale: 0.9 }}
+            >
                 <div className="col-lg-2 d-none d-lg-block">
                   <div className="card text-center" style={{ width: '11rem'}}>
                     <div className="card-body">
@@ -89,13 +159,24 @@ const Slider = () => {
                     </div>
                   </div>
                 </div>
+                </motion.div>
+                </AnimatePresence>
               </div>
             </div>
           </div>
-
           <div className="carousel-item">
             <div className="container">
               <div className="row">
+               <AnimatePresence>
+              <motion.div
+                style={{
+                    width: 220,
+                    height: 220,
+                    borderRadius: 30,
+                    backgroundColor: "#fff",
+                }}
+                whileHover={{ scale: 0.9 }}
+            >
                 <div className="col-lg-2">
                   <div className="card text-center" style={{ width: '11rem' }}>
                     <div className="card-body">
@@ -106,7 +187,18 @@ const Slider = () => {
                     </div>
                   </div>
                 </div>
-
+</motion.div>
+</AnimatePresence>
+ <AnimatePresence>
+              <motion.div
+                style={{
+                    width: 220,
+                    height: 220,
+                    borderRadius: 30,
+                    backgroundColor: "#fff",
+                }}
+                whileHover={{ scale: 0.9 }}
+            >
                 <div className="col-lg-2 d-none d-lg-block">
                   <div className="card text-center" style={{ width: '11rem' }}>
                     <div className="card-body">
@@ -117,7 +209,18 @@ const Slider = () => {
                     </div>
                   </div>
                 </div>
-
+            </motion.div>
+            </AnimatePresence>
+            <AnimatePresence>
+              <motion.div
+                style={{
+                    width: 220,
+                    height: 220,
+                    borderRadius: 30,
+                    backgroundColor: "#fff",
+                }}
+                whileHover={{ scale: 0.9 }}
+            >
                 <div className="col-lg-2 d-none d-lg-block">
                   <div className="card text-center" style={{ width: '11rem'}}>
                     <div className="card-body">
@@ -128,6 +231,18 @@ const Slider = () => {
                     </div>
                   </div>
                 </div>
+                </motion.div>
+                </AnimatePresence>
+                <AnimatePresence>
+              <motion.div
+                style={{
+                    width: 220,
+                    height: 220,
+                    borderRadius: 30,
+                    backgroundColor: "#fff",
+                }}
+                whileHover={{ scale: 0.9 }}
+            >
                 <div className="col-lg-2 d-none d-lg-block">
                   <div className="card text-center" style={{ width: '11rem' }}>
                     <div className="card-body">
@@ -138,6 +253,18 @@ const Slider = () => {
                     </div>
                   </div>
                 </div>
+                </motion.div>
+                </AnimatePresence>
+                <AnimatePresence>
+              <motion.div
+                style={{
+                    width: 220,
+                    height: 220,
+                    borderRadius: 30,
+                    backgroundColor: "#fff",
+                }}
+                whileHover={{ scale: 0.9 }}
+            >
                 <div className="col-lg-2 d-none d-lg-block">
                   <div className="card text-center" style={{ width: '11rem' }}>
                     <div className="card-body">
@@ -148,6 +275,18 @@ const Slider = () => {
                     </div>
                   </div>
                 </div>
+                </motion.div>
+                </AnimatePresence>
+                <AnimatePresence>
+              <motion.div
+                style={{
+                    width: 220,
+                    height: 220,
+                    borderRadius: 30,
+                    backgroundColor: "#fff",
+                }}
+                whileHover={{ scale: 0.9 }}
+            >
                 <div className="col-lg-2 d-none d-lg-block">
                   <div className="card text-center" style={{ width: '11rem' }}>
                     <div className="card-body">
@@ -158,6 +297,8 @@ const Slider = () => {
                     </div>
                   </div>
                 </div>
+                </motion.div>
+                </AnimatePresence>
               </div>
             </div>
           </div>
@@ -165,6 +306,16 @@ const Slider = () => {
           <div className="carousel-item">
             <div className="container">
               <div className="row">
+              <AnimatePresence>
+              <motion.div
+                style={{
+                    width: 220,
+                    height: 220,
+                    borderRadius: 30,
+                    backgroundColor: "#fff",
+                }}
+                whileHover={{ scale: 0.9 }}
+            >
                 <div className="col-lg-2">
                   <div className="card text-center" style={{ width: '11rem' }}>
                     <div className="card-body">
@@ -175,7 +326,18 @@ const Slider = () => {
                     </div>
                   </div>
                 </div>
-
+</motion.div>
+</AnimatePresence>
+ <AnimatePresence>
+              <motion.div
+                style={{
+                    width: 220,
+                    height: 220,
+                    borderRadius: 30,
+                    backgroundColor: "#fff",
+                }}
+                whileHover={{ scale: 0.9 }}
+            >
                 <div className="col-lg-2 d-none d-lg-block">
                   <div className="card text-center" style={{ width: '11rem' }}>
                     <div className="card-body">
@@ -186,7 +348,18 @@ const Slider = () => {
                     </div>
                   </div>
                 </div>
-
+</motion.div>
+</AnimatePresence>
+ <AnimatePresence>
+              <motion.div
+                style={{
+                    width: 220,
+                    height: 220,
+                    borderRadius: 30,
+                    backgroundColor: "#fff",
+                }}
+                whileHover={{ scale: 0.9 }}
+            >
                 <div className="col-lg-2 d-none d-lg-block">
                   <div className="card text-center" style={{ width: '11rem' }}>
                     <div className="card-body">
@@ -197,6 +370,18 @@ const Slider = () => {
                     </div>
                   </div>
                 </div>
+                </motion.div>
+                </AnimatePresence>
+                <AnimatePresence>
+              <motion.div
+                style={{
+                    width: 220,
+                    height: 220,
+                    borderRadius: 30,
+                    backgroundColor: "#fff",
+                }}
+                whileHover={{ scale: 0.9 }}
+            >
                 <div className="col-lg-2 d-none d-lg-block">
                   <div className="card text-center" style={{ width: '11rem' }}>
                     <div className="card-body">
@@ -207,6 +392,18 @@ const Slider = () => {
                     </div>
                   </div>
                 </div>
+                </motion.div>
+                </AnimatePresence>
+                <AnimatePresence>
+              <motion.div
+                style={{
+                    width: 220,
+                    height: 220,
+                    borderRadius: 30,
+                    backgroundColor: "#fff",
+                }}
+                whileHover={{ scale: 0.9 }}
+            >
                 <div className="col-lg-2 d-none d-lg-block">
                   <div className="card text-center" style={{ width: '11rem' }}>
                     <div className="card-body">
@@ -217,6 +414,18 @@ const Slider = () => {
                     </div>
                   </div>
                 </div>
+                </motion.div>
+                </AnimatePresence>
+                <AnimatePresence>
+              <motion.div
+                style={{
+                    width: 220,
+                    height: 220,
+                    borderRadius: 30,
+                    backgroundColor: "#fff",
+                }}
+                whileHover={{ scale: 0.9 }}
+            >
                 <div className="col-lg-2 d-none d-lg-block">
                   <div className="card text-center" style={{ width: '11rem' }}>
                     <div className="card-body">
@@ -227,7 +436,8 @@ const Slider = () => {
                     </div>
                   </div>
                 </div>
-                
+                </motion.div>
+                </AnimatePresence>
               </div>
             </div>
           </div>

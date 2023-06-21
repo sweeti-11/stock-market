@@ -1,3 +1,7 @@
+.services-holding .icon-box .icon svg{
+  width: 2em;
+  height: 2em;
+}
 .holding img{
     margin-top: 40px;
 }
@@ -5,10 +9,15 @@
     margin-top: 40px;
     font-size: 2rem;
 }
+.holding h3:hover{
+  color: #375ae4;
+}
+
 .holding p{
     font-size: 1.2rem;
     margin-top: 15px;
 }
+
 /* .holding-box{
     margin-top: 60px;
 }
