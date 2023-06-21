@@ -2,10 +2,15 @@ import React from 'react'
 import Footer from './Footer'
 import mobile from '../assest/mobile.png'
 import web from '../assest/web.png'
+import { motion, useTime, useTransform } from "framer-motion";
+
 
 import './platform.css'
 
 const Platform = () => {
+    const time = useTime();
+    const rotate = useTransform(time, [0, 4000], [0, 360], { clamp: false });
+
   return (
     <div>
          <div className='mainContact'>
@@ -28,7 +33,9 @@ const Platform = () => {
             <h2 className='text-center'>Mobile</h2>
             <div className='row'>
             <div className='col-lg-6'>
+            <motion.div style={{ rotate }}>
             <img src={mobile} style={{paddingTop:"76px", paddingLeft:"176px",paddingRight:"176px", paddingBottom:"76px"}}></img>
+            </motion.div>
             </div>
             <div className='col-lg-6'>
             <h2>MULTIPLE WATCH LIST</h2>

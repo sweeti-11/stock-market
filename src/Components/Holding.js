@@ -21,7 +21,7 @@ const Holding = () => {
         >
           <div className="container text-center py-5">
             <h1 className="display-2 text-dark mb-4 animated slideInDown">
-              Holdings
+              Holdings Stocks
             </h1>
             <nav aria-label="breadcrumb animated slideInDown">
               <ol className="breadcrumb justify-content-center mb-0">
