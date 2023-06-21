@@ -1,6 +1,6 @@
 import React from 'react'
 import './Feature.css'
-
+import { Link } from 'react-router-dom'
 const feature = () => {
   return (
     <div>
@@ -24,6 +24,7 @@ const feature = () => {
                             <p className="description showMore">
                                 We are providing 24*7 customized support on any query for about stock market.
                             </p>
+                            <Link to="/intraday" type='button' className='btn btn-primary'>Read More</Link>
                         </div>
                     </div>
                   </div>
@@ -49,11 +50,13 @@ const feature = () => {
                         </div>
                         <div className="service-Content">
                             <h3 className="title">
-                            Holdings
+                            Holdings Stock
                             </h3>
                             <p className="description showMore">
                                 Support given through SMS and on our own instant, All GSM and CDMA networks.
                             </p>
+                            <Link to="/holding" type='button' className='btn btn-primary'>Read More</Link>
+
                         </div>
                     </div>
                   </div>
@@ -69,6 +72,8 @@ const feature = () => {
                             <p className="description showMore">
                                 Update track sheets, stock reports and commodity reports guides.
                             </p>
+                            <Link to="/margin" type='button' className='btn btn-primary'>Read More</Link>
+
                         </div>
                     </div>
                   </div>
