@@ -6,13 +6,13 @@ import client3 from '../assest/client3.png'
 import client4 from '../assest/client4.png'
 
 const Client = () => {
-  return (
-    <div>
+  return (    
+    <div >
         <div className="clint-section ">
       <div className="container">
         <div className="row md-m-25px-b m-40px-b justify-content-center text-center">
             <div className="col-lg-6">
-                <h3 className="h1 m-15px-b">What Our Clients Says !</h3>
+                <h3 className="h1 m-14px-b">What Our Clients Says !</h3>
             </div>
         </div>
         <div className="row">

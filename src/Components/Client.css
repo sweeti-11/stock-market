@@ -192,3 +192,10 @@
 	bottom:-85px;
 }
 }
+
+.clint-section{
+  /* background: url("../assest/trade1.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #e9dfdf;
+}

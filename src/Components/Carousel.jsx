@@ -1,7 +1,7 @@
 import React from 'react'
 import './Carousel.css'
 import { Swiper, SwiperSlide } from "swiper/react";
-import video from "../assest/Header Video.mp4";
+import video from "../assest/stockvideo3.mp4";
 import { useEffect, useState } from "react";
 import video2 from "../assest/video2.mp4";
 import video3 from "../assest/video3.mp4";
