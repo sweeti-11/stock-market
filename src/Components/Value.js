@@ -16,7 +16,7 @@ const Value = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 width-30">
+                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 width-50">
                         <div className="value-main-section" data-aos="zoom-in" data-aos-duration="1000">
                             <div className="value-image">
                                 {/* <img  src={require("../assest/intradaybg.jpg")} alt="straightforward" className="img-responsive"/> */}
@@ -25,7 +25,7 @@ const Value = () => {
                             <p>We are open and transparent with our customers and with each other</p>
                         </div>
                     </div>
-                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 width-30">
+                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 width-50">
                         <div className="value-main-section" data-aos="zoom-in" data-aos-duration="1000">
                             <div className="value-image">
                                 {/* <img src={require("../assest/intradaybg.jpg")} alt="humable" className="img-responsive"/> */}
@@ -34,7 +34,7 @@ const Value = () => {
                             <p>We seek and value feedback to serve you better and get better everyday</p>
                         </div>
                     </div>
-                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 width-30">
+                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 width-50">
                         <div className="value-main-section" data-aos="zoom-in" data-aos-duration="1000">
                             <div className="value-image">
                                 {/* <img src={require("../assest/intradaybg.jpg")} alt="your-first" className="img-responsive"/> */}
@@ -43,7 +43,7 @@ const Value = () => {
                             <p>Keeping our clients first – because they are at the heart of everything we do</p>
                         </div>
                     </div>
-                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 width-30">
+                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 width-50">
                         <div className="value-main-section" data-aos="zoom-in" data-aos-duration="1000">
                             <div className="value-image">
                                 {/* <img src={require("../assest/intradaybg.jpg")} alt="gritty" className="img-responsive"/> */}
@@ -52,7 +52,7 @@ const Value = () => {
                             <p>We constantly work towards creating value for our clients through objective advice</p>
                         </div>
                     </div>
-                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 width-30">
+                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 width-50">
                         <div className="value-main-section" data-aos="zoom-in" data-aos-duration="1000">
                             <div className="value-image">
                                 {/* <img src={require("../assest/intradaybg.jpg")} alt="curious" className="img-responsive"/> */}
@@ -61,7 +61,7 @@ const Value = () => {
                             <p>We are constantly learning and improving to enhance client experience through innovation</p>
                         </div>
                     </div>
-                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 width-30">
+                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 width-50">
                         <div className="value-main-section" data-aos="zoom-in" data-aos-duration="1000">
                             <div className="value-image">
                                 {/* <img src={require("../assest/intradaybg.jpg")} alt="simplicity" className="img-responsive"/> */}
