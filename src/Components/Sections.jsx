@@ -1,7 +1,7 @@
 import React from 'react'
 import Carousel from './Carousel'
 import Footer from './Footer'
-// import Contact from './Contact'
+//  import Contact from './Contact'
 import Client from './Client'
 import Feature from './Feature'
 import Value from './Value'
@@ -20,7 +20,6 @@ function Sections() {
     <Feature/> 
     <Benefit/>
     <Market/>
-    <Client/>
     {/* <Contact/>  */}
     <Footer />
     
