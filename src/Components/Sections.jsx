@@ -21,6 +21,7 @@ function Sections() {
     <Benefit/>
     <Market/>
     {/* <Contact/>  */}
+    <Client/>
     <Footer />
     
    </>
