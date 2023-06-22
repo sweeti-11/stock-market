@@ -35,7 +35,7 @@ const Services = () => {
               <div className="team_member">
                 <img src={team1} alt="team" />
                 <div className="overlay">
-                  <h3><span>Hover me</span></h3>
+                  <h3><span>24/7 Online</span></h3>
                   <p>24/7 Online back office support</p>
                   <ul className="team_social">
                     <li><a href="#"><i >{<BsFacebook/>}</i></a></li>
@@ -55,7 +55,7 @@ const Services = () => {
               <div className="team_member">
                 <img src={team2} alt="team" />
                 <div className="overlay">
-                  <h3><span>Hover me</span></h3>
+                  <h3><span>Sms Service</span></h3>
                   <p>SMS Services</p>
                   <ul className="team_social">
                     <li><a href="#"><i>{<BsFacebook/>}</i></a></li>
@@ -78,7 +78,7 @@ const Services = () => {
               <div className="team_member">
                 <img src={team3} alt="team" />
                 <div className="overlay">
-                  <h3><span>Hover me</span></h3>
+                  <h3><span>Free Calls</span></h3>
                   <p>Free Sure calls provide in intraday and holding.</p>
                   <ul className="team_social">
                     <li><a href="#"><i>{<BsFacebook/>}</i></a></li>
@@ -100,7 +100,7 @@ const Services = () => {
               <div className="team_member">
                 <img src={team4} alt="team" />
                 <div className="overlay">
-                  <h3><span>Hover me</span></h3>
+                  <h3><span>Exceutive </span></h3>
                   <p>Best Exceutive Support.</p>
                   <ul className="team_social">
                     <li><a href="#"><i>{<BsFacebook/>}</i></a></li>
@@ -121,7 +121,7 @@ const Services = () => {
               <div className="team_member">
                 <img src={team5} alt="team" />
                 <div className="overlay">
-                  <h3><span>Hover me</span></h3>
+                  <h3><span>Trade Option</span></h3>
                   <p>Call in trade option</p>
                   <ul className="team_social">
                     <li><a href="#"><i>{<BsFacebook/>}</i></a></li>
@@ -142,7 +142,7 @@ const Services = () => {
               <div className="team_member">
                 <img src={team6} alt="team" />
                 <div className="overlay">
-                  <h3><span>Hover me</span></h3>
+                  <h3><span>Payin Payout</span></h3>
                   <p>Easy Payin and payout.</p>
                   <ul className="team_social">
                     <li><a href="#"><i>{<BsFacebook/>}</i></a></li>
@@ -163,7 +163,7 @@ const Services = () => {
               <div className="team_member">
                 <img src={team7} alt="team" />
                 <div className="overlay">
-                  <h3><span>Hover me</span></h3>
+                  <h3><span>Brokerage</span></h3>
                   <p>Low Brokerage - Flat ₹10/order</p>
                   <ul className="team_social">
                     <li><a href="#"><i >{<BsFacebook/>}</i></a></li>

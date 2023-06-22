@@ -62,7 +62,7 @@
     margin-bottom: 15px;
 }
 .serviceBox .description{
-    font-size: 20px;
+    font-size: 21px;
     font-family: 'Times New Roman', Times, serif;
     color: #666;
     line-height: 27px;
@@ -608,4 +608,11 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     font-size:15px;
     font-family: emoji;
     font-weight: 700;
+}
+
+ul.team_social {
+    padding: 10px;
+}
+.team_social li{
+    padding-left: 10px;
 }

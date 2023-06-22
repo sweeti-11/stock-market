@@ -77,3 +77,12 @@
 .m-60px-nt {
   margin-top: -60px;
 }
+
+
+@media only screen and (max-width: 1366px) and (min-width: 768px)
+{
+  .serviceBox{
+   
+    height: 250px;
+  }
+}
