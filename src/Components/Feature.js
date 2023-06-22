@@ -1,14 +1,16 @@
 import React from 'react'
 import './Feature.css'
+import './services.css'
 import { Link } from 'react-router-dom'
 const feature = () => {
   return (
     <div>
-         <section className="section bottom-animate">
+         <section id="feature" className="section feature bottom-animate" style={{backgroundColor:"aquamarine", marginTop:"60px"}}>
             <div className="container">
               <div className="row md-m-25 px-b m-40 px-b justify-content-center text-center">
                   <div className="col-lg-6">
-                      <h3 className="" style={{fontSize:"3rem", marginTop:"40px", marginBottom:"50px"}}>Commodity Features</h3>
+                      <h3 className="" style={{fontSize:"3rem", marginTop:"40px", marginBottom:"50px", color
+                      : "#375ae4 "}}>Commodity Features</h3>
                   </div>
               </div>
                 <div className="row">
@@ -70,7 +72,7 @@ const feature = () => {
                               Best Margin Available
                             </h3>
                             <p className="description showMore">
-                                Update track sheets, stock reports and commodity reports guides.
+                                Update track sheets, stock reports and commodity reports guides stock.
                             </p>
                             <Link to="/margin" type='button' className='btn btn-primary'>Read More</Link>
 

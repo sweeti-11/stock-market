@@ -15,7 +15,7 @@ const Slider = () => {
           <img src={require("../assest/relince.png")} alt="card-img"/>
 						<p class="text-white mb-0">Relince Jio</p>
             <p className="card-text-price text-white mb-0">500 ₹/-</p>
-            <p className="card-price incriment-decrimetn mb-3" style={{fontSize:"15px"}} >
+            <p className="card-price incriment-decrimetn" >
                             +6.00(1.35%)
                           </p>
 					</div>
