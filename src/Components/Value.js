@@ -1,6 +1,5 @@
 import React from 'react'
 import './value.css'
-import Background from '../assest/value.jpg'
 
 const Value = () => {
   return (
