@@ -85,8 +85,7 @@ const Holding = () => {
                   <a href="">Pure Holdings</a>
                 </h4>
                 <p>
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi
+                A pure holding company is one that only stays as a vehicle for ownership of alternative firms. These companies do not compete in any other category of business
                 </p>
               </div>
             </div>
@@ -105,8 +104,7 @@ const Holding = () => {
                   <a href="">Mixed Holdings</a>
                 </h4>
                 <p>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore
+                A mixed holding company is one that has its individual business operations, in addition to managing its subsidiaries. A separate word for this is a holding-operating company.
                 </p>
               </div>
             </div>
@@ -125,8 +123,7 @@ const Holding = () => {
                   <a href="">Immediate Holdings</a>
                 </h4>
                 <p>
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia
+                An immediate holding company is a company that individual other companies but is itself owned by another entity. In short, these are holding companies that are owned by another holding company.
                 </p>
               </div>
             </div>
@@ -145,8 +142,7 @@ const Holding = () => {
                   <a href="">Intermediate Holdings</a>
                 </h4>
                 <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis
+                An immediate holding company, these are holding company that is also a subsidiary of a bigger business.
                 </p>
               </div>
             </div>
@@ -173,8 +169,7 @@ const Holding = () => {
                   <a href="">Common stock</a>
                 </h4>
                 <p class="description">
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi sint occaecati cupiditate non provident
+                Common stock is a security that performs ownership in a business. It's an essential share of ownership
                 </p>
               </div>
 
@@ -187,8 +182,7 @@ const Holding = () => {
                   <a href="">Preferred stock</a>
                 </h4>
                 <p class="description">
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis praesentium voluptatum deleniti atque
+                Preferred stock is a type of capital stock expressed by some businesses in addition to its common stock.
                 </p>
               </div>
 
@@ -228,8 +222,7 @@ const Holding = () => {
                     </a>
                   </h4>
                   <p class="description">
-                    Voluptatum deleniti atque corrupti quos dolores et quas
-                    molestias excepturi sint occaecati cupiditate non provident
+                  One of the major benefits of a long-term investment path is money. Keeping your stocks in your folder or portfolio longer is more cost-effective than daily buying and selling.
                   </p>
                 </div>
               </div>
@@ -252,8 +245,7 @@ const Holding = () => {
                     </a>
                   </h4>
                   <p class="description">
-                    Minim veniam, quis nostrud exercitation ullamco laboris nisi
-                    ut aliquip ex ea commodo consequat tarad limino ata
+                  When you invest your money in the stock markets for a long time duration. The taxes applicable on the revenue generated through these investments are taxed at a minor tax.
                   </p>
                 </div>
               </div>
@@ -276,8 +268,7 @@ const Holding = () => {
                     </a>
                   </h4>
                   <p class="description">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur
+                  Just like the applicable taxes, the charges that you have to pay for a long-term account are lower commissions.
                   </p>
                 </div>
               </div>
@@ -300,8 +291,7 @@ const Holding = () => {
                     </a>
                   </h4>
                   <p class="description">
-                    Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum
+                  Compounded returns are corporate profits shared by companies with a track file of success. These companies pay regular dividends—commonly each quarter—to eligible shareholders.
                   </p>
                 </div>
               </div>
@@ -323,8 +313,7 @@ const Holding = () => {
                     </a>
                   </h4>
                   <p class="description">
-                    At vero eos et accusamus et iusto odio dignissimos ducimus
-                    qui blanditiis praesentium voluptatum deleniti atque
+                  Investors have the event to drive out some of these highs and lows over a cycle of many years oreven decades to bring about a better long-term return.
                   </p>
                 </div>
               </div>
@@ -346,8 +335,7 @@ const Holding = () => {
                     </a>
                   </h4>
                   <p class="description">
-                    Et harum quidem rerum facilis est et expedita distinctio.
-                    Nam libero tempore, cum soluta nobis est eligendi
+                  Long-Term Returns that are best for you depend on certain factors, including your age, risk profile and tolerance, investment goals, and the amount of capital you have. It belongs to long-term returns.
                   </p>
                 </div>
               </div>
