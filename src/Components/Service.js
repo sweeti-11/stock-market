@@ -35,7 +35,8 @@ const Service = () => {
           <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
         </div>
 
-        <div class="row gy-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 aos-init aos-animate" data-aos="zoom-out-down" data-aos-offset="500"
+                        data-aos-duration="500">
 
           <div class="col-lg-4 col-md-6">
             <div class="service-item  position-relative">
@@ -49,7 +50,7 @@ const Service = () => {
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-6" >
             <div class="service-item position-relative">
               <div class="icon">
               <BsFillStarFill className='fa-fade'/>
@@ -121,7 +122,8 @@ const Service = () => {
     <section id="service-2" className='service-2'>
     <div className='container'>
     <div className='row'>
-        <div className='col-lg-6'>
+        <div className='col-lg-6' data-aos="fade-right" data-aos-offset="500"
+                        data-aos-duration="500">
         <img src={se} alt="" className='img-fluid'></img>
         </div>
         <div class="col-lg-6 d-flex justify-content-center flex-column aos-init aos-animate" data-aos="fade-up">

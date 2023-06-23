@@ -197,10 +197,22 @@
   /* background: url("../assest/trade1.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #e9dfdf;
+  background-color: #AED7EA;
   margin-bottom: -48px;
 }
 
 .clint-section .col-lg-6{
   padding: 23px;
 }
+.clint-c .owl-wrapper-outer .owl-wrapper .owl-item{
+  width: 278px;
+}
+
+
+@media only screen and  (max-width:768px)
+{
+  .clint-c .owl-wrapper-outer .owl-wrapper .owl-item{
+  width: 350px !important;
+  }
+}
+

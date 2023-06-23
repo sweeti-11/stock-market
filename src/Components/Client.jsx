@@ -8,7 +8,7 @@ import client4 from '../assest/client4.png'
 const Client = () => {
   return (    
     <div >
-        <div className="clint-section ">
+        <div className="clint-section " style={{marginTop:'20px'}}>
       <div className="container">
         <div className="row md-m-25px-b m-40px-b justify-content-center text-center">
             <div className="col-lg-6">
@@ -17,9 +17,11 @@ const Client = () => {
         </div>
         <div className="row">
             <div className="col-md-12 col-lg-12 col-sm-6">
-                <div id="testimonial-slider" className="owl-carousel owl-theme" style={{opacity:"1",display:"block"}} >
-                    <div className="owl-wrapper-outer"><div className="owl-wrapper"  style={{width:"2224px", left:"0px" , display:"flex" , transition:"all 1000ms ease 0s", transform:"translate3d(0px,0px,0px)"}}>
-                        <div className="owl-item"  style={{width:"278px"}}><div className="testimonial">
+                <div id="testimonial-slider" className="owl-carousel owl-theme clint-c" style={{opacity:"1",display:"block"}} >
+                    <div className="owl-wrapper-outer">
+                      <div className="owl-wrapper"  style={{ left:"0px"  , transition:"all 1000ms ease 0s", transform:"translate3d(0px,0px,0px)"}}>
+                        <div className="owl-item" >
+                          <div className="testimonial">
                         <div className="pic">
                             <img src={client1} alt="client"/>
                         </div>
@@ -34,8 +36,10 @@ const Client = () => {
                         </ul>
                         <h3 className="title">Ravi Patel
                         </h3>
-                    </div></div>
-                    <div className="owl-item" style={{width:"278px"}} ><div className="testimonial">
+                    </div>
+                    </div>
+                    <div className="owl-item"  >
+                      <div className="testimonial">
                         <div className="pic">
                             <img src={client2} alt=""/>
                         </div>
@@ -49,7 +53,10 @@ const Client = () => {
                           <li><i className="fa fa-star" aria-hidden="true"></i></li>
                           <li><i className="fa fa-star" aria-hidden="true"></i></li>
                         </ul>
-                    </div></div><div className="owl-item"  style={{width:"278px"}}><div className="testimonial">
+                    </div>
+                    </div>
+                    <div className="owl-item" >
+                      <div className="testimonial">
                         <div className="pic">
                             <img src={client3}  alt=""/>
                         </div>
@@ -65,7 +72,10 @@ const Client = () => {
                           <li><i className="fa fa-star" aria-hidden="true"></i></li>
                           <li><i className="fa fa-star" aria-hidden="true"></i></li>
                         </ul>
-                    </div></div><div className="owl-item"  style={{width:"278px"}}><div className="testimonial">
+                    </div>
+                    </div>
+                    <div className="owl-item" >
+                      <div className="testimonial">
                         <div className="pic">
                             <img src={client4}  alt=""/>
                         </div>
@@ -80,7 +90,10 @@ const Client = () => {
                           <li><i className="fa fa-star" aria-hidden="true"></i></li>
                           <li><i className="fa fa-star" aria-hidden="true"></i></li>
                         </ul>
-                    </div></div></div></div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
 
                     
                     
