@@ -15,7 +15,7 @@
   } 
   .content {
     /* position: absolute; */
-    width: 100%;
+    width: 100% !important;
     height: 100%;
     top: 0;
     display: flex;
@@ -150,30 +150,35 @@
       padding: 10px;
       margin-top: 4px;
       margin-right: 0px;
-      margin-left: 0px;
+      margin-left: 30px;
       font-size: 12px;
     }
     .buttonStyle {
       padding:10px;
       margin-right: 0px;
-      margin-left: 0px;
+      margin-left: 30px;
       font-size: 12px;
     }
     .h2_text{
       font-size: 32px;
-      margin-top: 0px;
+      margin-top: 150px;
+      margin-left: 30px;
     
     }
     .second_h2_text{
       font-size: 30px;
       margin-top: 15px;
+      margin-left: 30px;
+
     }
     .p_text{
       font-size: 20px;
       width: 340px;
       margin-top: 15px;
+      margin-left: 30px;
+
     }
-    .container button[type="button"]{
+    .carousel-indicators button[type="button"]{
       display: none;
     }
     .content {
@@ -423,3 +428,4 @@ a.btn.btn-success.rounded-pill.py-2.px-5.animated.zoomIn.mt-5
 
 }
  */ 
+ 
