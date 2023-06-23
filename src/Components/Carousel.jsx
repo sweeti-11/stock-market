@@ -96,10 +96,10 @@ function Carousel() {
             >
             
               <h2 className="h2_text">
-                fdhggkjhjkghjg
+                fdhggkjhjkghjg sadkckmasofmOSFMOmfo
                 <br />
               </h2>
-              <h2 className="second_h2_text">hjgfyhiljkj</h2>
+              <h2 className="second_h2_text">hjgfyhiljkj lkmkmkm;km;lm</h2>
               <p className="p_text">nvjhghjgghfgh</p>
               <button className="buttonStyle">
                 

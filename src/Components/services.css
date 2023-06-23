@@ -635,3 +635,13 @@ ul.team_social {
 .team_social li{
     padding-left: 10px;
 }
+
+@media only screen and (max-width: 767px) {
+    .section-title p{
+        padding: 0px;  
+    }
+    .team_member img {
+        
+        margin-top: 10px;
+    }
+}

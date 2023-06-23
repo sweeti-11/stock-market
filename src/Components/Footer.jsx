@@ -33,14 +33,18 @@ function Footer() {
               <h4 className="text-light mb-4">Quick Links</h4>
               <a className="btn btn-link" href="/aboutus"> About</a>
               <a className="btn btn-link" href="/contactus"> Contact</a>
-              <a className="btn btn-link" href="/gallary">Services</a>
+              <a className="btn btn-link" href="/service">Services</a>
+              <a className="btn btn-link" href="/platform">Platform</a>
+              <a className="btn btn-link" href="/intraday">Intraday</a>
+              <a className="btn btn-link" href="/holding">Holding</a>
+
               {/* <a className="btn btn-link" href="">Terms & Condition</a>
               <a className="btn btn-link" href="">Support</a> */}
             </div>
             <div className="col-lg-3 col-md-6">
               <h4 className="text-light mb-4">Business Hours</h4>
               <p className="mb-1">Monday - Sunday</p>
-              <h6 className="text-light">09:00 am - 4:00 pm</h6>
+              <h6 className="text-light">09:00 AM - 11:30 PM</h6>
               {/* <p className="mb-1">Saturday</p>
                     <h6 className="text-light">09:00 am - 12:00 pm</h6>
                     <p className="mb-1">Sunday</p>

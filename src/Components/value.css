@@ -103,3 +103,14 @@
     width: 100%;
     height: auto;
 }
+
+@media only screen and (max-width: 767px) {
+    .value-section .col-sm-6{
+ width: 51%;
+    }
+    .value-section .sub-heading {
+       
+    padding: 0px; 
+        
+    }
+}
