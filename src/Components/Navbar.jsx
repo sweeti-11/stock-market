@@ -41,7 +41,7 @@ const Navbar = () => {
             <div className="dropdown-menu bg-light rounded-0 m-0 text-dark">
                         <Link to="/intraday" className="dropdown-item">Intraday</Link>
                         <Link to="/holding" className="dropdown-item">Holding</Link>
-                        <Link to="/margin" className="dropdown-item">Best Margin Available</Link>
+                        {/* <Link to="/margin" className="dropdown-item">Best Margin Available</Link> */}
                        
                         </div>
           </li>
@@ -93,7 +93,7 @@ const Navbar = () => {
 
                   <a href="/intraday" className="dropdown-item">Intraday</a>
                   <a href="/holding" className="dropdown-item">Holding</a>
-                  <a href="/margin" className="dropdown-item">Best Margin Available</a>
+                  {/* <a href="/margin" className="dropdown-item">Best Margin Available</a> */}
                 </div>
               </li>
               <li className="nav-item">

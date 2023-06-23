@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom'
 const feature = () => {
   return (
     <div>
-         <section id="feature" className="section feature bottom-animate" style={{backgroundColor:"aquamarine", marginTop:"60px"}}>
+         <section id="feature" className="section feature bottom-animate" style={{marginTop:"60px"}}>
             <div className="container">
               <div className="row md-m-25 px-b m-40 px-b justify-content-center text-center">
                   <div className="col-lg-6">
                       <h3 className="" style={{fontSize:"3rem", marginTop:"40px", marginBottom:"50px", color
-                      : "#375ae4 "}}>Commodity Features</h3>
+                      : "Azure"}}>Commodity Features</h3>
                   </div>
               </div>
                 <div className="row">
@@ -52,7 +52,7 @@ const feature = () => {
                         </div>
                         <div className="service-Content">
                             <h3 className="title">
-                            Holdings Stock
+                            Holdings Scirpt
                             </h3>
                             <p className="description showMore">
                                 Support given through SMS and on our own instant, All GSM and CDMA networks.

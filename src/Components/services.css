@@ -1,3 +1,18 @@
+#feature{
+    background-image: linear-gradient(
+  180deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(249deg 67% 28%) 11%,
+  hsl(251deg 50% 35%) 22%,
+  hsl(252deg 38% 43%) 33%,
+  hsl(252deg 30% 50%) 44%,
+  hsl(251deg 32% 58%) 56%,
+  hsl(251deg 35% 65%) 67%,
+  hsl(250deg 39% 73%) 78%,
+  hsl(249deg 47% 81%) 89%,
+  hsl(248deg 64% 89%) 100%
+);
+}
 .serviceBox{
     border: 1px solid #3030d333;
     padding: 30px 30px 30px 90px;
@@ -8,6 +23,8 @@
     transition: .5s;
     min-height: 180px;
     max-height: 100%;
+    background-color: #c3cef7;
+    border-radius: 10px;
 }
 .serviceBox:hover {
     transform: scale(1.03);
@@ -58,13 +75,13 @@
 .serviceBox .title{
      font-size: 25px; 
     font-weight: 700;
-    color: #333;
+    color: #375ae4;
     margin-bottom: 15px;
 }
 .serviceBox .description{
     font-size: 21px;
     font-family: 'Times New Roman', Times, serif;
-    color: #666;
+    color: #112A46;
     line-height: 27px;
     transition: .5s;
 }
