@@ -115,7 +115,7 @@ const Aboutus = () => {
                     <div className="section-title">
                         {/* <p className="fs-5 fw-medium fst-italic text-primary">About Us</p> */}
                         <h1 className="display-6" style={{fontFamily:'serif'}}> 
-                        You Read About Stock Market
+                         Welcome To Bullanbears
                         </h1>
                     </div>
                     <div className="row g-3 mb-4">
@@ -124,10 +124,10 @@ const Aboutus = () => {
                         </div> */}
                         <div className="col-sm-8" style={{width:"max-content",marginTop:'30px'}}>
                             {/* <h5>Our tea is one of the most popular drinks in the world</h5> */}
-                            <p className="mb-0" style={{fontFamily:'sans-serif'}}><b style={{color:'green'}}>Stock Market</b> is a fastest growing brand in India. This is not only brand of product, it is the brand of service, quality and our thought. Hence we sell SERVICE, QUALITY and THOUGHT to customer. Our SERVICE belongs to actual nature of Indian culture while our QUALITY is based on our Indian product. And about THOUGHT, this is our sense of humanity which is going down due to our selflessness. </p>
+                            <p className="mb-0" style={{fontFamily:'sans-serif'}}>Started in 2007, bullsnbears now has a presence in over 50+ locations with over 500APs, and 450+ employees serving over 3Lakhs+ customers nationwide. Bullsnbears earned the trust of these valued investors by providing them with top-notch services in various trading and investment </p>
                             <br/>
-                            <p className="mb-0" style={{fontFamily:'sans-serif'}}><b style={{color:'green'}}>Stock Market</b> is a cafés leading channel which provide independent self-employment to our youngster to achieve their career. It promotes our relevant Indian product to maintain our forming. Maximum youth likes our brand because we work as a family members. Yes, our foods list may belong to western style but our service and staff behaviour shows that we are Indian. 
-                            So let’s come with us, start your own food business at a very low cost and in your city. Give your 100% presence in your work, we promise that you will achieve your career target and will provide employment to maximum person.</p>
+                            <p className="mb-0" style={{fontFamily:'sans-serif'}}>Bullsnbears is the market leader in the International Commodity market providing investors with personalized and prompt services. Bullsnbears with over a decade of expertise has been awarded time and time again by MCX.</p>
+                            <br/>
                         </div>
                     </div>
                     {/* <div className="border-top mb-4"></div> */}
@@ -216,24 +216,24 @@ So let’s come with us, start your own food business at a very low cost and in 
           </div>
 
           <div class="col-xl-5 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
-            <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
-            <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.</p>
+            <h3>Bullanbears</h3>
+            <p>We’ve been hard at work creating an investment experience to achieve your financial goals. It’s our passion to offer you the best Product, Technology & Service. We ensure the trading experience at Bullsnbears to be one of its kind, with the help of our expertise. Bullsnbears revels in its attention to detail services which enables the investors to reach their smart goals in no time. Lovingly called as the Financial supermarket, providing all services under one roof, Bullsnbears specialities are not few. Personalized services, lowest recorded brokerage charges, latest tech tool support and tested apps to simplify trading procedures, free training, and live updates are just the surface services in Bullsnbears highly transparent service list. Strictly adhering to MCX guidelines. With multiple branches spread across the nation, Bullsnbears provides multi-language support and at-home training to keep you at ease to help you trade at maximum efficiency.</p>
 
             <div class="icon-box">
               <div class="icon"><i class="bx bx-fingerprint"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+              <h4 class="title"><a href="">50+ locations</a></h4>
               <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
             </div>
 
             <div class="icon-box">
               <div class="icon"><i class="bx bx-gift"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
+              <h4 class="title"><a href="">450+ employees</a></h4>
               <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
             </div>
 
             <div class="icon-box">
               <div class="icon"><i class="bx bx-atom"></i></div>
-              <h4 class="title"><a href="">Dine Pad</a></h4>
+              <h4 class="title"><a href="">3Lakhs+ customers</a></h4>
               <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
             </div>
 

@@ -12,6 +12,9 @@ const Holding = () => {
     AOS.init();
     AOS.init({ disable: 'mobile'});
 }, [])
+useEffect(() => {
+  window.scrollTo(0, 0)
+}, [])
   return (
     <div>
       <div className="mainContact">

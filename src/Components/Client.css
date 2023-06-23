@@ -198,4 +198,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #e9dfdf;
+  margin-bottom: -48px;
+}
+
+.clint-section .col-lg-6{
+  padding: 23px;
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Footer from './Footer'
 import './service.css'
 import { BsFillStarFill } from "react-icons/bs";
@@ -7,6 +7,9 @@ import se from '../assest/serv.jpg'
 
 
 const Service = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div>
      <div className='mainContact'>
@@ -40,8 +43,8 @@ const Service = () => {
                 {/* <i class="bi bi-activity"></i> */}
                 <BsFillStarFill className='fa-fade'/>
               </div>
-              <h3>Nesciunt Mete</h3>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+              <h3>24/7 Online</h3>
+              <p>24/7 Back Office Support: Our clients can get advice and find responses to questions quickly 24/7 and in real-time.</p>
               {/* <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> */}
             </div>
           </div>
@@ -51,8 +54,8 @@ const Service = () => {
               <div class="icon">
               <BsFillStarFill className='fa-fade'/>
               </div>
-              <h3>Eosle Commodi</h3>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+              <h3>Sms Service</h3>
+              <p>SMS Service: Our SMS customer service platform raises support options for our clients.</p>
               {/* <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> */}
             </div>
           </div>
@@ -62,8 +65,8 @@ const Service = () => {
               <div class="icon">
               <BsFillStarFill className='fa-fade'/>
               </div>
-              <h3>Ledo Markt</h3>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+              <h3>Free Calls</h3>
+              <p>Sure Advisory Calls: We provide all information to our clients via Advisory Calls.</p>
               {/* <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> */}
             </div>
           </div>
@@ -72,19 +75,8 @@ const Service = () => {
               <div class="icon">
               <BsFillStarFill className='fa-fade'/>
               </div>
-              <h3>Ledo Markt</h3>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-              {/* <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> */}
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="service-item position-relative">
-              <div class="icon">
-              <BsFillStarFill className='fa-fade'/>
-              </div>
-              <h3>Asperiores Commodit</h3>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+              <h3>Exceutive</h3>
+              <p>Best Executive Support: We have high-level experienced trading executives for client support always.</p>
               {/* <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> */}
             </div>
           </div>
@@ -94,8 +86,8 @@ const Service = () => {
               <div class="icon">
               <BsFillStarFill className='fa-fade'/>
               </div>
-              <h3>Velit Doloremque</h3>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+              <h3>Trade Option</h3>
+              <p> Trade On Call: Call On Trade is a facility that allows you to trade in the stock markets using your registered mobile phone with our executive. </p>
               {/* <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> */}
             </div>
           </div>
@@ -105,8 +97,19 @@ const Service = () => {
               <div class="icon">
               <BsFillStarFill className='fa-fade'/>
               </div>
-              <h3>Dolori Architecto</h3>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+              <h3>Payin Payout</h3>
+              <p>Easy Payin and Payout: Payin and Payouts are the days when brokers and exchanges make payments or delivery the securities.</p>
+              {/* <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> */}
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item position-relative">
+              <div class="icon">
+              <BsFillStarFill className='fa-fade'/>
+              </div>
+              <h3>Brokerage</h3>
+              <p>Brokerage Fee: Our brokerage fee per trade is flat 10/- for every our clients.</p>
               {/* <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> */}
             </div>
           </div>

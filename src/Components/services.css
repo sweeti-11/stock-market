@@ -619,12 +619,14 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     height: 100%;
     width: 100%;
     margin-top: 60px;
+    
 }
 
 .team_member .overlay p{
     font-size:15px;
     font-family: emoji;
     font-weight: 700;
+    min-height: 91px;
 }
 
 ul.team_social {
