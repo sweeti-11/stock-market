@@ -3,10 +3,13 @@ import Footer from './Footer'
 import './service.css'
 import { BsFillStarFill } from "react-icons/bs";
 import se from '../assest/serv.jpg'
+import { useMediaQuery } from 'react-responsive';
 
 
 
 const Service = () => {
+  const isMobile = useMediaQuery({ maxWidth: 768 });
+
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
@@ -35,7 +38,7 @@ const Service = () => {
           <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
         </div>
 
-        <div class="row gy-4 aos-init aos-animate" data-aos="zoom-out-down" data-aos-offset="500"
+        <div class="row gy-4 aos-init aos-animate" data-aos={isMobile ? undefined : "zoom-out-down"} data-aos-offset="500"
                         data-aos-duration="500">
 
           <div class="col-lg-4 col-md-6">
