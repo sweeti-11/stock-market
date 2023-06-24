@@ -44,8 +44,8 @@ const Service = () => {
                 {/* <i class="bi bi-activity"></i> */}
                 <BsFillStarFill className='fa-fade'/>
               </div>
-              <h3>24/7 Online</h3>
-              <p>24/7 Back Office Support: Our clients can get advice and find responses to questions quickly 24/7 and in real-time.</p>
+              <h3>24/7 Online Support</h3>
+              <p> Our clients can get advice and find responses to questions quickly 24/7 and in real-time.</p>
               {/* <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> */}
             </div>
           </div>
@@ -66,8 +66,8 @@ const Service = () => {
               <div class="icon">
               <BsFillStarFill className='fa-fade'/>
               </div>
-              <h3>Free Calls</h3>
-              <p>Sure Advisory Calls: We provide all information to our clients via Advisory Calls.</p>
+              <h3>Sure Advisory Calls</h3>
+              <p> We provide all information to our clients via Advisory Calls.</p>
               {/* <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> */}
             </div>
           </div>
@@ -76,8 +76,8 @@ const Service = () => {
               <div class="icon">
               <BsFillStarFill className='fa-fade'/>
               </div>
-              <h3>Exceutive</h3>
-              <p>Best Executive Support: We have high-level experienced trading executives for client support always.</p>
+              <h3>Exceutive Support</h3>
+              <p> We have high-level experienced trading executives for client support always.</p>
               {/* <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> */}
             </div>
           </div>
@@ -87,8 +87,8 @@ const Service = () => {
               <div class="icon">
               <BsFillStarFill className='fa-fade'/>
               </div>
-              <h3>Trade Option</h3>
-              <p> Trade On Call: Call On Trade is a facility that allows you to trade in the stock markets using your registered mobile phone with our executive. </p>
+              <h3>Trade On Call</h3>
+              <p>Call On Trade is a facility that allows you to trade in the stock markets using your registered mobile phone with our executive. </p>
               {/* <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> */}
             </div>
           </div>
@@ -99,7 +99,7 @@ const Service = () => {
               <BsFillStarFill className='fa-fade'/>
               </div>
               <h3>Payin Payout</h3>
-              <p>Easy Payin and Payout: Payin and Payouts are the days when brokers and exchanges make payments or delivery the securities.</p>
+              <p> Payin and Payouts are the days when brokers and exchanges make payments or delivery the securities.</p>
               {/* <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> */}
             </div>
           </div>
@@ -109,8 +109,8 @@ const Service = () => {
               <div class="icon">
               <BsFillStarFill className='fa-fade'/>
               </div>
-              <h3>Brokerage</h3>
-              <p>Brokerage Fee: Our brokerage fee per trade is flat 10/- for every our clients.</p>
+              <h3>Brokerage Fee</h3>
+              <p> Our brokerage fee per trade is flat 10/- for every our clients.</p>
               {/* <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> */}
             </div>
           </div>
