@@ -10,16 +10,18 @@ import { FaAddressCard } from 'react-icons/fa'
 import { AiOutlineArrowUp } from 'react-icons/ai';
 import { FcRight } from "react-icons/fc";
 import { AiOutlineRight } from 'react-icons/ai'
+import {BsInfoCircle} from 'react-icons/bs'
 
 function Footer() {
   return (
     <>
+    <section className='footer-section'>
       <div className="container-fluid  footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s" style={{backgroundColor: "#375ae4"}}>
         <div className="container py-5">
           <div className="row g-5">
             <div className="col-lg-3 col-md-6 ">
               <h4 className="text-light mb-4">About us</h4>
-              <p className="mb-3 ">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dianonumy eirmod tempor invidunt ut labore.</p>
+              <p className="mb-3 " style={{color:'#fdedce'}}>Started in 2007, bullsnbears now has a presence in over 50+ locations with over 500APs, and 450+ employees serving over 3Lakhs+ customers nationwide. Bullsnbears earned the trust of these valued investors by providing them with top-notch services in various trading and investment</p>
               {/* <p className="mb-3"><i><BsFillTelephoneForwardFill/></i>&nbsp;&nbsp;&nbsp;+917880020088</p>
                     <p className="mb-3"><i><AiOutlineMail/></i>&nbsp;&nbsp;&nbsp;info@thechaywala.com</p>
                     <div className="d-flex pt-3">
@@ -52,15 +54,30 @@ function Footer() {
             </div>
             <div className="col-lg-3 col-md-6 ">
               <h4 className="text-light mb-4">Head Office</h4>
-              <p className="mb-3 ">
+              <p className="mb-3 " style={{color:'#fdedce'}}>
+                <div className='address'>
                 <i className="fa fa-map-marker-alt  text-white test"></i>
-                &nbsp;&nbsp;&nbsp;Sch No. -54, Shekher <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Residency, LG-10, Vijay Nagar, <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Indore, Madhya Pradesh <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;452010
+
+                 42/9, Mhatre Bridge,
+                 Opp.Siddhi Gardens,Vakil Nagar,
+                 Pune, Maharashtra
+                 411052
+                 </div>
               </p>
-              <p className="mb-3"><i><BsFillTelephoneForwardFill /></i>&nbsp;&nbsp;+91&nbsp;7880020088</p>
-              <p className="mb-3"><i><AiOutlineMail /></i>&nbsp;&nbsp;agefemservices@gmail.com</p>
+              <div className='info-details'>
+
+                <div className='info-registration'>
+                <h5 className=""> <BsInfoCircle  className='icon' />
+                      <span className='info-text' style={{color:"#fff"}}>Info Registration</span></h5>
+
+              
+              <p className='Sebi' style={{color:'#fdedce'}}> SEBI<span className='sebi-text'>- INZ000189438</span></p>
+              <p className='membership' style={{color:'#fdedce'}}> MCX Membership Number<span className='membership-text'>-8230</span></p>
+              <p className='cin' style={{color:'#fdedce'}}> CIN:<span className='cin-text'>-U51900MH1997PTC112491</span></p>
+              </div>
+              </div>
+              {/* <p className="mb-3"><i><BsFillTelephoneForwardFill /></i>&nbsp;&nbsp;+91&nbsp;7880020088</p>
+              <p className="mb-3"><i><AiOutlineMail /></i>&nbsp;&nbsp;agefemservices@gmail.com</p> */}
               {/* <div className="d-flex pt-3">
                 <a className="btn btn-square btn-light rounded-circle me-1" href=""><i class="fa-brands fa-twitter"></i></a>
                 <a className="btn btn-square btn-light rounded-circle me-1" href="/"><i class="fa-brands fa-facebook"></i></a>
@@ -75,10 +92,11 @@ function Footer() {
       <div className="text-center p-4 copyright" >
       <hr/>
         ©2023 All Rights Reserved
-        <a className="text-reset fw-bold" href="/"> XYZ</a>
+        <a className="text-reset fw-bold" href="/"> BULLANBEARS</a>
       </div>
       {/* <!-- Copyright --> */}
       <a href="#" className=" arrow btn btn-lg btn-success btn-lg-square rounded-circle back-to-top l-5"><i><AiOutlineArrowUp /></i></a>
+      </section>
     </>
   )
 }

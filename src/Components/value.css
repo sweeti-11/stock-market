@@ -103,6 +103,9 @@
     width: 100%;
     height: auto;
 }
+.value-main-section.aos-init.aos-animate {
+    min-height: 221px;
+}
 
 @media only screen and (max-width: 767px) {
     .value-section .col-sm-6{

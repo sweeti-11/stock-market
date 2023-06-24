@@ -24,7 +24,7 @@ useEffect(() => {
         >
           <div className="container text-center py-5">
             <h1 className="display-2 text-dark mb-4 animated slideInDown">
-              Holdings Stocks
+              Holdings Scirpt
             </h1>
             <nav aria-label="breadcrumb animated slideInDown">
               <ol className="breadcrumb justify-content-center mb-0">
@@ -48,7 +48,7 @@ useEffect(() => {
             </div>
             <div className="col-lg-6" data-aos="fade-up"
      data-aos-duration="3000">
-              <h3>What Is Holdings Stock?</h3>
+              <h3>What Is Holdings Scirpt?</h3>
               <p>
                 Stocks are certificates that represent part ownership of a
                 company. Stock holdings point out the number of stocks or
@@ -69,7 +69,7 @@ useEffect(() => {
       <section id="services-holding" class="services-holding section-bg">
         <div class="container aos-init aos-animate" data-aos="fade-up">
           <div class="section-title">
-            <h2>The most common strategies used in Holdings stock</h2>
+            <h2>Types of Holding Stock Companies:</h2>
             {/* <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> */}
           </div>
 
@@ -85,7 +85,7 @@ useEffect(() => {
                   <GiStockpiles/>
                 </div>
                 <h4>
-                  <a href="">Pure Holdings</a>
+                  <a href="">Pure Holdings Companies</a>
                 </h4>
                 <p>
                 A pure holding company is one that only stays as a vehicle for ownership of alternative firms. These companies do not compete in any other category of business
@@ -104,7 +104,7 @@ useEffect(() => {
                  <GiStockpiles/>
                 </div>
                 <h4>
-                  <a href="">Mixed Holdings</a>
+                  <a href="">Mixed Holdings Companies</a>
                 </h4>
                 <p>
                 A mixed holding company is one that has its individual business operations, in addition to managing its subsidiaries. A separate word for this is a holding-operating company.
@@ -123,7 +123,7 @@ useEffect(() => {
                   <GiStockpiles/>
                 </div>
                 <h4>
-                  <a href="">Immediate Holdings</a>
+                  <a href="">Immediate Holdings Companies</a>
                 </h4>
                 <p>
                 An immediate holding company is a company that individual other companies but is itself owned by another entity. In short, these are holding companies that are owned by another holding company.
@@ -142,7 +142,7 @@ useEffect(() => {
                   <GiStockpiles/>
                 </div>
                 <h4>
-                  <a href="">Intermediate Holdings</a>
+                  <a href="">Intermediate Holdings Companies</a>
                 </h4>
                 <p>
                 An immediate holding company, these are holding company that is also a subsidiary of a bigger business.

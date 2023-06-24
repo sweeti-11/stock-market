@@ -20,7 +20,7 @@ const Value = () => {
                     <AnimatePresence>
                         <motion.div
                 style={{
-                    width: 400,
+                    width: "100%",
                     borderRadius: 30,
                     backgroundColor: "#fff",
                     cursor: "pointer",
@@ -41,7 +41,7 @@ const Value = () => {
                     <AnimatePresence>
                         <motion.div
                 style={{
-                    width: 400,
+                    width: "100%",
                     borderRadius: 30,
                     backgroundColor: "#fff",
                     cursor: "pointer",
@@ -61,7 +61,7 @@ const Value = () => {
                     <AnimatePresence>
                         <motion.div
                 style={{
-                    width: 400,
+                    width: "100%",
                     borderRadius: 30,
                     backgroundColor: "#fff",
                     cursor: "pointer",
@@ -81,7 +81,7 @@ const Value = () => {
                     <AnimatePresence>
                         <motion.div
                 style={{
-                    width: 400,
+                    width: "100%",
                     borderRadius: 30,
                     backgroundColor: "#fff",
                     cursor: "pointer",
@@ -101,7 +101,7 @@ const Value = () => {
                     <AnimatePresence>
                         <motion.div
                 style={{
-                    width: 400,
+                    width: "100%",
                     borderRadius: 30,
                     backgroundColor: "#fff",
                     cursor: "pointer",
@@ -121,7 +121,7 @@ const Value = () => {
                     <AnimatePresence>
                         <motion.div
                 style={{
-                    width: 400,
+                    width:"100%",
                     borderRadius: 30,
                     backgroundColor: "#fff",
                     cursor: "pointer",

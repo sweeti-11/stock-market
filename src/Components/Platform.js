@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Footer from './Footer'
 import mobile from '../assest/mobile.png'
 import web from '../assest/web.png'
@@ -9,6 +9,9 @@ import { motion, useTime, useTransform, AnimatePresence } from "framer-motion";
 import './platform.css'
 
 const Platform = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     const time = useTime();
     const rotate = useTransform(time, [0, 4000], [0, 360], { clamp: false });
 
