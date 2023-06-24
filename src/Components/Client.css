@@ -199,7 +199,12 @@
   background-size: cover;
   background-color: #AED7EA;
   margin-bottom: -48px;
+  padding: 50px 0;
 }
+.what_text {
+  padding: 0px 0 20px 0;
+}
+
 
 .clint-section .col-lg-6{
   padding: 23px;

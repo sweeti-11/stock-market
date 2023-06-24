@@ -81,10 +81,10 @@ const feature = () => {
                   </div>
                 </div>
             </div>
-            <img src="https://www.idealstock.in/webasset/images/header-bg03.png" alt=""/>
+            <img  className="img-fluid fea_img" src="https://www.idealstock.in/webasset/images/header-bg03.png" alt=""/>
         </section>
     </div>
-  )
+  ) 
 }
 
 export default feature

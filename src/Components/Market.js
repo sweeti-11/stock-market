@@ -38,7 +38,7 @@ const Market = () => {
           //           repeatType: "reverse",
           //       }}
           >
-            <img src={mobile} style={{paddingTop:"76px", paddingLeft:"176px",paddingRight:"176px", paddingBottom:"76px"}}></img>
+            <img className='marketimg_ani' src={mobile} style={{paddingTop:"76px", paddingLeft:"176px",paddingRight:"176px", paddingBottom:"76px"}}></img>
             </motion.div></AnimatePresence>
             </div>
             <div className='col-lg-6'data-aos="fade-down"
