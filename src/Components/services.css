@@ -294,7 +294,34 @@ font-size: 3rem;
 font-size: 35px;
 text-transform: uppercase;
 }
+.serviceBox .description {
+    font-size: 18px;
+    line-height: 22px;
+}
+.serviceBox .service-icon {
+    font-size: 26px;
+   
+}
+.serviceBox {
+    
+    padding: 20px;
+   
+    margin-bottom: 10px;
+    min-height: 230px;
+    max-height: 100%;
+    
+}
+.serviceBox .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
 
+img.img-fluid.fea_img {
+    padding: 40px 0 0 0;
+}
+.serviceBox .service-icon {
+    display: none;
+}
 
 
 

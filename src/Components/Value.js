@@ -10,13 +10,13 @@ const Value = () => {
                 <div className="row">
                     <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
                         <div className="about-us-header text-center">
-                            <h2>Our Values sunil</h2>
+                            <h2>Our Values</h2>
                             <p className='sub-heading'>Our values are not just plastered on the wall, but define the way we do our business and interact with all our stakeholders. </p>
                         </div>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 width-50">
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 width-50">
                     <AnimatePresence>
                         <motion.div
                 style={{
@@ -37,7 +37,7 @@ const Value = () => {
                         </motion.div>
             </AnimatePresence>
                     </div>
-                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 width-50">
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 width-50">
                     <AnimatePresence>
                         <motion.div
                 style={{
@@ -57,7 +57,7 @@ const Value = () => {
                         </motion.div>
             </AnimatePresence>
                     </div>
-                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 width-50">
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 width-50">
                     <AnimatePresence>
                         <motion.div
                 style={{
@@ -77,7 +77,7 @@ const Value = () => {
                         </motion.div>
             </AnimatePresence>
                     </div>
-                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 width-50">
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 width-50">
                     <AnimatePresence>
                         <motion.div
                 style={{
@@ -97,7 +97,7 @@ const Value = () => {
                         </motion.div>
             </AnimatePresence>
                     </div>
-                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 width-50">
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 width-50">
                     <AnimatePresence>
                         <motion.div
                 style={{
@@ -117,7 +117,7 @@ const Value = () => {
                         </motion.div>
             </AnimatePresence>
                     </div>
-                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 width-50">
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 width-50">
                     <AnimatePresence>
                         <motion.div
                 style={{

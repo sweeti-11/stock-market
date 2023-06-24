@@ -1,3 +1,6 @@
+.benefits .col-md-6.d-flex.align-items-stretch {
+  padding: 15px;
+}
 .benefits .icon-box {
     text-align: center;
     padding: 40px 20px;

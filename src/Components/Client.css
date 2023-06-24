@@ -3,7 +3,7 @@
     margin: 50px 5px 30px;
     border: 1px solid #2285FE;
     position: relative;
-    min-height: 270px;
+    min-height: 331px;
     transition: .5s ease all;
     transform: scale(1);
   }
@@ -145,6 +145,9 @@
 @media (max-width: 991px){
 .pt-130{
 	    padding-top: 0;
+}
+.testimonial{
+  min-height: 385px;
 }
 }
 .testimonial-block__section .quote-left{
