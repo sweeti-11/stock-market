@@ -115,7 +115,7 @@ const Aboutus = () => {
                     <div className="section-title">
                         {/* <p className="fs-5 fw-medium fst-italic text-primary">About Us</p> */}
                         <h1 className="display-6" style={{fontFamily:'serif'}}> 
-                         Welcome To Bullanbears
+                         Welcome To Bulleyetrade
                         </h1>
                     </div>
                     <div className="row g-3 mb-4">
@@ -216,7 +216,7 @@ So let’s come with us, start your own food business at a very low cost and in 
           </div>
 
           <div class="col-xl-5 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
-            <h3>Bullanbears</h3>
+            <h3>Bulleyetrade</h3>
             <p>We’ve been hard at work creating an investment experience to achieve your financial goals. It’s our passion to offer you the best Product, Technology & Service. We ensure the trading experience at Bullsnbears to be one of its kind, with the help of our expertise. Bullsnbears revels in its attention to detail services which enables the investors to reach their smart goals in no time. Lovingly called as the Financial supermarket, providing all services under one roof, Bullsnbears specialities are not few. Personalized services, lowest recorded brokerage charges, latest tech tool support and tested apps to simplify trading procedures, free training, and live updates are just the surface services in Bullsnbears highly transparent service list. Strictly adhering to MCX guidelines. With multiple branches spread across the nation, Bullsnbears provides multi-language support and at-home training to keep you at ease to help you trade at maximum efficiency.</p>
 
             <div class="icon-box">

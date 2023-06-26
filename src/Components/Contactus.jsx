@@ -50,23 +50,23 @@ function Contactus() {
                             <div className=" text-center wow fadeInUp" data-wow-delay="0.3s">
                                 <div className='d-flex'>
                                     <div className="btn-square">
-                                        <i className="fa fa-envelope fa text-white "></i>
+                                        <i className="fa fa-envelope fa text-black "></i>
                                     </div>
-                                    <p className="text-mob">agefemservices@gmail.com</p>
+                                    <p className="text-mob">info@bulleyetrade.com</p>
                                 </div>
                             </div>
-                            <div className=" text-center wow fadeInUp" data-wow-delay="0.4s">
+                            {/* <div className=" text-center wow fadeInUp" data-wow-delay="0.4s">
                                 <div className='d-flex'>
                                     <div className="btn-square">
                                         <i className="fa fa-phone fa text-white"></i>
                                     </div>
                                     <p className="">+91&nbsp;7880020088</p>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="wow fadeInUp" data-wow-delay="0.5s">
                                 <div className='d-flex'>
                                     <div className="btn-square ">
-                                        <i className="fa fa-map-marker-alt fa text-white"></i>
+                                    <i className="fa fa-map-marker-alt  text-black test"></i>
                                     </div>
                                     <p className="text-my"> 42/9, Mhatre Bridge, Opp. Siddhi Gardens,Vakil Nagar,Pune, Maharashtra, 411052
                                     </p>

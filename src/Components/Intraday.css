@@ -53,7 +53,7 @@ box-shadow: -9px -12px 35px -3px rgba(55,90,228,0.43);
     margin-bottom: 40px;
   }
   .services-intraday .icon-box .icon i {
-    color: aqua;
+    color: #ffbf00;;
     font-size: 36px;
     transition: 0.3s;
   }
@@ -171,7 +171,7 @@ box-shadow: -9px -12px 35px -3px rgba(55,90,228,0.43);
   .intraday .icon-boxes .icon-box .icon{
     margin: 10px;
     font-size: 30px;
-    color: green;
+    color: #ffbf00;;
   }
 
   .intraday-stock .service-item .title:hover{

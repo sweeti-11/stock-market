@@ -48,6 +48,12 @@ const Navbar = () => {
          <li className="nav-item">
             <NavLink className="nav-link" to="/contactus">Contact</NavLink>
           </li>
+          {/* <li className="nav-item">
+            <NavLink className="nav-link" to="https://panel.bulleyetrade.com/">Signin</NavLink>
+          </li> */}
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/signup">Signup</NavLink>
+          </li>
         </ul>
       </div>
     </div>
@@ -99,6 +105,12 @@ const Navbar = () => {
               <li className="nav-item">
                 <a className="nav-link" href="/contactus">Contact</a>
               </li>
+              {/* <li className="nav-item">
+            <NavLink className="nav-link" to="https://panel.bulleyetrade.com/">Signin</NavLink>
+          </li> */}
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/signup">Signup</NavLink>
+          </li>
             </ul>
           </div>
         </div>

@@ -365,8 +365,7 @@ const Intraday = () => {
                     </a>
                   </h4>
                   <p className="description">
-                    Et harum quidem rerum facilis est et expedita distinctio.
-                    Nam libero tempore, cum soluta nobis est eligendi
+                  RSI is often used to obtain an early sign of possible trend changes. Therefore, adding exponential moving averages (EMAs) that respond more quickly to recent price changes can help. Relatively short-term moving average crossovers, such as the 5 EMA crossing over the 10 EMA, are best suited to complement RSI.
                   </p>
                 </div>
               </div>
