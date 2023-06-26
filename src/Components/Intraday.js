@@ -31,7 +31,7 @@ const Intraday = () => {
                 </li>
                 {/* <li className="breadcrumb-item"><a href="#">Pages</a></li> */}
                 <li className="breadcrumb-item text-dark" aria-current="page">
-                  Intraday
+                Intraday
                 </li>
               </ol>
             </nav>
