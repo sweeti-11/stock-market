@@ -15,7 +15,7 @@ import {BsInfoCircle} from 'react-icons/bs'
 function Footer() {
   return (
     <>
-    <section className='footer-section'>
+    <section className='footer-section' style={{marginTop:"-48px"}}>
       <div className="container-fluid  footer mt-5 py-5 wow fadeIn botom" data-wow-delay="0.1s" style={{backgroundColor: "#375ae4"}}>
         <div className="container py-5">
           <div className="row g-5">

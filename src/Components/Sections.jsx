@@ -10,6 +10,7 @@ import Benefit from './Benefit'
 import Market from './Market'
 import Slider from './Slider'
 import Countdown from './Countdown'
+import myImage from '../assest/bg.jpeg'
 
 
 function Sections() {
@@ -26,14 +27,14 @@ function Sections() {
     {/* <Market/> */}
     {/* <Contact/>  */}
     <Client/>
-    <section className="counter">
+    <section className="counter img-fluid" style={{ backgroundImage:`url(${myImage})`, height:"235px", marginBottom:"0px",backgroundRepeat:"no-repeat", backgroundRepeat:"no-repeat",backgroundSize:"cover", backgroundPosition:"center",zIndex:"2", marginTop:"48px"}}>
     <div className="container">
     <div className="row">
     <div className="col-lg-4 col-md-4 col-12">
-      <Countdown text="Project Completed" target={100}/>
+      <Countdown text="Location" target={50}/>
       </div>
       <div className="col-lg-4 col-md-4 col-12">
-      <Countdown text="Satisfied Clients" target={500} />
+      <Countdown text="Customers" target={500} />
       </div>
       <div className="col-lg-4 col-md-4 col-12">
       <Countdown text="Industries Served" target={1000} />
