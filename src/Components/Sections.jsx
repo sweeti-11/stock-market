@@ -17,9 +17,9 @@ function Sections() {
     <Slider/>
     <Services/>
     <Value/>
-    <Feature/> 
+    {/* <Feature/>  */}
     <Benefit/>
-    <Market/>
+    {/* <Market/> */}
     {/* <Contact/>  */}
     <Client/>
     <Footer />
