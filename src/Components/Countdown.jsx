@@ -20,8 +20,8 @@ function Countdown({ target,text }) {
 
   return (
     <div className='timer'>
-    <h2 style={{color:"darkblue"}}>{count}+</h2>
-    <p style={{color:"blue",fontSize:"20px"}}>{text}</p>
+    <h2 style={{color:"white", zIndex:"2"}}>{count}+</h2>
+    <p style={{color:"aqua",fontSize:"20px"}}>{text}</p>
     </div>
      
   );
