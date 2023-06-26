@@ -30,7 +30,7 @@ function Sections() {
     <div className="container">
     <div className="row">
     <div className="col-lg-4 col-md-4 col-12">
-      <Countdown text="Project Completed" target={100} />
+      <Countdown text="Project Completed" target={100}/>
       </div>
       <div className="col-lg-4 col-md-4 col-12">
       <Countdown text="Satisfied Clients" target={500} />
