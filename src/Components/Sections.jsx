@@ -21,7 +21,7 @@ function Sections() {
     
     <Services/>
     <Value/>
-    {/* <Feature/>  */}
+    <Feature/> 
     <Benefit/>
     {/* <Market/> */}
     {/* <Contact/>  */}
