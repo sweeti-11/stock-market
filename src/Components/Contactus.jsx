@@ -112,9 +112,11 @@ function Contactus() {
                         </div>
                         <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                             <div className="h-100">
-                                <iframe className="w-100 rounded"
+                                {/* <iframe className="w-100 rounded"
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229.95666576076337!2d75.8839246070868!3d22.753998346949263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396302a696381cff%3A0xe70b82f31f2cc447!2sShekher%20Residency%2C%20MR%2010%20Rd%2C%20Vijay%20Nagar%2C%20Scheme%2054%20PU4%2C%20Indore%2C%20Madhya%20Pradesh%20452010!5e0!3m2!1sen!2sin!4v1684307055792!5m2!1sen!2sin"
                                     frameborder="0" style={{ height: "100%", minHeight: "300px", border: "0" }} allowfullscreen="" aria-hidden="false"
+                                    tabindex="0"></iframe> */}
+                                    <iframe  className="w-100 rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.53678078838!2d73.83492027436743!3d18.504629869662605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bff4c9b44291%3A0x227b0ece46210c0a!2s42%2C%20Mhatre%20Bridge%2C%20Dattawadi%2C%20Pune%2C%20Maharashtra%20411030!5e0!3m2!1sen!2sin!4v1687782187197!5m2!1sen!2sin" frameborder="0" style={{ height: "100%", minHeight: "300px", border: "0" }} allowfullscreen="" aria-hidden="false"
                                     tabindex="0"></iframe>
                             </div>
                         </div>
