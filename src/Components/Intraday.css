@@ -160,7 +160,11 @@ box-shadow: -9px -12px 35px -3px rgba(55,90,228,0.43);
     line-height: 24px;
     font-size: 14px;
   }
-  
+  section#services-intraday{
+    padding: 25px;
+    background: linear-gradient( to bottom, rgba(255, 255, 0, 0.5), rgba(0, 0, 255, 0.5) );
+  }
+
 
   .intraday .video-box {
     background: url("../assest/intradayimg.jpg") center center no-repeat;
@@ -173,7 +177,7 @@ box-shadow: -9px -12px 35px -3px rgba(55,90,228,0.43);
     font-size: 30px;
     color: #ffbf00;;
   }
-
+ 
   .intraday-stock .service-item .title:hover{
     color: #375ae4 ;
   }
@@ -181,7 +185,7 @@ box-shadow: -9px -12px 35px -3px rgba(55,90,228,0.43);
   .intraday-stock .service-item .icon {
     
     border-radius: 50%;
-    background-color: green;
+    background-color: #ffbf00;
     color: white;
 }
 .intraday-stock .service-item .icon svg{

@@ -5,6 +5,9 @@ import { motion } from "framer-motion"
 import './about.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import {CiLocationOn} from 'react-icons/ci'
+import {BsPerson} from 'react-icons/bs'
+import {BsPersonAdd} from 'react-icons/bs'
 const Aboutus = () => {
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -220,19 +223,19 @@ So let’s come with us, start your own food business at a very low cost and in 
             <p>We’ve been hard at work creating an investment experience to achieve your financial goals. It’s our passion to offer you the best Product, Technology & Service. We ensure the trading experience at Bullsnbears to be one of its kind, with the help of our expertise. Bullsnbears revels in its attention to detail services which enables the investors to reach their smart goals in no time. Lovingly called as the Financial supermarket, providing all services under one roof, Bullsnbears specialities are not few. Personalized services, lowest recorded brokerage charges, latest tech tool support and tested apps to simplify trading procedures, free training, and live updates are just the surface services in Bullsnbears highly transparent service list. Strictly adhering to MCX guidelines. With multiple branches spread across the nation, Bullsnbears provides multi-language support and at-home training to keep you at ease to help you trade at maximum efficiency.</p>
 
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-fingerprint"></i></div>
+              <div class="icon"><CiLocationOn/></div>
               <h4 class="title"><a href="">50+ locations</a></h4>
               <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
             </div>
 
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-gift"></i></div>
+              <div class="icon"><BsPerson/></div>
               <h4 class="title"><a href="">450+ employees</a></h4>
               <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
             </div>
 
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-atom"></i></div>
+              <div class="icon"><BsPersonAdd/></div>
               <h4 class="title"><a href="">3Lakhs+ customers</a></h4>
               <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
             </div>
