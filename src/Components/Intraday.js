@@ -250,8 +250,7 @@ const Intraday = () => {
                     </a>
                   </h4>
                   <p className="description">
-                    Voluptatum deleniti atque corrupti quos dolores et quas
-                    molestias excepturi sint occaecati cupiditate non provident
+                  The open range breakout strategy is one of the best strategies to create profits in the stock market, specially in intraday trading. The trading volume and volatility is high after the market opens. It generally cools after 30 or 45 mins.
                   </p>
                 </div>
               </div>
