@@ -11,15 +11,19 @@
 }
 
 nav.navbar.navbar-expand-lg.bg-light.sticked.fixed-top {
-    background-color: #375ae4 !important;
+    /* background-color: #375ae4 !important; */
+    background-color: #fff !important;
 }
 
 .navbar-expand-lg .navbar-collapse {
     justify-content: right;
 }
 .navbar  .img-fluid {
-    width: 105px !important;
-    height: 72px;
+    /* width: 105px !important;
+    height: 72px; */
+    width: 207px !important;
+    height: 83px;
+
 }
 nav.navbar.navbar-expand-lg.bg-light.sticked.fixed-top {
     padding: 10px 70px;
@@ -38,7 +42,7 @@ nav.navbar.navbar-expand-lg.bg-light.sticked.fixed-top {
 .navbar .navbar-nav .nav-link {
     margin-right: 35px;
     padding: 25px 0;
-   color: white;
+   color: blue;
     font-weight: 600;
     text-transform: uppercase;
     outline: none;
