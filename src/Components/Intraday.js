@@ -274,8 +274,8 @@ const Intraday = () => {
                     </a>
                   </h4>
                   <p className="description">
-                    Minim veniam, quis nostrud exercitation ullamco laboris nisi
-                    ut aliquip ex ea commodo consequat tarad limino ata
+                  Support: is the price level at which demand is thought to be strong enough to prevent the price from declining further.<br/>
+                  Resistance: is the price level at which selling is thought to be strong enough to prevent the price from rising further
                   </p>
                 </div>
               </div>
@@ -298,8 +298,7 @@ const Intraday = () => {
                     </a>
                   </h4>
                   <p className="description">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur
+                  Sometimes, certain forces bring about a movement in the price of a commodity or service. When this happens the proportion of goods supplied to the proportion demanded becomes imbalanced, and the market for the product is said to be in a state of disequilibrium.
                   </p>
                 </div>
               </div>
@@ -322,8 +321,7 @@ const Intraday = () => {
                     </a>
                   </h4>
                   <p className="description">
-                    Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum
+                  In many cases, market strategists find the ideal risk/reward ratio for their investments to be approximately 1:3, or three units of expected return for every one unit of additional risk. Investors can manage risk/reward more directly through the use of stop-loss orders and derivatives such as put options.
                   </p>
                 </div>
               </div>
@@ -345,8 +343,7 @@ const Intraday = () => {
                     </a>
                   </h4>
                   <p className="description">
-                    At vero eos et accusamus et iusto odio dignissimos ducimus
-                    qui blanditiis praesentium voluptatum deleniti atque
+                  The average directional index (ADX) is a technical analysis indicator used by some traders to determine the strength of a trend. 
                   </p>
                 </div>
               </div>
