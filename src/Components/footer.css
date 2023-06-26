@@ -91,6 +91,9 @@ svg.icon {
     margin-bottom: -78px;
 
 }
+.container.py-5 {
+    margin-top: -42px;
+}
 @media only screen and (max-width: 900px) and (min-width: 768px)  {
     .arrow{
         display: none;

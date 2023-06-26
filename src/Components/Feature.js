@@ -14,7 +14,7 @@ const feature = () => {
                   </div>
               </div>
                 <div className="row">
-                  <div className="col-sm-4">
+                  <div className="col-sm-6">
                     <div className="serviceBox">
                         <div className="service-icon">
                             <i className="fa fa-history"></i>
@@ -45,7 +45,7 @@ const feature = () => {
                         </div>
                     </div>
                   </div> */}
-                  <div className="col-sm-4">
+                  <div className="col-sm-6">
                     <div className="serviceBox">
                         <div className="service-icon">
                             <i className="fa fa-envelope"></i>
@@ -62,7 +62,7 @@ const feature = () => {
                         </div>
                     </div>
                   </div>
-                  <div className="col-sm-4">
+                  {/* <div className="col-sm-4">
                     <div className="serviceBox">
                         <div className="service-icon">
                             <i className="fa fa-folder"></i>
@@ -78,7 +78,7 @@ const feature = () => {
 
                         </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
             </div>
             <img  className="img-fluid fea_img" src="https://www.idealstock.in/webasset/images/header-bg03.png" alt=""/>

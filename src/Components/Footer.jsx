@@ -89,6 +89,7 @@ function Footer() {
         </div>
       </div>
       {/* <!-- Copyright --> */}
+      <hr style={{color:"#fff"}}/>
       <div className="text-center p-4 copyright" >
      
         ©2023 All Rights Reserved
