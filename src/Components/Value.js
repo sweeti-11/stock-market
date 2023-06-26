@@ -16,11 +16,11 @@ const Value = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 width-50">
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 width-50">
                     <AnimatePresence>
                         <motion.div
                 style={{
-                    width: 400,
+                    width: "100%",
                     borderRadius: 30,
                     backgroundColor: "#fff",
                     cursor: "pointer",
@@ -37,11 +37,11 @@ const Value = () => {
                         </motion.div>
             </AnimatePresence>
                     </div>
-                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 width-50">
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 width-50">
                     <AnimatePresence>
                         <motion.div
                 style={{
-                    width: 400,
+                    width: "100%",
                     borderRadius: 30,
                     backgroundColor: "#fff",
                     cursor: "pointer",
@@ -57,11 +57,11 @@ const Value = () => {
                         </motion.div>
             </AnimatePresence>
                     </div>
-                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 width-50">
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 width-50">
                     <AnimatePresence>
                         <motion.div
                 style={{
-                    width: 400,
+                    width: "100%",
                     borderRadius: 30,
                     backgroundColor: "#fff",
                     cursor: "pointer",
@@ -77,11 +77,11 @@ const Value = () => {
                         </motion.div>
             </AnimatePresence>
                     </div>
-                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 width-50">
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 width-50">
                     <AnimatePresence>
                         <motion.div
                 style={{
-                    width: 400,
+                    width: "100%",
                     borderRadius: 30,
                     backgroundColor: "#fff",
                     cursor: "pointer",
@@ -97,11 +97,11 @@ const Value = () => {
                         </motion.div>
             </AnimatePresence>
                     </div>
-                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 width-50">
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 width-50">
                     <AnimatePresence>
                         <motion.div
                 style={{
-                    width: 400,
+                    width: "100%",
                     borderRadius: 30,
                     backgroundColor: "#fff",
                     cursor: "pointer",
@@ -117,11 +117,11 @@ const Value = () => {
                         </motion.div>
             </AnimatePresence>
                     </div>
-                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 width-50">
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 width-50">
                     <AnimatePresence>
                         <motion.div
                 style={{
-                    width: 400,
+                    width:"100%",
                     borderRadius: 30,
                     backgroundColor: "#fff",
                     cursor: "pointer",

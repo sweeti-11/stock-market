@@ -5,7 +5,11 @@ import "./Intraday.css";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import {BsArrowUpRight} from 'react-icons/bs'
+import { useMediaQuery } from 'react-responsive';
+
 const Intraday = () => {
+  const isMobile = useMediaQuery({ maxWidth: 768 });
+
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
@@ -37,11 +41,11 @@ const Intraday = () => {
       <section id="intraday" className="intraday">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6" data-aos="fade-right" data-aos-offset="500"
+            <div className="col-lg-6" data-aos={isMobile ? undefined : "zoom-out-down"} data-aos-offset="500"
                         data-aos-duration="500">
               <img src={hold} alt="" className="img-fluid"></img>
             </div>
-            <div className="col-lg-6" data-aos="fade-left" data-aos-offset="500"
+            <div className="col-lg-6" data-aos={isMobile ? undefined : "zoom-out-down"} data-aos-offset="500"
                         data-aos-duration="500">
               <h3>What Is Intraday?</h3>
               <p>
@@ -137,17 +141,17 @@ const Intraday = () => {
       <section id="intraday" className="intraday">
         <div className="container-fluid">
           <div className="row justify-content-center">
-            <div className="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative"  data-aos="flip-left" data-aos-offset="500"
+            <div className="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative"  data-aos={isMobile ? undefined : "zoom-out-down"} data-aos-offset="500"
                         data-aos-duration="500" >
               {/* <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" className="glightbox play-btn mb-4"></a> */}
             </div>
 
             <div className="col-xl-5 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
-              <h2 data-aos="fade-left"  data-aos-offset="500"
+              <h2 data-aos={isMobile ? undefined : "zoom-out-down"}  data-aos-offset="500"
                         data-aos-duration="500">Benefits Of Intraday Trading</h2>
               {/* <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.</p> */}
 
-              <div className="icon-box" data-aos="zoom-in-up" data-aos-offset="500"
+              <div className="icon-box" data-aos={isMobile ? undefined : "zoom-out-down"} data-aos-offset="500"
                         data-aos-duration="500">
                 <div className="icon">
                 <i class="fa-solid fa-hourglass-end"></i>

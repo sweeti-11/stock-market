@@ -10,16 +10,11 @@ const Client = () => {
     <div >
         <div className="clint-section " style={{marginTop:'20px'}}>
       <div className="container">
-        <div className="row md-m-25px-b m-40px-b justify-content-center text-center">
-            <div className="col-lg-6">
-                <h3 className="h1 m-14px-b">What Our Clients Says !</h3>
-            </div>
-        </div>
         <div className="row">
-            <div className="col-md-12 col-lg-12 col-sm-6">
-                <div id="testimonial-slider" className="owl-carousel owl-theme clint-c" style={{opacity:"1",display:"block"}} >
-                    <div className="owl-wrapper-outer">
-                      <div className="owl-wrapper"  style={{ left:"0px"  , transition:"all 1000ms ease 0s", transform:"translate3d(0px,0px,0px)"}}>
+           
+                <h3 className="h1 text-center what_text">What Our Clients Says !</h3>
+            
+                  <div className="col-12 col-lg-3 col-md-6 col-sm-12">
                         <div className="owl-item" >
                           <div className="testimonial">
                         <div className="pic">
@@ -38,6 +33,9 @@ const Client = () => {
                         </h3>
                     </div>
                     </div>
+                    </div>
+
+                    <div className="col-12 col-lg-3 col-md-6 col-sm-12">
                     <div className="owl-item"  >
                       <div className="testimonial">
                         <div className="pic">
@@ -55,6 +53,9 @@ const Client = () => {
                         </ul>
                     </div>
                     </div>
+                    </div>
+
+                    <div className="col-12 col-lg-3 col-md-6 col-sm-12">
                     <div className="owl-item" >
                       <div className="testimonial">
                         <div className="pic">
@@ -74,6 +75,9 @@ const Client = () => {
                         </ul>
                     </div>
                     </div>
+                    </div>
+                    
+                    <div className="col-12 col-lg-3 col-md-6 col-sm-12">
                     <div className="owl-item" >
                       <div className="testimonial">
                         <div className="pic">
@@ -94,14 +98,8 @@ const Client = () => {
                     </div>
                     </div>
                     </div>
+                    </div>
 
-                    
-                    
-                    
-                <div className="owl-controls clickable"  style={{display:"none"}}><div className="owl-buttons"><div className="owl-prev"></div><div className="owl-next"></div></div></div></div>
-            </div>
-        </div>
-    </div>
     </div>
     </div>
     

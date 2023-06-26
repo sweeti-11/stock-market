@@ -1,14 +1,20 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Footer from './Footer'
 import mobile from '../assest/mobile.png'
 import web from '../assest/web.png'
 import Shake from 'react-reveal/Shake';
 import { motion, useTime, useTransform, AnimatePresence } from "framer-motion";
+import { useMediaQuery } from 'react-responsive';
 
 
 import './platform.css'
 
 const Platform = () => {
+  const isMobile = useMediaQuery({ maxWidth: 768 });
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     const time = useTime();
     const rotate = useTransform(time, [0, 4000], [0, 360], { clamp: false });
 
@@ -34,9 +40,14 @@ const Platform = () => {
             <h2 className='text-center'>Mobile</h2>
             <div className='row'>
             <div className='col-lg-6'>
-            <motion.div style={{ rotate }}>
+            {isMobile ? (
             <img src={mobile} style={{paddingTop:"76px", paddingLeft:"176px",paddingRight:"176px", paddingBottom:"76px"}}></img>
+            ) : (
+            <motion.div style={{ rotate }}>
+                          <img src={mobile} style={{paddingTop:"76px", paddingLeft:"176px",paddingRight:"176px", paddingBottom:"76px"}}></img>
+
             </motion.div>
+              )}
             </div>
             <div className='col-lg-6' data-aos="fade-up-right" data-aos-duration="3000">
             <h2>MULTIPLE WATCH LIST</h2>

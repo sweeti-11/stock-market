@@ -25,7 +25,7 @@ const Benefit = () => {
                 </div>
               </div>
 
-              <div className="col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+              <div className="col-md-6 d-flex align-items-stretch">
                 <div className="icon-box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200"  >
                   <div className="icon"><PublicTwoTone/></div>
                   <h4><a href="">Sed ut perspiciatis</a></h4>
@@ -33,7 +33,7 @@ const Benefit = () => {
                 </div>
               </div>
 
-              <div className="col-md-6 d-flex align-items-stretch mt-4">
+              <div className="col-md-6 d-flex align-items-stretch">
                 <div className="icon-box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
                   <div className="icon"><PublicTwoTone/></div>
                   <h4><a href="">Magni Dolores</a></h4>
@@ -41,7 +41,7 @@ const Benefit = () => {
                 </div>
               </div>
 
-              <div className="col-md-6 d-flex align-items-stretch mt-4">
+              <div className="col-md-6 d-flex align-items-stretch">
                 <div className="icon-box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="400">
                   <div className="icon"><PublicTwoTone/></div>
                   <h4><a href="">Nemo Enim</a></h4>

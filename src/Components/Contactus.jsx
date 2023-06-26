@@ -68,8 +68,7 @@ function Contactus() {
                                     <div className="btn-square ">
                                         <i className="fa fa-map-marker-alt fa text-white"></i>
                                     </div>
-                                    <p className="text-my">Sch No.- 54, Shekher Residency, LG-10, Vijay Nagar, Indore, Madhya Pradesh
-                                        452010
+                                    <p className="text-my"> 42/9, Mhatre Bridge, Opp. Siddhi Gardens,Vakil Nagar,Pune, Maharashtra, 411052
                                     </p>
                                 </div>
                             </div>

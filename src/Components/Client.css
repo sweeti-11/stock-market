@@ -3,7 +3,7 @@
     margin: 50px 5px 30px;
     border: 1px solid #2285FE;
     position: relative;
-    min-height: 270px;
+    min-height: 331px;
     transition: .5s ease all;
     transform: scale(1);
   }
@@ -146,6 +146,9 @@
 .pt-130{
 	    padding-top: 0;
 }
+.testimonial{
+  min-height: 385px;
+}
 }
 .testimonial-block__section .quote-left{
 	padding-top: 0;
@@ -199,7 +202,12 @@
   background-size: cover;
   background-color: #AED7EA;
   margin-bottom: -48px;
+  padding: 50px 0;
 }
+.what_text {
+  padding: 0px 0 20px 0;
+}
+
 
 .clint-section .col-lg-6{
   padding: 23px;

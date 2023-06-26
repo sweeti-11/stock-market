@@ -35,8 +35,8 @@ const Services = () => {
               <div className="team_member">
                 <img src={team1} alt="team" />
                 <div className="overlay">
-                  <h3><span>24/7 Online</span></h3>
-                  <p>24/7 Back Office Support: Our clients can get advice and find responses to questions quickly 24/7 and in real-time.</p>
+                  <h3><span>24/7 Online Support</span></h3>
+                  <p> Our clients can get advice and find responses to questions quickly 24/7 and in real-time.</p>
                   {/* <ul className="team_social">
                     <li><a href="#"><i >{<BsFacebook/>}</i></a></li>
                     <li><a href="#"><i >{<AiOutlineTwitter/>}</i></a></li>
@@ -56,7 +56,7 @@ const Services = () => {
                 <img src={team2} alt="team" />
                 <div className="overlay">
                   <h3><span>Sms Service</span></h3>
-                  <p>SMS Service: Our SMS customer service platform raises support options for
+                  <p>Our SMS customer service platform raises support options for
                      our clients.</p>
                   {/* <ul className="team_social">
                     <li><a href="#"><i>{<BsFacebook/>}</i></a></li>
@@ -79,8 +79,8 @@ const Services = () => {
               <div className="team_member">
                 <img src={team3} alt="team" />
                 <div className="overlay">
-                  <h3><span>Free Calls</span></h3>
-                  <p> Sure Advisory Calls: We provide all information to our clients via Advisory Calls</p>
+                  <h3><span>Sure Advisory Calls</span></h3>
+                  <p> We provide all information to our clients via Advisory Calls</p>
                   {/* <ul className="team_social">
                     <li><a href="#"><i>{<BsFacebook/>}</i></a></li>
                     <li><a href="#"><i>{<AiOutlineTwitter/>}</i></a></li>
@@ -101,8 +101,8 @@ const Services = () => {
               <div className="team_member">
                 <img src={team4} alt="team" />
                 <div className="overlay">
-                  <h3><span>Exceutive </span></h3>
-                  <p>Best Executive Support: We have high-level experienced trading executives for client support always.</p>
+                  <h3><span>Exceutive Support </span></h3>
+                  <p> We have high-level experienced trading executives for client support always.</p>
                   {/* <ul className="team_social">
                     <li><a href="#"><i>{<BsFacebook/>}</i></a></li>
                     <li><a href="#"><i>{<AiOutlineTwitter/>}</i></a></li>
@@ -122,8 +122,8 @@ const Services = () => {
               <div className="team_member">
                 <img src={team5} alt="team" />
                 <div className="overlay">
-                  <h3><span>Trade Option</span></h3>
-                  <p> Trade On Call: Call On Trade is a facility that allows you to trade in the stock markets using your registered mobile phone with our executive.</p>
+                  <h3><span>Trade On Call</span></h3>
+                  <p> Call On Trade is a facility that allows you to trade in the stock markets using your registered mobile phone with our executive.</p>
                   {/* <ul className="team_social">
                     <li><a href="#"><i>{<BsFacebook/>}</i></a></li>
                     <li><a href="#"><i>{<AiOutlineTwitter/>}</i></a></li>
@@ -144,7 +144,7 @@ const Services = () => {
                 <img src={team6} alt="team" />
                 <div className="overlay">
                   <h3><span>Payin Payout</span></h3>
-                  <p>Easy Payin and Payout: Payin and Payouts are the days when brokers and exchanges make payments or delivery the securities.</p>
+                  <p> Payin and Payouts are the days when brokers and exchanges make payments or delivery the securities.</p>
                   {/* <ul className="team_social">
                     <li><a href="#"><i>{<BsFacebook/>}</i></a></li>
                     <li><a href="#"><i >{<AiOutlineTwitter/>}</i></a></li>
@@ -164,8 +164,8 @@ const Services = () => {
               <div className="team_member">
                 <img src={team7} alt="team" />
                 <div className="overlay">
-                  <h3><span>Brokerage</span></h3>
-                  <p>Brokerage Fee: Our brokerage fee per trade is flat 10/- for every our clients.</p>
+                  <h3><span>Brokerage Fee</span></h3>
+                  <p> Our brokerage fee per trade is flat 10/- for every our clients.</p>
                   {/* <ul className="team_social">
                     <li><a href="#"><i >{<BsFacebook/>}</i></a></li>
                     <li><a href="#"><i>{<AiOutlineTwitter/>}</i></a></li>
