@@ -21,9 +21,9 @@ function Sections() {
     
     <Services/>
     <Value/>
-    <Feature/> 
+    {/* <Feature/>  */}
     <Benefit/>
-    <Market/>
+    {/* <Market/> */}
     {/* <Contact/>  */}
     <Client/>
     <section className="counter">
