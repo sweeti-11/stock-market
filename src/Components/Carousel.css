@@ -9,7 +9,7 @@
   .video {
     width: 100%;
     max-width: 100%;
-    height: 600px;
+    height: 520px;
     object-fit: cover;
     /* position: relative; */
   } 
@@ -29,7 +29,7 @@
     font-family: "poppins", "times-roman";
     color: #88D39F;
     font-weight: 800;
-    margin-top: 232px;
+    margin-top: 170px;
     margin-left: 130px;
   
   }

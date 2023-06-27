@@ -52,7 +52,7 @@ function Carousel() {
               class="active"
               // aria-current="true"
               aria-label="Slide 1"
-              style={{ width: "25%", marginLeft: "-170px", marginTop: "-130px" }}
+              style={{ width: "25%", marginLeft: "-81px", marginTop: "-120px" }}
               onClick={() => handleClick(0)}
             ></button>
             <button
@@ -63,7 +63,7 @@ function Carousel() {
               aria-current={activeSlide === 1 ? "true" : "false"}
               aria-label="Slide 2"
               data-interval="1000"
-              style={{ width: "25%", marginTop: "-130px" }}
+              style={{ width: "25%", marginTop: "-120px" }}
               onClick={() => handleClick(1)}
             ></button>
             <button
@@ -73,7 +73,7 @@ function Carousel() {
               className={activeSlide === 2 ? "active" : ""}
               aria-current={activeSlide === 2 ? "true" : "false"}
               aria-label="Slide 3"
-              style={{ width: "25%", marginTop: "-130px" }}
+              style={{ width: "25%", marginTop: "-120px" }}
               onClick={() => handleClick(2)}
             ></button>
             <button
@@ -83,7 +83,7 @@ function Carousel() {
               className={activeSlide === 3 ? "active" : ""}
               aria-current={activeSlide === 3 ? "true" : "false"}
               aria-label="Slide 4"
-              style={{ width: "25%", marginTop: "-130px" }}
+              style={{ width: "25%", marginTop: "-120px" }}
               onClick={() => handleClick(3)}
             ></button>
           </div>
