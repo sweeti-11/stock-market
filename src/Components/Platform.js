@@ -106,7 +106,7 @@ const Platform = () => {
             <h2>MULTIPLE WATCH LIST</h2>
             <p>Now you can create multiple watch list and add scripts as per your preferences</p>
             </div>
-            <div className='col-lg-6'>
+            <div className='col-lg-6' style={{marginBottom:"30px"}}>
             <Shake duration={6000} delay={3000}>
             <img src={web} className='img-fluid'></img>
             </Shake>
