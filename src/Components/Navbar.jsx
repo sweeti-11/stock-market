@@ -54,6 +54,9 @@ const Navbar = () => {
           <li className="nav-item">
             <NavLink className="nav-link" to="https://bulleyetrade.com/signup.php">Signup</NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="https://panel.bulleyetrade.com/login">Signin</NavLink>
+          </li>
         </ul>
       </div>
     </div>
@@ -110,6 +113,9 @@ const Navbar = () => {
           </li> */}
           <li className="nav-item">
             <NavLink className="nav-link" to="https://bulleyetrade.com/signup.php">Signup</NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="https://panel.bulleyetrade.com/login">Signin</NavLink>
           </li>
             </ul>
           </div>

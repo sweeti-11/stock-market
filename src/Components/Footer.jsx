@@ -11,6 +11,7 @@ import { AiOutlineArrowUp } from 'react-icons/ai';
 import { FcRight } from "react-icons/fc";
 import { AiOutlineRight } from 'react-icons/ai'
 import {BsInfoCircle} from 'react-icons/bs'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -51,6 +52,9 @@ function Footer() {
                     <h6 className="text-light">09:00 am - 12:00 pm</h6>
                     <p className="mb-1">Sunday</p>
                     <h6 className="text-light">Closed</h6> */}
+
+                    <h5 style={{color:"#fff",marginTop:"55px"}}>Download The App</h5>
+                    <img  src={require('../assest/iphone.png')}/>
             </div>
             <div className="col-lg-3 col-md-6  head-office">
               <h4 className="text-light mb-4">Head Office</h4>
