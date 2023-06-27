@@ -82,13 +82,13 @@ function Contactus() {
                                 <div className="row g-3">
                                     <div className="col-md-6">
                                         <div className="form-floating">
-                                            <input type="text" className="form-control" id="name" name='username' placeholder="Your Name" required />
+                                            <input type="text" className="form-control" id="name" name='name' placeholder="Your Name" required />
                                             <label for="name">Your Name</label>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
                                         <div className="form-floating">
-                                            <input type="email" className="form-control" name='Email' id="email" placeholder="Your Email" required />
+                                            <input type="email" className="form-control" name='email' id="email" placeholder="Your Email" required />
                                             <label for="email">Your Email</label>
                                         </div>
                                     </div>
@@ -100,7 +100,7 @@ function Contactus() {
                                     </div>
                                     <div className="col-12">
                                         <div className="form-floating">
-                                            <textarea className="form-control" name='massage' placeholder="Leave a message here" id="message" style={{ height: "120px" }} required></textarea>
+                                            <textarea className="form-control" name='message' placeholder="Leave a message here" id="message" style={{ height: "120px" }} required></textarea>
                                             <label for="message">Message</label>
                                         </div>
                                     </div>
