@@ -224,19 +224,19 @@ So let’s come with us, start your own food business at a very low cost and in 
 
             <div class="icon-box">
               <div class="icon"><CiLocationOn/></div>
-              <h4 class="title"><a href="">50+ locations</a></h4>
+              <h4 class="title"><a href="">Year Of Experience 13+</a></h4>
               <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
             </div>
 
             <div class="icon-box">
               <div class="icon"><BsPerson/></div>
-              <h4 class="title"><a href="">450+ employees</a></h4>
+              <h4 class="title"><a href="">Happy Customers 3,15,650+</a></h4>
               <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
             </div>
 
             <div class="icon-box">
               <div class="icon"><BsPersonAdd/></div>
-              <h4 class="title"><a href="">3Lakhs+ customers</a></h4>
+              <h4 class="title"><a href="">Follow Up 7,56,308+</a></h4>
               <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
             </div>
 
