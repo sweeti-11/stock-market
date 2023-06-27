@@ -1,12 +1,48 @@
-import React,{useEffect} from 'react'
+import React,{useEffect, useState} from 'react'
 import Footer from './Footer'
 import './Contactus.css';
 import contactimg from '../assest/trade2.jpg';
+import axios from 'axios';
 
 function Contactus() {
     useEffect(() => {
         window.scrollTo(0, 0)
       }, [])
+      const ContactUrl = "https://scripts.bulleyetrade.com/contact-email"
+      const [inputs, setInputs] = useState({
+        name: '',
+        email: '',
+        subject: '',
+        message: '',
+      });
+      const handleOnChange = (event) => {
+        setInputs({
+          ...inputs,
+          [event.target.name]: event.target.value,
+        });
+      };
+      const handleSubmit = async (event) => {
+        event.preventDefault();
+        const formData = new FormData(event.currentTarget);
+        formData.append('name', inputs.name);
+        formData.append('email', inputs.email);
+        formData.append('subject', inputs.subject);
+        formData.append('message', inputs.message);
+        console.log(inputs)
+        axios.post(ContactUrl, formData, {
+          headers: {
+            'Content-Type': 'multipart/form-data',  
+          },
+         
+        }
+        ).then(async (response) => {
+          console.log(response)
+        }).catch((error) => {
+          console.log(error);
+        });
+    
+      };  
+     
     return (
         <>
         
@@ -78,29 +114,33 @@ function Contactus() {
                         <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                             <h3 className="mb-4">Contact Form?</h3>
                             {/* <p className="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p> */}
-                            <form action='https://formspree.io/f/mvonyddn' method='POST'>
+                            <form onSubmit={handleSubmit}>
                                 <div className="row g-3">
                                     <div className="col-md-6">
                                         <div className="form-floating">
-                                            <input type="text" className="form-control" id="name" name='name' placeholder="Your Name" required />
+                                            <input type="text" className="form-control" id="name" name='name' placeholder="Your Name"  value={inputs.name}
+                                             onChange={handleOnChange}/>
                                             <label for="name">Your Name</label>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
                                         <div className="form-floating">
-                                            <input type="email" className="form-control" name='email' id="email" placeholder="Your Email" required />
+                                            <input type="email" className="form-control" name='email' id="email" placeholder="Your Email"  value={inputs.email}
+                                              onChange={handleOnChange}/>
                                             <label for="email">Your Email</label>
                                         </div>
                                     </div>
                                     <div className="col-12">
                                         <div className="form-floating">
-                                            <input type="text" className="form-control" name='subject' id="subject" placeholder="Subject" required />
+                                            <input type="text" className="form-control" name='subject' id="subject" placeholder="Subject"  value={inputs.subject}
+                                             onChange={handleOnChange}/>
                                             <label for="subject">Subject</label>
                                         </div>
                                     </div>
                                     <div className="col-12">
                                         <div className="form-floating">
-                                            <textarea className="form-control" name='message' placeholder="Leave a message here" id="message" style={{ height: "120px" }} required></textarea>
+                                             <textarea className="form-control" name='message' placeholder="Leave a message here" id="message" style={{ height: "120px" }}  value={inputs.message}
+                                                    onChange={handleOnChange}></textarea>
                                             <label for="message">Message</label>
                                         </div>
                                     </div>

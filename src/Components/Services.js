@@ -21,7 +21,7 @@ const Services = () => {
 
           <div className="section-title text-center">
             <h2 className>Our Services</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <p>Bulleye trade is the market leader in the International Commodity market providing investors with personalized and prompt services. Bulleye trade  with over a decade of expertise has been awarded time and time again by MCX.</p>
           </div>
 
           <div className="row">
