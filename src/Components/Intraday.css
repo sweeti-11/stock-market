@@ -114,8 +114,8 @@ box-shadow: -9px -12px 35px -3px rgba(55,90,228,0.43);
   }
   
   .intraday-stock .service-item .icon {
-    width: 48px;
-    height: 48px;
+    width: 43px;
+    height: 39px;
     position: relative;
     margin-right: 50px;
     line-height: 0;
@@ -190,7 +190,10 @@ box-shadow: -9px -12px 35px -3px rgba(55,90,228,0.43);
     color: white;
 }
 .intraday-stock .service-item .icon svg{
-  width: 2em;
+  /* width: 2em;
   height: 3em;
-  margin-left: 6px;
+  margin-left: 6px; */
+  width: 25px;
+    height: 24px;
+    margin: 6px 8px;
 }
