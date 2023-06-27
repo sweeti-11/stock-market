@@ -27,7 +27,7 @@ function Sections() {
     {/* <Market/> */}
     {/* <Contact/>  */}
     <Client/>
-    <section className="counter img-fluid" style={{ backgroundImage:`url(${myImage})`, height:"235px", marginBottom:"0px",backgroundRepeat:"no-repeat", backgroundRepeat:"no-repeat",backgroundSize:"cover", backgroundPosition:"center",zIndex:"2", marginTop:"48px"}}>
+    <section className="counter img-fluid" style={{ backgroundImage:`url(${myImage})`,  marginBottom:"0px",backgroundRepeat:"no-repeat", backgroundRepeat:"no-repeat",backgroundSize:"cover", backgroundPosition:"center",zIndex:"2", marginTop:"48px"}}>
     <div className="container">
     <div className="row">
     <div className="col-lg-4 col-md-4 col-12">
