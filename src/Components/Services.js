@@ -122,7 +122,7 @@ const Services = () => {
               <div className="team_member">
                 <img src={team5} alt="team" />
                 <div className="overlay">
-                  <h3><span>Trade On Call</span></h3>
+                  <h3><span>Trade Or Call</span></h3>
                   <p> Call On Trade is a facility that allows you to trade in the stock markets using your registered mobile phone with our executive.</p>
                   {/* <ul className="team_social">
                     <li><a href="#"><i>{<BsFacebook/>}</i></a></li>
