@@ -54,8 +54,11 @@ function Footer() {
                     <h6 className="text-light">Closed</h6> */}
 
                     <h5 style={{color:"#fff",marginTop:"55px"}}>Download The App</h5>
-                    <img  src={require('../assest/iphone.png')}/>
+                    <Link to=" ">
+                    <img  src={require('../assest/android-download.png')} style={{width:"177px"}} />
+                    </Link>
             </div>
+
             <div className="col-lg-3 col-md-6  head-office">
               <h4 className="text-light mb-4">Head Office</h4>
               <p className="mb-3 ">
@@ -97,7 +100,7 @@ function Footer() {
       <div className="text-center p-4 copyright" >
      
         ©2023 All Rights Reserved
-        <a className="text-reset fw-bold" href="/" > bulleyetrade</a>
+        <a className="text-reset fw-bold" href="/"  style={{textDecoration:"none"}} > bulleyetrade</a>
       </div>
       {/* <!-- Copyright --> */}
       <a href="#" className=" arrow btn btn-lg btn-success btn-lg-square rounded-circle back-to-top l-5"><i><AiOutlineArrowUp /></i></a>

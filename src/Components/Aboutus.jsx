@@ -225,7 +225,9 @@ So let’s come with us, start your own food business at a very low cost and in 
             <div class="icon-box">
               <div class="icon"><CiLocationOn/></div>
               <h4 class="title"><a href="">Year Of Experience 13+</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <p class="description">
+                Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
+                </p>
             </div>
 
             <div class="icon-box">

@@ -35,7 +35,7 @@ const Service = () => {
 
         <div class="section-header">
           <h2>Our Services</h2>
-          <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
+          <p>Bulleye trade is the market leader in the International Commodity market providing investors with personalized and prompt services. Bulleye trade  with over a decade of expertise has been awarded time and time again by MCX. </p>
         </div>
 
         <div class="row gy-4 aos-init aos-animate" data-aos={isMobile ? undefined : "zoom-out-down"} data-aos-offset="500"
@@ -122,7 +122,7 @@ const Service = () => {
 
       </div>
     </section>
-    <section id="service-2" className='service-2'>
+    {/* <section id="service-2" className='service-2'>
     <div className='container'>
     <div className='row'>
         <div className='col-lg-6' data-aos="fade-right" data-aos-offset="500"
@@ -136,15 +136,15 @@ const Service = () => {
               <li><i class="bi bi-check"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
               <li><i class="bi bi-check"></i><span> Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
               <li><i class="bi bi-check"></i> <span>Facilis ut et voluptatem aperiam. Autem soluta ad fugiat</span>.</li>
-            </ul>
+            </ul> */}
             {/* <a href="#" class="btn btn-get-started align-self-start">Get Started</a> */}
-          </div>
+          {/* </div>
     </div>
 
 
     </div>
 
-    </section>
+    </section> */}
     <Footer/>
     </div>
   )

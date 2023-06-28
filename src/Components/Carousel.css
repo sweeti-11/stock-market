@@ -196,6 +196,17 @@ body{
     padding: 0;
 }
 
+@media (max-width: 767px)
+{
+  .carousel-indicators {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .carousel-indicators {
+display: none;
+  }
+}
 /* .mainCarousel img.d-block.float-end.rounded-circle {
     padding-top: 50px;
 }

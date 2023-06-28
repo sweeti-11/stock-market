@@ -96,11 +96,11 @@ function Carousel() {
             >
             
               <h2 className="h2_text">
-              The Better Place to Start the Trade.
+              The Better Place To Start The Trade.
                 <br />
               </h2>
               {/* <h2 className="second_h2_text">hjgfyhiljkj lkmkmkm;km;lm</h2> */}
-              <p className="p_text">The stock market is where investors buy and sell shares of companies. It's a set of exchanges where companies issue shares and other securities for trading.</p>
+              {/* <p className="p_text">The stock market is where investors buy and sell shares of companies. It's a set of exchanges where companies issue shares and other securities for trading.</p> */}
               {/* <button className="buttonStyle">
                 
                 kjbvjghghjlj
@@ -120,7 +120,7 @@ function Carousel() {
             >
               <h2 className="h2_text">Increase Your Business With Bull Eye Trade.</h2>
               {/* <h2 className="second_h2_text">trading bot</h2> */}
-              <p className="p_text">A bull market is indicated by stock prices that rise consistently over a period of time.</p>
+              {/* <p className="p_text">A bull market is indicated by stock prices that rise consistently over a period of time.</p> */}
               {/* <button className="buttonStyle2">bjnjn</button> */}
             </div>
             </div>
