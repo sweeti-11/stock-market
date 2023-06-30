@@ -145,6 +145,10 @@ function Carousel() {
               <h2 className="h2_text">Trading Changes Your Life.</h2>
               {/* <p className="p_text">ghgg</p> */}
               {/* <button className="buttonStyle2">ggh</button> */}
+              <Link to="/holding"> <button className="buttonStyle">
+                Read more
+              </button>
+              </Link>
             </div>
             </div>
             <div
@@ -158,6 +162,10 @@ function Carousel() {
             >
               <h2 className="h2_text">Invest Less And Get More.</h2>
               {/* <p className="p_text">jbjkbnkjn</p> */}
+              <Link to="/intraday"> <button className="buttonStyle">
+                Read more
+              </button>
+              </Link>
               {/* <button className="buttonStyle2">jbhb</button> */}
             </div>
           </div>
