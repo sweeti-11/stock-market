@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import video2 from "../assest/video2.mp4";
 import video3 from "../assest/video-8.mp4";
 import video1 from "../assest/video4.mp4";
+import { Link } from 'react-router-dom';
 
 
 function Carousel() {
@@ -45,6 +46,7 @@ function Carousel() {
           <div class="carousel-indicators">
             <button
               type="button"
+              id='indicator_btn'
               data-bs-target="#carouselExampleCaptions"
               data-bs-slide-to="0"
               className={activeSlide === 0 ? "active" : ""}
@@ -52,18 +54,19 @@ function Carousel() {
               class="active"
               // aria-current="true"
               aria-label="Slide 1"
-              style={{ width: "25%", marginLeft: "-81px", marginTop: "-120px" }}
+              style={{ width: "25%", marginLeft: "-110px"}}
               onClick={() => handleClick(0)}
             ></button>
             <button
               type="button"
               data-bs-target="#carouselExampleCaptions"
+              id='indicator_btn'
               data-bs-slide-to="1"
               className={activeSlide === 1 ? "active" : ""}
               aria-current={activeSlide === 1 ? "true" : "false"}
               aria-label="Slide 2"
               data-interval="1000"
-              style={{ width: "25%", marginTop: "-120px" }}
+              style={{ width: "25%"}}
               onClick={() => handleClick(1)}
             ></button>
             <button
@@ -73,8 +76,9 @@ function Carousel() {
               className={activeSlide === 2 ? "active" : ""}
               aria-current={activeSlide === 2 ? "true" : "false"}
               aria-label="Slide 3"
-              style={{ width: "25%", marginTop: "-120px" }}
+              style={{ width: "25%"}}
               onClick={() => handleClick(2)}
+              id='indicator_btn'
             ></button>
             <button
               type="button"
@@ -83,8 +87,9 @@ function Carousel() {
               className={activeSlide === 3 ? "active" : ""}
               aria-current={activeSlide === 3 ? "true" : "false"}
               aria-label="Slide 4"
-              style={{ width: "25%", marginTop: "-120px" }}
+              style={{ width: "25%"}}
               onClick={() => handleClick(3)}
+               id='indicator_btn'
             ></button>
           </div>
           <div className="carousel-inner">
@@ -101,11 +106,11 @@ function Carousel() {
               </h2>
               {/* <h2 className="second_h2_text">hjgfyhiljkj lkmkmkm;km;lm</h2> */}
               {/* <p className="p_text">The stock market is where investors buy and sell shares of companies. It's a set of exchanges where companies issue shares and other securities for trading.</p> */}
-              {/* <button className="buttonStyle">
-                
-                kjbvjghghjlj
+              <Link to="/holding"> <button className="buttonStyle">
+                Read more
               </button>
-              <button className="buttonStyle2" style={{ marginLeft: "0px" }}>
+              </Link>
+              {/* <button className="buttonStyle2" style={{ marginLeft: "0px" }}>
                 gkjhlkjlk
               </button> */}
             </div>
@@ -122,6 +127,10 @@ function Carousel() {
               {/* <h2 className="second_h2_text">trading bot</h2> */}
               {/* <p className="p_text">A bull market is indicated by stock prices that rise consistently over a period of time.</p> */}
               {/* <button className="buttonStyle2">bjnjn</button> */}
+              <Link to="/intraday"> <button className="buttonStyle">
+                Read more
+              </button>
+              </Link>
             </div>
             </div>
             <div

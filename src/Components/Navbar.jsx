@@ -117,7 +117,7 @@ const Navbar = () => {
             <a className="nav-link" href="https://bulleyetrade.com/signup.php">Signup</a>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="https://panel.bulleyetrade.com/login">Signin</NavLink>
+            <a className="nav-link" href="https://panel.bulleyetrade.com/login">Signin</a>
           </li>
             </ul>
           </div>
