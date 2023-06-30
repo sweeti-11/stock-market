@@ -11,7 +11,7 @@ function Countdown({ target,text }) {
       } else {
         clearInterval(timer);
       }
-    }, 10);
+    }, 0);
 
     return () => {
       clearInterval(timer);
