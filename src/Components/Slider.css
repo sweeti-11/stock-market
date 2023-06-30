@@ -10,6 +10,9 @@
 }
 .marquee-wrapper{
     text-align:left;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 10px;
   }
   .marquee-wrapper .container{
     overflow:hidden;
@@ -32,11 +35,13 @@
     display: block;
     width: 200%;
     position: absolute;
+    display: inline-flex;
+    gap: 10px;
+    
   }
   .marquee-inner p{
-    font-weight: 300;
+    font-weight: 600;
     font-size: 17px;
-    font-family: cursive;
   }
   .marquee-inner.to-left{
     animation: marqueeLeft 25s linear infinite;
@@ -50,13 +55,15 @@
   }
   .marquee-item{
     width: 230px;
-    height: auto;
+    height: 120px;
     padding: 13px;
     display: inline-block;
     margin: 0 10px;
     float: left;
+    border-radius: 15px;
     transition: all .2s ease-out;
-    background: #375ae4 ;
+    background: #f6b248 ;
+    flex: 0 0 auto;
   }
   @keyframes marqueeLeft{
     0% {
