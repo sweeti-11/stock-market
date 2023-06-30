@@ -99,7 +99,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <Link className="nav-link desk"  >Commodity Features</Link>
-                <Link className="nav-link mob" to="" data-bs-toggle="dropdown">Fetures</Link>
+                <Link className="nav-link mob" to="" data-bs-toggle="dropdown">Commoditiy Features</Link>
                 <div className="dropdown-menu bg-light rounded-0 m-0 text-dark">
 
                   <a href="/intraday" className="dropdown-item">Intraday</a>

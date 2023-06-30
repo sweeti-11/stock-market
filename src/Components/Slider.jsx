@@ -14,7 +14,7 @@ const Slider = () => {
         
       },
     }).then(async (response) => {
-      console.log(response)
+      // console.log(response)
       setData(response.data.Data);
     })
     
