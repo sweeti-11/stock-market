@@ -3,6 +3,7 @@ import logo from '../assest/final.png'
 import './Navbar.css'
 import { NavLink, Link } from 'react-router-dom'
 const Navbar = () => {
+  
   return (
     <>
 
@@ -52,7 +53,8 @@ const Navbar = () => {
             <NavLink className="nav-link" to="https://panel.bulleyetrade.com/">Signin</NavLink>
           </li> */}
           <li className="nav-item">
-            <NavLink className="nav-link" to="https://bulleyetrade.com/signup.php">Signup</NavLink>
+            {/* <NavLink className="nav-link" onClick={reloadPage}>Signup</NavLink> */}
+            <a className='nav-link' href="https://bulleyetrade.com/signup.php" >Signup</a>
           </li>
           <li className="nav-item">
             <NavLink className="nav-link" to="https://panel.bulleyetrade.com/login">Signin</NavLink>
@@ -112,7 +114,7 @@ const Navbar = () => {
             <NavLink className="nav-link" to="https://panel.bulleyetrade.com/">Signin</NavLink>
           </li> */}
           <li className="nav-item">
-            <NavLink className="nav-link" to="https://bulleyetrade.com/signup.php">Signup</NavLink>
+            <a className="nav-link" href="https://bulleyetrade.com/signup.php">Signup</a>
           </li>
           <li className="nav-item">
             <NavLink className="nav-link" to="https://panel.bulleyetrade.com/login">Signin</NavLink>
