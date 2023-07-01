@@ -119,28 +119,28 @@ function Contactus() {
                                     <div className="col-md-6">
                                         <div className="form-floating">
                                             <input type="text" className="form-control" id="name" name='name' placeholder="Your Name"  value={inputs.name}
-                                             onChange={handleOnChange}/>
+                                             onChange={handleOnChange} required/>
                                             <label for="name">Your Name</label>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
                                         <div className="form-floating">
                                             <input type="email" className="form-control" name='email' id="email" placeholder="Your Email"  value={inputs.email}
-                                              onChange={handleOnChange}/>
+                                              onChange={handleOnChange} required/>
                                             <label for="email">Your Email</label>
                                         </div>
                                     </div>
                                     <div className="col-12">
                                         <div className="form-floating">
                                             <input type="text" className="form-control" name='subject' id="subject" placeholder="Subject"  value={inputs.subject}
-                                             onChange={handleOnChange}/>
+                                             onChange={handleOnChange} required/>
                                             <label for="subject">Subject</label>
                                         </div>
                                     </div>
                                     <div className="col-12">
                                         <div className="form-floating">
                                              <textarea className="form-control" name='message' placeholder="Leave a message here" id="message" style={{ height: "120px" }}  value={inputs.message}
-                                                    onChange={handleOnChange}></textarea>
+                                                    onChange={handleOnChange} required></textarea>
                                             <label for="message">Message</label>
                                         </div>
                                     </div>
