@@ -1,9 +1,14 @@
 import React,{useEffect} from 'react'
 import Footer from './Footer'
 import './service.css'
-import { BsFillStarFill } from "react-icons/bs";
+import {SiPayoneer} from "react-icons/si";
 import se from '../assest/serv.jpg'
 import { useMediaQuery } from 'react-responsive';
+import {HiOutlineSupport} from "react-icons/hi";
+import {GiTrade} from "react-icons/gi";
+import {AiOutlinePayCircle} from "react-icons/ai";
+import {MdTextsms, MdCall, MdSupportAgent} from "react-icons/md";
+
 
 
 
@@ -45,7 +50,7 @@ const Service = () => {
             <div class="service-item  position-relative">
               <div class="icon">
                 {/* <i class="bi bi-activity"></i> */}
-                <BsFillStarFill className='fa-fade'/>
+                <HiOutlineSupport className='fa-fade'/>
               </div>
               <h3>24/7 Online Support</h3>
               <p> Our clients can get advice and find responses to questions quickly 24/7 and in real-time.</p>
@@ -56,7 +61,7 @@ const Service = () => {
           <div class="col-lg-4 col-md-6" >
             <div class="service-item position-relative">
               <div class="icon">
-              <BsFillStarFill className='fa-fade'/>
+              <MdTextsms className='fa-fade'/>
               </div>
               <h3>Sms Service</h3>
               <p>SMS Service: Our SMS customer service platform raises support options for our clients.</p>
@@ -67,7 +72,7 @@ const Service = () => {
           <div class="col-lg-4 col-md-6">
             <div class="service-item position-relative">
               <div class="icon">
-              <BsFillStarFill className='fa-fade'/>
+              <MdCall className='fa-fade'/>
               </div>
               <h3>Sure Advisory Calls</h3>
               <p> We provide all information to our clients via Advisory Calls.</p>
@@ -77,7 +82,7 @@ const Service = () => {
           <div class="col-lg-4 col-md-6">
             <div class="service-item position-relative">
               <div class="icon">
-              <BsFillStarFill className='fa-fade'/>
+              <MdSupportAgent className='fa-fade'/>
               </div>
               <h3>Exceutive Support</h3>
               <p> We have high-level experienced trading executives for client support always.</p>
@@ -88,7 +93,7 @@ const Service = () => {
           <div class="col-lg-4 col-md-6">
             <div class="service-item position-relative">
               <div class="icon">
-              <BsFillStarFill className='fa-fade'/>
+              <GiTrade className='fa-fade'/>
               </div>
               <h3>Trade On Call</h3>
               <p>Call On Trade is a facility that allows you to trade in the stock markets using your registered mobile phone with our executive. </p>
@@ -99,7 +104,7 @@ const Service = () => {
           <div class="col-lg-4 col-md-6">
             <div class="service-item position-relative">
               <div class="icon">
-              <BsFillStarFill className='fa-fade'/>
+              <AiOutlinePayCircle className='fa-fade'/>
               </div>
               <h3>Payin Payout</h3>
               <p> Payin and Payouts are the days when brokers and exchanges make payments or delivery the securities.</p>
@@ -110,7 +115,7 @@ const Service = () => {
           <div class="col-lg-4 col-md-6">
             <div class="service-item position-relative">
               <div class="icon">
-              <BsFillStarFill className='fa-fade'/>
+              <SiPayoneer className='fa-fade'/>
               </div>
               <h3>Brokerage Fee</h3>
               <p> Our brokerage fee per trade is flat 10/- for every our clients.</p>

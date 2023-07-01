@@ -1,7 +1,10 @@
 import React from 'react'
 import './Benefit.css'
 import PublicTwoTone from '@mui/icons-material/PublicTwoTone';
-
+import { AiOutlineFileProtect } from "react-icons/ai";
+import {GiProfit} from "react-icons/gi";
+import {HiCubeTransparent} from "react-icons/hi"
+import {MdOutlineMargin} from "react-icons/md"
 const Benefit = () => {
   return (
     <div>
@@ -19,7 +22,7 @@ const Benefit = () => {
             <div className="row">
               <div className="col-md-6 d-flex align-items-stretch ">
                 <div className="icon-box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
-                  <div className="icon"><PublicTwoTone/></div>
+                  <div className="icon"><AiOutlineFileProtect/></div>
                   <h4><a href="">Protection against inflation</a></h4>
                   <p>Protection against inflation: As the demand for goods and services hikes, it leads to a boost in the price of the goods and services as the price of the raw materials i.e. commodities gains.</p>
                 </div>
@@ -27,7 +30,7 @@ const Benefit = () => {
 
               <div className="col-md-6 d-flex align-items-stretch">
                 <div className="icon-box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200"  >
-                  <div className="icon"><PublicTwoTone/></div>
+                  <div className="icon"><GiProfit/></div>
                   <h4><a href="">Profitable Returns </a></h4>
                   <p>Profitable Returns : If the liquidity is huge the commodities are riskier in the form of expenses. Companies were possible to have either an extensive benefit or they can experience bulky losses.</p>
                 </div>
@@ -35,7 +38,7 @@ const Benefit = () => {
 
               <div className="col-md-6 d-flex align-items-stretch">
                 <div className="icon-box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
-                  <div className="icon"><PublicTwoTone/></div>
+                  <div className="icon"><HiCubeTransparent/></div>
                   <h4><a href="">Transparency </a></h4>
                   <p>Transparency :Trading is supposed to be a transparent process in commodity futures. The plan will lead you to have an equal price which in change is controlled by large-scale participation.</p>
                 </div>
@@ -43,7 +46,7 @@ const Benefit = () => {
 
               <div className="col-md-6 d-flex align-items-stretch">
                 <div className="icon-box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="400">
-                  <div className="icon"><PublicTwoTone/></div>
+                  <div className="icon"><MdOutlineMargin/></div>
                   <h4><a href="">Lower Margin </a></h4>
                   <p>Lower Margin : The trading fee for commodities is very less compared to another asset trading.</p>
                 </div>
