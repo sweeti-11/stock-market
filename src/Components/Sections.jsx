@@ -34,10 +34,10 @@ function Sections() {
       <Countdown text="Year Of Experience" start={0} target={13}/>
       </div>
       <div className="col-lg-4 col-md-4 col-12">
-      <Countdown text="Happy Customers" start={250000}   target={300000} />
+      <Countdown text="Happy Customers" start={310600}   target={315650} />
       </div>
       <div className="col-lg-4 col-md-4 col-12">
-      <Countdown text="Follow Up" start={250000}  target={300000} />
+      <Countdown text="Follow Up" start={745300}  target={756308} />
       </div>
       </div>
       </div>
