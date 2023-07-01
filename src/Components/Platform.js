@@ -113,8 +113,8 @@ const Platform = () => {
             </motion.div>
             </div>
             <div className='col-lg-6'>
-            <h2>MULTIPLE WATCH LIST</h2>
-            <p>Now you can buy and sell multiple shares in intraday and add scripts as per your preferences</p>
+            <h2>BUY MULTIPLE SHARES IN COMMON STOCK</h2>
+            <p>Now you can buy and sell multiple shares in common stock and add scripts as per your preferences</p>
             </div>
             </div>
             </div>
@@ -123,8 +123,8 @@ const Platform = () => {
             <div className='container'>
             <div className='row'>
             <div className='col-lg-6'>
-            <h2>BUY MULTIPLE SHARES IN INTRDAY</h2>
-            <p>Now you can buy and sell multiple shares in intraday and add scripts as per your preferences</p>
+            <h2>BUY MULTIPLE SHARES IN PREFERRED STOCK</h2>
+            <p>Now you can buy and sell multiple shares in preferred stock and add scripts as per your preferences</p>
             </div>
             <div className='col-lg-6' style={{marginBottom:"30px"}}>
             <Shake duration={6000} delay={3000}>
@@ -134,7 +134,7 @@ const Platform = () => {
             </div>
             </div>
             </section>
-            <section id="platform" className='platform'>
+            {/* <section id="platform" className='platform'>
             <div className='container'>
             <div className='row'>
             <div className='col-lg-6'>
@@ -153,7 +153,7 @@ const Platform = () => {
             </div>
             </div>
             </div>
-            </section>
+            </section> */}
     <Footer/>
     </div>
   )
