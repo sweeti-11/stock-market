@@ -88,7 +88,7 @@ function Contactus() {
                                     <div className="btn-square">
                                         <i className="fa fa-envelope fa text-black "></i>
                                     </div>
-                                    <p className="text-mob">info@bulleyetrade.com</p>
+                                    <p className="text-mob">bullseyebroking68@gmail.com</p>
                                 </div>
                             </div>
                             {/* <div className=" text-center wow fadeInUp" data-wow-delay="0.4s">
@@ -112,7 +112,7 @@ function Contactus() {
                     </div>
                     <div className="row g-5">
                         <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <h3 className="mb-4">Contact Form?</h3>
+                            <h3 className="mb-4">Get In Touch With Us</h3>
                             {/* <p className="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p> */}
                             <form onSubmit={handleSubmit}>
                                 <div className="row g-3">
