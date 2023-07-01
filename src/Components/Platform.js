@@ -124,7 +124,7 @@ const Platform = () => {
             <div className='row'>
             <div className='col-lg-6'>
             <h2>BUY MULTIPLE SHARES IN INTRDAY</h2>
-            <p>Now you can buy multiple commodity and add scripts as per your preferences</p>
+            <p>Now you can buy and sell multiple shares in intraday and add scripts as per your preferences</p>
             </div>
             <div className='col-lg-6' style={{marginBottom:"30px"}}>
             <Shake duration={6000} delay={3000}>
