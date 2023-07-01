@@ -61,8 +61,8 @@ const Platform = () => {
             <div className='row'>
             <div className='col-lg-6'  data-aos="fade-up"
      data-aos-duration="3000">
-            <h2>MULTIPLE WATCH LIST</h2>
-            <p>Now you can create multiple watch list and add scripts as per your preferences</p>
+            <h2>BUY MULTIPLE COMMODITY</h2>
+            <p>Now you can buy multiple commodity and add scripts as per your preferences</p>
             </div>
             <div className='col-lg-6'>
             <AnimatePresence>
@@ -103,8 +103,8 @@ const Platform = () => {
             <div className='container'>
             <div className='row'>
             <div className='col-lg-6'>
-            <h2>MULTIPLE WATCH LIST</h2>
-            <p>Now you can create multiple watch list and add scripts as per your preferences</p>
+            <h2>BUY MULTIPLE COMMODITY</h2>
+            <p>Now you can buy multiple commodity and add scripts as per your preferences</p>
             </div>
             <div className='col-lg-6' style={{marginBottom:"30px"}}>
             <Shake duration={6000} delay={3000}>
