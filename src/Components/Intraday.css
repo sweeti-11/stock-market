@@ -52,7 +52,7 @@ box-shadow: -9px -12px 35px -3px rgba(55,90,228,0.43);
     margin-top: 55px;
     margin-bottom: 40px;
   }
-  .services-intraday .icon-box .icon i {
+  .services-intraday .icon-box .icon svg {
     color: #ffbf00;;
     font-size: 36px;
     transition: 0.3s;

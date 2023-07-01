@@ -80,7 +80,7 @@ function Contactus() {
 
 
                                 <h1 className="display-6">
-                                    If You Have Any Query Reach Out To Us
+                                You Have Any Query Please Contact Us?
                                 </h1>
                             </div>
                             <div className=" text-center wow fadeInUp" data-wow-delay="0.3s">

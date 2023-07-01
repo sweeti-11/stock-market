@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Components/Navbar';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Sections from './Components/Sections';
-// import Section from './Components/Section';
 import Aboutus from './Components/Aboutus';
 import Contactus from './Components/Contactus';
 import AOS from 'aos';
@@ -16,7 +15,6 @@ import Platform from './Components/Platform';
 import Service from './Components/Service';
 import Intraday from './Components/Intraday';
 import Holding from './Components/Holding';
-import BestMargin from './Components/BestMargin';
 
 function App() {
 
@@ -42,7 +40,6 @@ function App() {
         <Route path='/service' element={<Service/>}/>
         <Route path='/intraday' element={<Intraday/>}/>
         <Route path='/holding' element={<Holding/>}/>
-        <Route path='/margin' element={<BestMargin/>}/>
 
       </Routes> 
 

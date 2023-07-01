@@ -6,7 +6,13 @@ import AOS from 'aos'
 import {AiOutlineStock} from "react-icons/ai";
 import {RiStockLine} from "react-icons/ri"
 import {GiStockpiles, GiGunStock} from "react-icons/gi"
-
+import {FaHandHoldingUsd} from 'react-icons/fa'
+import {MdDataThresholding} from 'react-icons/md'
+import {BsEaselFill} from 'react-icons/bs'
+import {SiInfracost} from 'react-icons/si'
+import {TbReceiptTax} from 'react-icons/tb'
+import {SiGnometerminal,SiKashflow} from 'react-icons/si'
+import {GiReturnArrow} from 'react-icons/gi'
 const Holding = () => {
   useEffect(() => {
     AOS.init();
@@ -82,7 +88,7 @@ useEffect(() => {
               <div class="icon-box">
                 <div class="icon">
                   {/* <i class="bx bxl-dribbble"></i> */}
-                  <GiStockpiles/>
+                  <FaHandHoldingUsd/>
                 </div>
                 <h4>
                   <a href="">Pure Holdings Companies</a>
@@ -101,7 +107,7 @@ useEffect(() => {
               <div class="icon-box">
                 <div class="icon">
                   {/* <i class="bx bx-file"></i> */}
-                 <GiStockpiles/>
+                 <MdDataThresholding/>
                 </div>
                 <h4>
                   <a href="">Mixed Holdings Companies</a>
@@ -120,7 +126,7 @@ useEffect(() => {
               <div class="icon-box">
                 <div class="icon">
                   {/* <i class="bx bx-tachometer"></i> */}
-                  <GiStockpiles/>
+                  <BsEaselFill/>
                 </div>
                 <h4>
                   <a href="">Immediate Holdings Companies</a>
@@ -152,7 +158,7 @@ useEffect(() => {
           </div>
         </div>
       </section>
-      <section id="about" class="about">
+      <section id="holding" class="holding">
         <div class="container-fluid">
           <div class="row justify-content-center" data-aos="zoom-out-down">
             <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative" >
@@ -216,7 +222,7 @@ useEffect(() => {
               <div class="service-item d-flex">
                 <div class="icon flex-shrink-0">
                   {/* <i class="bi bi-briefcase"></i> */}
-                  <GiGunStock/>
+                  <SiInfracost/>
                 </div>
                 <div>
                   <h4 class="title">
@@ -239,7 +245,7 @@ useEffect(() => {
               <div class="service-item d-flex">
                 <div class="icon flex-shrink-0">
                   {/* <i class="bi bi-card-checklist"></i> */}
-                  <GiGunStock/>
+                  <TbReceiptTax/>
                 </div>
                 <div>
                   <h4 class="title">
@@ -262,7 +268,7 @@ useEffect(() => {
               <div class="service-item d-flex">
                 <div class="icon flex-shrink-0">
                   {/* <i class="bi bi-bar-chart"></i> */}
-                  <GiGunStock/>
+                  <SiGnometerminal/>
                 </div>
                 <div>
                   <h4 class="title">
@@ -285,7 +291,7 @@ useEffect(() => {
               <div class="service-item d-flex">
                 <div class="icon flex-shrink-0">
                   {/* <i class="bi bi-binoculars"></i> */}
-                  <GiGunStock/>
+                  <GiReturnArrow/>
                 </div>
                 <div>
                   <h4 class="title">
@@ -307,7 +313,7 @@ useEffect(() => {
               <div class="service-item d-flex">
                 <div class="icon flex-shrink-0">
                   {/* <i class="bi bi-brightness-high"></i> */}
-                  <GiGunStock/>
+                  <SiKashflow/>
                 </div>
                 <div>
                   <h4 class="title">

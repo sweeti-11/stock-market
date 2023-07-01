@@ -127,7 +127,7 @@ const Aboutus = () => {
                         </div> */}
                         <div className="col-sm-8" style={{width:"max-content",marginTop:'30px'}}>
                             {/* <h5>Our tea is one of the most popular drinks in the world</h5> */}
-                            <p className="mb-0" style={{fontFamily:'sans-serif'}}>Started in 2007, bullsnbears now has a presence in over 50+ locations with over 500APs, and 450+ employees serving over 3Lakhs+ customers nationwide. Bullsnbears earned the trust of these valued investors by providing them with top-notch services in various trading and investment </p>
+                            <p className="mb-0" style={{fontFamily:'sans-serif'}}>We Started bullsnbears in 2007, bullsnbears now has a presence in over 50+ locations with 13+ years 3.5+ Lakhs happy customers, and 7.5+ lakh follow-up customers nationwide. Bullsnbears earned the trust of these valued investors by providing them with top-notch services in various trading and investment. </p>
                             <br/>
                             <p className="mb-0" style={{fontFamily:'sans-serif'}}>Bullsnbears is the market leader in the International Commodity market providing investors with personalized and prompt services. Bullsnbears with over a decade of expertise has been awarded time and time again by MCX.</p>
                             <br/>
@@ -226,20 +226,20 @@ So let’s come with us, start your own food business at a very low cost and in 
               <div class="icon"><CiLocationOn/></div>
               <h4 class="title"><a href="">Year Of Experience 13+</a></h4>
               <p class="description">
-                Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
-                </p>
+              We have completed 13+ years in the trading field.
+             </p>
             </div>
 
             <div class="icon-box">
               <div class="icon"><BsPerson/></div>
               <h4 class="title"><a href="">Happy Customers 3,15,650+</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <p class="description">We have 3,15,650+ happy customers who always get benefits from us.</p>
             </div>
 
             <div class="icon-box">
               <div class="icon"><BsPersonAdd/></div>
               <h4 class="title"><a href="">Follow Up 7,56,308+</a></h4>
-              <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+              <p class="description">We have 7,56,308+ customers who follow us.</p>
             </div>
 
           </div>

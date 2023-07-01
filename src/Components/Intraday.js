@@ -6,7 +6,17 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 import {BsArrowUpRight} from 'react-icons/bs'
 import { useMediaQuery } from 'react-responsive';
-
+import {GiTrade} from 'react-icons/gi'
+import {HiOutlineNewspaper} from 'react-icons/hi'
+import {GiLightningFrequency} from 'react-icons/gi'
+import {BsEscape} from 'react-icons/bs'
+import {BsFileBreak} from 'react-icons/bs'
+import {TbCircuitResistor} from 'react-icons/tb'
+import {GiUnbalanced} from 'react-icons/gi'
+import {MdDataExploration} from 'react-icons/md'
+import {GrDirections} from 'react-icons/gr'
+import {IoIosTrendingUp} from 'react-icons/io'
+import {TbDirectionSignFilled} from 'react-icons/tb'
 const Intraday = () => {
   const isMobile = useMediaQuery({ maxWidth: 768 });
 
@@ -71,7 +81,7 @@ const Intraday = () => {
             >
               <div className="icon-box">
                 <div className="icon">
-                <i class="fa-solid fa-person-chalkboard"></i>
+                <GiTrade/>
                 </div>
                 <h4>
                   <a href="">Range Trading.</a>
@@ -89,7 +99,7 @@ const Intraday = () => {
             >
               <div className="icon-box">
                 <div className="icon">
-                <i class="fa-solid fa-person-chalkboard"></i>
+               <HiOutlineNewspaper/>
                 </div>
                 <h4>
                   <a href="">News Trading</a>
@@ -107,7 +117,7 @@ const Intraday = () => {
             >
               <div className="icon-box">
                 <div className="icon">
-                <i class="fa-solid fa-person-chalkboard"></i>
+              <GiLightningFrequency/>
                 </div>
                 <h4>
                   <a href="">High-Frequency Trading</a>
@@ -125,7 +135,7 @@ const Intraday = () => {
             >
               <div className="icon-box">
                 <div className="icon">
-                <i class="fa-solid fa-person-chalkboard"></i>
+               <BsEscape/>
                 </div>
                 <h4>
                   <a href="">Scalp Trading Or Scalping</a>
@@ -240,7 +250,7 @@ const Intraday = () => {
             >
               <div className="service-item d-flex">
                 <div className="icon flex-shrink-0">
-                  <BsArrowUpRight/>
+                  <BsFileBreak/>
                   {/* <i className="bi bi-briefcase"></i> */}
                 </div>
                 <div>
@@ -264,7 +274,7 @@ const Intraday = () => {
               <div className="service-item d-flex">
                 <div className="icon flex-shrink-0">
                   {/* <i className="bi bi-card-checklist"></i> */}
-                  <BsArrowUpRight/>
+                  <TbCircuitResistor/>
 
                 </div>
                 <div>
@@ -289,7 +299,7 @@ const Intraday = () => {
               <div className="service-item d-flex">
                 <div className="icon flex-shrink-0">
                   {/* <i className="bi bi-bar-chart"></i> */}
-                  <BsArrowUpRight/>
+                  <GiUnbalanced/>
                 </div>
                 <div>
                   <h4 className="title">
@@ -312,7 +322,7 @@ const Intraday = () => {
               <div className="service-item d-flex">
                 <div className="icon flex-shrink-0">
                   {/* <i className="bi bi-binoculars"></i> */}
-                  <BsArrowUpRight/>
+                  <MdDataExploration/>
                 </div>
                 <div>
                   <h4 className="title">
@@ -334,7 +344,7 @@ const Intraday = () => {
               <div className="service-item d-flex">
                 <div className="icon flex-shrink-0">
                   {/* <i className="bi bi-brightness-high"></i> */}
-                  <BsArrowUpRight/>
+                  <TbDirectionSignFilled/>
                 </div>
                 <div>
                   <h4 className="title">
@@ -356,7 +366,7 @@ const Intraday = () => {
               <div className="service-item d-flex">
                 <div className="icon flex-shrink-0">
                   {/* <i className="bi bi-calendar4-week"></i> */}
-                  <BsArrowUpRight/>
+                  <IoIosTrendingUp/>
                 </div>
                 <div>
                   <h4 className="title">
