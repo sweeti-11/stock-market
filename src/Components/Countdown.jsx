@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './Countdown.css'
 
-function Countdown({ target,text }) {
-  const [count, setCount] = useState(0);
+function Countdown({ target,start,text }) {
+  const [count, setCount] = useState(start);
 
   useEffect(() => {
     const timer = setInterval(() => {
