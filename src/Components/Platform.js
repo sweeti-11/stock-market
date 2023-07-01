@@ -61,8 +61,8 @@ const Platform = () => {
             <div className='row'>
             <div className='col-lg-6'  data-aos="fade-up"
      data-aos-duration="3000">
-            <h2>BUY MULTIPLE COMMODITY</h2>
-            <p>Now you can buy multiple commodity and add scripts as per your preferences</p>
+            <h2>BUY MULTIPLE SHARES IN INTRDAY</h2>
+            <p>Now you can buy and sell multiple shares in intraday and add scripts as per your preferences</p>
             </div>
             <div className='col-lg-6'>
             <AnimatePresence>
@@ -74,6 +74,26 @@ const Platform = () => {
             <img src={mobile} style={{paddingTop:"76px", paddingLeft:"176px",paddingRight:"176px", paddingBottom:"76px"}}></img>
            </motion.div>
            </AnimatePresence>
+            </div>
+            </div>
+            </div>
+            </section>
+            <section id="platform" className='platform'>
+            <div className='container'>
+            <div className='row'>
+            <div className='col-lg-6'>
+            {isMobile ? (
+            <img src={mobile} style={{paddingTop:"76px", paddingLeft:"176px",paddingRight:"176px", paddingBottom:"76px"}}></img>
+            ) : (
+            <motion.div style={{ rotate }}>
+                          <img src={mobile} style={{paddingTop:"76px", paddingLeft:"176px",paddingRight:"176px", paddingBottom:"76px"}}></img>
+
+            </motion.div>
+              )}
+            </div>
+            <div className='col-lg-6' data-aos="fade-up-right" data-aos-duration="3000">
+            <h2>BUY MULTIPLE SHARES IN HOLDINGS</h2>
+            <p>Now you can buy and sell multiple shares in holdings and add scripts as per your preferences</p>
             </div>
             </div>
             </div>
@@ -94,7 +114,7 @@ const Platform = () => {
             </div>
             <div className='col-lg-6'>
             <h2>MULTIPLE WATCH LIST</h2>
-            <p>Now you can create multiple watch list and add scripts as per your preferences</p>
+            <p>Now you can buy and sell multiple shares in intraday and add scripts as per your preferences</p>
             </div>
             </div>
             </div>
@@ -103,13 +123,33 @@ const Platform = () => {
             <div className='container'>
             <div className='row'>
             <div className='col-lg-6'>
-            <h2>BUY MULTIPLE COMMODITY</h2>
+            <h2>BUY MULTIPLE SHARES IN INTRDAY</h2>
             <p>Now you can buy multiple commodity and add scripts as per your preferences</p>
             </div>
             <div className='col-lg-6' style={{marginBottom:"30px"}}>
             <Shake duration={6000} delay={3000}>
             <img src={web} className='img-fluid'></img>
             </Shake>
+            </div>
+            </div>
+            </div>
+            </section>
+            <section id="platform" className='platform'>
+            <div className='container'>
+            <div className='row'>
+            <div className='col-lg-6'>
+            <motion.div
+            initial={{ opacity: 0, scale: 0.5 }} // Initial styles of the image
+        animate={{ opacity: 1, scale: 1 }} // Animation styles
+        transition={{ duration: 5 }} // Animation duration
+      >
+           
+            <img src={web} className='img-fluid mb-5'></img>
+            </motion.div>
+            </div>
+            <div className='col-lg-6'>
+            <h2>BUY MULTIPLE SHARES IN HOLDINGS</h2>
+            <p>Now you can buy and sell multiple shares in holdings and add scripts as per your preferences</p>
             </div>
             </div>
             </div>
