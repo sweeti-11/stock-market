@@ -57,6 +57,11 @@ box-shadow: -9px -12px 35px -3px rgba(55,90,228,0.43);
     font-size: 36px;
     transition: 0.3s;
   }
+  .services-intraday .icon-box .icon i {
+    color: #ffbf00;;
+    font-size: 36px;
+    transition: 0.3s;
+  }
   
   .services-intraday .icon-box h4 {
     font-weight: 500;
