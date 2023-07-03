@@ -22,7 +22,7 @@ function Footer() {
           <div className="row g-5">
             <div className="col-lg-3 col-md-6 ">
               <h4 className="text-light mb-4">About us</h4>
-              <p className="mb-3 " >We Started bullsnbears in 2007, bullsnbears now has a presence in over 50+ locations with 13+ years 3.5+ Lakhs happy customers, and 7.5+ lakh follow-up customers nationwide. Bullsnbears earned the trust of these valued investors by providing them with top-notch services in various trading and investment.</p>
+              <p className="mb-3 " >We Started bulleyetrade in 2007, bulleyetrade now has a presence in over 50+ locations with 13+ years 3.5+ Lakhs happy customers, and 7.5+ lakh follow-up customers nationwide. bulleyetrade earned the trust of these valued investors by providing them with top-notch services in various trading and investment.</p>
              
             </div>
             <div className="col-lg-3 col-md-6 links">

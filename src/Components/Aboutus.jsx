@@ -69,9 +69,9 @@ const Aboutus = () => {
                     <div className="row g-3 mb-4">
                         
                         <div className="col-sm-8" style={{width:"max-content",marginTop:'30px'}}>
-                            <p className="mb-0" style={{fontFamily:'sans-serif'}}>We Started bullsnbears in 2007, bullsnbears now has a presence in over 50+ locations with 13+ years 3.5+ Lakhs happy customers, and 7.5+ lakh follow-up customers nationwide. Bullsnbears earned the trust of these valued investors by providing them with top-notch services in various trading and investment. </p>
+                            <p className="mb-0" style={{fontFamily:'sans-serif'}}>We Started bulleyetrade in 2007, bulleyetrade now has a presence in over 50+ locations with 13+ years 3.5+ Lakhs happy customers, and 7.5+ lakh follow-up customers nationwide. bulleyetrade earned the trust of these valued investors by providing them with top-notch services in various trading and investment. </p>
                             <br/>
-                            <p className="mb-0" style={{fontFamily:'sans-serif'}}>Bullsnbears is the market leader in the International Commodity market providing investors with personalized and prompt services. Bullsnbears with over a decade of expertise has been awarded time and time again by MCX.</p>
+                            <p className="mb-0" style={{fontFamily:'sans-serif'}}>bulleyetrade is the market leader in the International Commodity market providing investors with personalized and prompt services. bulleyetrade with over a decade of expertise has been awarded time and time again by MCX.</p>
                             <br/>
                         </div>
                     </div>
@@ -97,7 +97,7 @@ const Aboutus = () => {
 
           <div class="col-xl-5 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
             <h3>Bulleyetrade</h3>
-            <p>We’ve been hard at work creating an investment experience to achieve your financial goals. It’s our passion to offer you the best Product, Technology & Service. We ensure the trading experience at Bullsnbears to be one of its kind, with the help of our expertise. Bullsnbears revels in its attention to detail services which enables the investors to reach their smart goals in no time. Lovingly called as the Financial supermarket, providing all services under one roof, Bullsnbears specialities are not few. Personalized services, lowest recorded brokerage charges, latest tech tool support and tested apps to simplify trading procedures, free training, and live updates are just the surface services in Bullsnbears highly transparent service list. Strictly adhering to MCX guidelines. With multiple branches spread across the nation, Bullsnbears provides multi-language support and at-home training to keep you at ease to help you trade at maximum efficiency.</p>
+            <p>We’ve been hard at work creating an investment experience to achieve your financial goals. It’s our passion to offer you the best Product, Technology & Service. We ensure the trading experience at bulleyetrade to be one of its kind, with the help of our expertise. bulleyetrade revels in its attention to detail services which enables the investors to reach their smart goals in no time. Lovingly called as the Financial supermarket, providing all services under one roof, bulleyetrade specialities are not few. Personalized services, lowest recorded brokerage charges, latest tech tool support and tested apps to simplify trading procedures, free training, and live updates are just the surface services in bulleyetrade highly transparent service list. Strictly adhering to MCX guidelines. With multiple branches spread across the nation, bulleyetrade provides multi-language support and at-home training to keep you at ease to help you trade at maximum efficiency.</p>
 
             <div class="icon-box">
               <div class="icon"><CiLocationOn/></div>
