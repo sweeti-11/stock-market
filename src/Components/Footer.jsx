@@ -23,14 +23,7 @@ function Footer() {
             <div className="col-lg-3 col-md-6 ">
               <h4 className="text-light mb-4">About us</h4>
               <p className="mb-3 " >We Started bullsnbears in 2007, bullsnbears now has a presence in over 50+ locations with 13+ years 3.5+ Lakhs happy customers, and 7.5+ lakh follow-up customers nationwide. Bullsnbears earned the trust of these valued investors by providing them with top-notch services in various trading and investment.</p>
-              {/* <p className="mb-3"><i><BsFillTelephoneForwardFill/></i>&nbsp;&nbsp;&nbsp;+917880020088</p>
-                    <p className="mb-3"><i><AiOutlineMail/></i>&nbsp;&nbsp;&nbsp;info@thechaywala.com</p>
-                    <div className="d-flex pt-3">
-                        <a className="btn btn-square btn-light rounded-circle me-1" href=""><i><AiFillTwitterCircle/></i></a>
-                        <a className="btn btn-square btn-light rounded-circle me-1" href=""><i><AiFillFacebook/></i></a>
-                        <a className="btn btn-square btn-light rounded-circle me-1" href=""><i><AiFillLinkedin/></i></a>
-                        <a className="btn btn-square btn-light rounded-circle me-1" href=""><i><AiFillYoutube/></i></a>
-                    </div> */}
+             
             </div>
             <div className="col-lg-3 col-md-6 links">
               <h4 className="text-light mb-4">Quick Links</h4>
@@ -40,18 +33,12 @@ function Footer() {
               <a className="btn btn-link"  href="/platform">Platform</a>
               <a className="btn btn-link"  href="/intraday">Intraday</a>
               <a className="btn btn-link"  href="/holding">Holding</a>
-
-              {/* <a className="btn btn-link" href="">Terms & Condition</a>
-              <a className="btn btn-link" href="">Support</a> */}
             </div>
             <div className="col-lg-3 col-md-6">
               <h4 className="text-light mb-4">Business Hours</h4>
               <p className="mb-1">Monday - Sunday</p>
               <p className="">09:00 AM - 11:30 PM</p>
-              {/* <p className="mb-1">Saturday</p>
-                    <h6 className="text-light">09:00 am - 12:00 pm</h6>
-                    <p className="mb-1">Sunday</p>
-                    <h6 className="text-light">Closed</h6> */}
+
 
                     <h5 style={{color:"#fff",marginTop:"55px"}}>Download The App</h5>
                     <Link to=" ">
@@ -83,14 +70,6 @@ function Footer() {
               <p className='cin'> CIN:<span className='cin-text'>-U51900MH1997PTC112491</span></p>
               </div>
               </div>
-              {/* <p className="mb-3"><i><BsFillTelephoneForwardFill /></i>&nbsp;&nbsp;+91&nbsp;7880020088</p>
-              <p className="mb-3"><i><AiOutlineMail /></i>&nbsp;&nbsp;agefemservices@gmail.com</p> */}
-              {/* <div className="d-flex pt-3">
-                <a className="btn btn-square btn-light rounded-circle me-1" href=""><i class="fa-brands fa-twitter"></i></a>
-                <a className="btn btn-square btn-light rounded-circle me-1" href="/"><i class="fa-brands fa-facebook"></i></a>
-                <a className="btn btn-square btn-light rounded-circle me-1" href="/"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a className="btn btn-square btn-light rounded-circle me-1" href="/"><i class="fa-brands fa-instagram"></i></a>
-              </div> */}
             </div>
           </div>
         </div>
