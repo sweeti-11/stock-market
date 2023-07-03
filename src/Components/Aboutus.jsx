@@ -32,10 +32,10 @@ const Aboutus = () => {
     
         <div className="container text-center py-5">
             <h1 className="display-2 text-dark mb-4 animated slideInDown" >About Us</h1>
-            <nav aria-label="breadcrumb animated slideInDown">
+            <nav aria-label="breadcrumb animated slideInDown ">
                 <ol className="breadcrumb justify-content-center mb-0">
                     <li className="breadcrumb-item"><a href="/">Home</a></li>
-                    <li className="breadcrumb-item text-dark" aria-current="page">About</li>
+                    <li className="breadcrumb-item text-dark " aria-current="page">About</li>
                 </ol>
             </nav>
         </div>
