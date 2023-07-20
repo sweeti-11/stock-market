@@ -1,19 +1,11 @@
 import React from 'react'
 import './footer.css'
-import { AiFillTwitterCircle } from 'react-icons/ai'
-import { AiFillFacebook } from 'react-icons/ai'
-import { AiFillYoutube } from 'react-icons/ai'
-import { AiFillLinkedin } from 'react-icons/ai'
-import { BsFillTelephoneForwardFill } from 'react-icons/bs'
-import { AiOutlineMail } from 'react-icons/ai'
-import { FaAddressCard } from 'react-icons/fa'
 import { AiOutlineArrowUp } from 'react-icons/ai';
-import { FcRight } from "react-icons/fc";
-import { AiOutlineRight } from 'react-icons/ai'
 import {BsInfoCircle} from 'react-icons/bs'
 import { Link } from 'react-router-dom'
 
 function Footer() {
+  const apkUrl = process.env.PUBLIC_URL + './BullsEye.apk';
   return (
     <>
     <section className='footer-section' style={{marginTop:"-48px"}}>
@@ -42,9 +34,9 @@ function Footer() {
 
                     <h5 style={{color:"#fff",marginTop:"55px"}}>Download The App</h5>
                     <Link to=" ">
-                    <img  src={require('../assest/android-download.png')} style={{width:"177px"}} />
                     </Link>
-            </div>
+                    <a href={apkUrl} download={"BullsEye.apk"} >
+                    <img  src={require('../assest/android-download.png')} style={{width:"177px"}} /></a></div>
 
             <div className="col-lg-3 col-md-6  head-office">
               <h4 className="text-light mb-4">Head Office</h4>
